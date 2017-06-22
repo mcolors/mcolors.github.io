@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nuzhenuzhin.ru" resolutions="1x" timestamp="1497995594417">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nuzhinuzhin.ru" resolutions="1x" timestamp="1498160152941">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_______-a.css" crc="3957241686" ref="index"/>
-    <file name="index.css" crc="3789916944" ref="index"/>
-    <file name="iefonts_index.css" crc="4085533848" ref="index"/>
+    <file name="master_______-a.css" crc="3831881778" ref="index"/>
+    <file name="index.css" crc="4033785107" ref="index"/>
+    <file name="iefonts_index.css" crc="3788278169" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -17,105 +17,49 @@
     <file name="musewpslideshow.js" crc="380562115" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
     <file name="touchswipe.js" crc="4228958816" ref="index"/>
-    <file name="musewpdisclosure.js" crc="204784597" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="85721165" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="logo_header-crop-u708.png" crc="409400627" seo="true" ref="index">
+    <file name="logo_header-crop-u4602.png" crc="409400627" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="menu-icoфns.png" crc="491381550" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="menu-iconыs.png" crc="269245068" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
-    <file name="logo_header-crop-u95.png" crc="409400627" seo="true" ref="index">
+    <file name="9d91e6d476563b9ed6b572eb5e32cfee.jpg" crc="4152881355" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="u97-4.png" crc="3882238800" ref="index"/>
-    <file name="u101-4.png" crc="148476700" ref="index"/>
-    <file name="u108-4.png" crc="339858828" ref="index"/>
-    <file name="u116-4.png" crc="484395174" ref="index"/>
-    <file name="u152-4.png" crc="107359596" ref="index"/>
-    <file name="u123-4.png" crc="287727966" ref="index"/>
-    <file name="u131-4.png" crc="35479373" ref="index"/>
-    <file name="u136-4.png" crc="3759907637" ref="index"/>
-    <file name="u159-4.png" crc="110918071" ref="index"/>
-    <file name="u145-4.png" crc="4169119311" ref="index"/>
-    <file name="9d91e6d476563b9ed6b572eb5e32cfee.jpg" crc="3768919195" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="italian-wine-bottle.png" crc="410349665" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное.jpg" crc="4055358145" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="bowl.png" crc="36734912" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="bowl (1).png" crc="15786892" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="broccoli.png" crc="3989901496" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="brocco1li.png" crc="50059886" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="potatoes.png" crc="3845058150" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="potato1es.png" crc="26637700" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="turkey.png" crc="90998094" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="turk1ey.png" crc="366910559" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="626_2pm_seared-pork-mustard-sauce_65016_web_high_feature.jpg" crc="3926278945" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="626_2pm_seared-pork-mustard-sauce_65023_web_high_feature.jpg" crc="473494771" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="629_2pm_seared-pork-mustard-sauce_58178_web_high_feature.jpg" crc="491545495" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="626_2pm_seared-pork-mustard-sauce_65037_web_high_feature.jpg" crc="150338091" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flour.png" crc="3853303875" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="salt.png" crc="38719184" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="water.png" crc="288183830" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="knife.png" crc="504410215" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="chopping-board.png" crc="153188709" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="pan.png" crc="428455542" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="stove.png" crc="4001831029" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
+    <file name="information-u2555-fr.png" crc="446034339" ref="index"/>
+    <file name="information.svg" crc="3981844637" ref="index"/>
+    <file name="information_poster_u2404.png" crc="47794039" ref="index"/>
+    <file name="9d91e6d476563b9ed6b572eb5e32cfee-u2564-fr.jpg" crc="529133006" ref="index"/>
   </folder>
-  <file name="index.html" crc="116979412" seo="true" mt="1497995588782" redirect="true"/>
+  <file name="index.html" crc="4034761017" seo="true" mt="1498159858555" redirect="true"/>
 </manifest>
