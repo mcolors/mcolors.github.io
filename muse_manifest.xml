@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nuzhinuzhin.ru" resolutions="1x" timestamp="1498160152941">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nuzhinuzhin.ru" resolutions="1x" timestamp="1498161315032">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_______-a.css" crc="3831881778" ref="index"/>
-    <file name="index.css" crc="4033785107" ref="index"/>
-    <file name="iefonts_index.css" crc="3788278169" ref="index"/>
+    <file name="index.css" crc="4144882466" ref="index"/>
+    <file name="iefonts_index.css" crc="4036618919" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -61,5 +61,5 @@
     <file name="information_poster_u2404.png" crc="47794039" ref="index"/>
     <file name="9d91e6d476563b9ed6b572eb5e32cfee-u2564-fr.jpg" crc="529133006" ref="index"/>
   </folder>
-  <file name="index.html" crc="4034761017" seo="true" mt="1498159858555" redirect="true"/>
+  <file name="index.html" crc="39682819" seo="true" mt="1498160776397" redirect="true"/>
 </manifest>
