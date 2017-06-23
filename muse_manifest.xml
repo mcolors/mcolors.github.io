@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nuzhenuzhin.ru" resolutions="1x" timestamp="1498232608074">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="nuzhenuzhin.ru" resolutions="1x" timestamp="1498232839920">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="index.css" crc="3936951427" ref="index"/>
@@ -152,5 +152,5 @@
     <file name="загруженное-u3024-fr.jpg" crc="338268427" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4104841689" seo="true" mt="1498230062274" redirect="true"/>
+  <file name="index.html" crc="171704109" seo="true" mt="1498232808605" redirect="true"/>
 </manifest>
