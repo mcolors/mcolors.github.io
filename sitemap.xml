@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://mcolors.github.io/index.html</loc>
+    <lastmod>2017-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/gym.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/coin2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/certificate.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/warehouse.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/%D0%B1%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-1.png</image:loc>
+    </image:image>
+  </url>
+</urlset>
