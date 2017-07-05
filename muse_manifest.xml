@@ -1,73 +1,93 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.github.io" resolutions="1x" timestamp="1499255622532">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.github.io" resolutions="1x" timestamp="1499263185962">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3915154316" ref="index"/>
-    <file name="nomq_index.css" crc="95361761" ref="index"/>
+    <file name="index.css" crc="4287484858" ref="index"/>
+    <file name="nomq_index.css" crc="4503803" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="________.css" crc="129147434" ref="домашняя"/>
+    <file name="iefonts_________.css" crc="395409404" ref="домашняя"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="46400467" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="436936948" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
-    <file name="webpro.js" crc="4152390327" ref="index"/>
-    <file name="form_check.php" crc="4286608207" ref="index"/>
-    <file name="form_throttle.php" crc="313199896" ref="index"/>
-    <file name="form_process.php" crc="3855659497" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:домашняя"/>
+    <file name="museutils.js" crc="46400467" ref="index:домашняя"/>
+    <file name="whatinput.js" crc="86476730" ref="index:домашняя"/>
+    <file name="museconfig.js" crc="436936948" ref="index:домашняя"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index:домашняя"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index:домашняя"/>
+    <file name="webpro.js" crc="4152390327" ref="index:домашняя"/>
+    <file name="form_check.php" crc="4286608207" ref="домашняя"/>
+    <file name="form_throttle.php" crc="313199896" ref="домашняя"/>
+    <file name="form_process.php" crc="3855659497" ref="домашняя"/>
     <file name="form-u866.php" crc="334510037" ref="index"/>
     <file name="form-u2049.php" crc="3926685138" ref="index"/>
     <file name="jquery.museresponsive.js" crc="52098982" ref="index"/>
-    <file name="require.js" crc="85721165" ref="index"/>
+    <file name="require.js" crc="85721165" ref="index:домашняя"/>
+    <file name="form-u144.php" crc="141520956" ref="домашняя"/>
+    <file name="form-u545.php" crc="517127622" ref="домашняя"/>
   </folder>
   <folder name="images">
     <file name="без qweqeq1.png" crc="4048746589" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="gym.png" crc="3798532196" seo="true" ref="index">
+    <file name="gym.png" crc="3798532196" seo="true" ref="index:домашняя">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="домашняя" alt=""/>
     </file>
-    <file name="coin2.png" crc="4146915466" seo="true" ref="index">
+    <file name="coin2.png" crc="4146915466" seo="true" ref="index:домашняя">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="домашняя" alt=""/>
     </file>
-    <file name="certificate.png" crc="174378518" seo="true" ref="index">
+    <file name="certificate.png" crc="174378518" seo="true" ref="index:домашняя">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="домашняя" alt=""/>
     </file>
-    <file name="warehouse.png" crc="174183520" seo="true" ref="index">
+    <file name="warehouse.png" crc="174183520" seo="true" ref="index:домашняя">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="домашняя" alt=""/>
     </file>
-    <file name="безымянный-1.png" crc="4035231778" seo="true" ref="index">
+    <file name="безымянный-1.png" crc="4035231778" seo="true" ref="index:домашняя">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="домашняя" alt=""/>
     </file>
-    <file name="locked-padlock.png" crc="397245143" ref="index">
+    <file name="locked-padlock.png" crc="397245143" ref="index:домашняя">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="домашняя" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="без ва2.png" crc="3865783296" seo="true" ref="домашняя">
+      <caption webpage="домашняя" alt=""/>
+    </file>
+    <file name="freegreatpicturecom-29636-cucumber.png" crc="4236244499" seo="true" ref="домашняя">
+      <caption webpage="домашняя" alt=""/>
+    </file>
+    <file name="без имени-1.jpg" crc="4168186085" ref="домашняя">
+      <caption webpage="домашняя" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="124046969" seo="true" mt="1499255513878" redirect="true"/>
+  <file name="index.html" crc="4001036564" seo="true" mt="1499263153472" redirect="true"/>
+  <file name="домашняя.html" crc="4173602346" seo="true" mt="1499263136273" redirect="true"/>
 </manifest>

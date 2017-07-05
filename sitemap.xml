@@ -21,4 +21,31 @@
       <image:loc>http://mcolors.github.io/images/%D0%B1%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-1.png</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>http://mcolors.github.io/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8F%D1%8F.html</loc>
+    <lastmod>2017-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/gym.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/coin2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/certificate.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/warehouse.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/%D0%B1%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/%D0%B1%D0%B5%D0%B7%20%D0%B2%D0%B02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mcolors.github.io/images/freegreatpicturecom-29636-cucumber.png</image:loc>
+    </image:image>
+  </url>
 </urlset>
