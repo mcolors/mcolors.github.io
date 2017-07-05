@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.github.io" resolutions="1x" timestamp="1499286941924">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.github.io" resolutions="1x" timestamp="1499288130578">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3880174830" ref="index"/>
-    <file name="nomq_index.css" crc="364944296" ref="index"/>
+    <file name="index.css" crc="4238639945" ref="index"/>
+    <file name="nomq_index.css" crc="28441115" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -80,5 +80,5 @@
     </file>
     <file name="freegreatpicturecom-29636-cucumber-u4930-fr.png" crc="3868566254" ref="index"/>
   </folder>
-  <file name="index.html" crc="4243906609" seo="true" mt="1499286781843" redirect="true"/>
+  <file name="index.html" crc="4058634284" seo="true" mt="1499288102971" redirect="true"/>
 </manifest>
