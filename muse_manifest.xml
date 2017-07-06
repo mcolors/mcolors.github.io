@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.github.io" resolutions="1x" timestamp="1499288130578">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.github.io" resolutions="1x" timestamp="1499342056705">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4238639945" ref="index"/>
-    <file name="nomq_index.css" crc="28441115" ref="index"/>
+    <file name="index.css" crc="3822506313" ref="index"/>
+    <file name="nomq_index.css" crc="3943752599" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -22,7 +22,7 @@
     <file name="form-u545.php" crc="517127622" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="gym.png" crc="3798532196" seo="true" ref="index">
+    <file name="gym.png" crc="260265748" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -80,5 +80,5 @@
     </file>
     <file name="freegreatpicturecom-29636-cucumber-u4930-fr.png" crc="3868566254" ref="index"/>
   </folder>
-  <file name="index.html" crc="4058634284" seo="true" mt="1499288102971" redirect="true"/>
+  <file name="index.html" crc="4288722983" seo="true" mt="1499342039783" redirect="true"/>
 </manifest>
