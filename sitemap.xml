@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://mcolors.bithub.io/index.html</loc>
+    <loc>http://sbwkid.ru/index.html</loc>
     <lastmod>2017-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mcolors.bithub.io/images/img0001.png</image:loc>
+      <image:loc>http://sbwkid.ru/images/img0001.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mcolors.bithub.io/images/podarok.png</image:loc>
+      <image:loc>http://sbwkid.ru/images/podarok.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://mcolors.bithub.io/politika.html</loc>
+    <loc>http://sbwkid.ru/politika.html</loc>
     <lastmod>2017-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mcolors.bithub.io/upsell.html</loc>
+    <loc>http://sbwkid.ru/upsell.html</loc>
     <lastmod>2017-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mcolors.bithub.io/assets/instruktsia_chasy_gpstreker.pro.pdf</loc>
+    <loc>http://sbwkid.ru/assets/instruktsia_chasy_gpstreker.pro.pdf</loc>
     <lastmod>2017-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
