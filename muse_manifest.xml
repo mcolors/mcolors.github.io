@@ -1,13 +1,13 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499624158630">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499626870742">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="politika.css" crc="88086376" ref="politika"/>
     <file name="iefonts_politika.css" crc="200498803" ref="politika"/>
-    <file name="index.css" crc="151877783" ref="index"/>
+    <file name="index.css" crc="105573848" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="upsell.css" crc="4070058547" ref="upsell"/>
     <file name="iefonts_upsell.css" crc="331783008" ref="upsell"/>
-    <file name="nomq_index.css" crc="4188837320" ref="index"/>
+    <file name="nomq_index.css" crc="3760731613" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="instruktsia_chasy_gpstreker.pro.pdf" crc="234403194" seo="true" mt="1494356658000"/>
@@ -40,6 +40,7 @@
     <file name="form-u5382.php" crc="420659838" ref="upsell"/>
     <file name="form-u5499.php" crc="297823208" ref="upsell"/>
     <file name="form-u5588.php" crc="335495174" ref="upsell"/>
+    <file name="jquery.scrolleffects.js" crc="410690402" ref="index"/>
   </folder>
   <folder name="images">
     <file name="загруженное (4).jpg" crc="428084612" ref="index">
@@ -477,7 +478,7 @@
     <file name="загруженное (12)-u5491-fr.png" crc="496253268" ref="upsell"/>
     <file name="загруженное (13)-u5580-fr.png" crc="219180536" ref="upsell"/>
   </folder>
-  <file name="index.html" crc="91290980" seo="true" mt="1499623956766" redirect="true"/>
+  <file name="index.html" crc="3945468752" seo="true" mt="1499626753264" redirect="true"/>
   <file name="politika.html" crc="4098070236" seo="true" mt="1499600281631" redirect="true"/>
   <file name="upsell.html" crc="4040621265" seo="true" mt="1499615180883" redirect="true"/>
 </manifest>
