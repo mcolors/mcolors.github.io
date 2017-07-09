@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.bithub.io" resolutions="1x" timestamp="1499601484256">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.bithub.io" resolutions="1x" timestamp="1499601620900">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="politika.css" crc="88086376" ref="politika"/>
     <file name="iefonts_politika.css" crc="200498803" ref="politika"/>
-    <file name="index.css" crc="3912241397" ref="index"/>
+    <file name="index.css" crc="4193092074" ref="index"/>
     <file name="iefonts_index.css" crc="3999448846" ref="index"/>
   </folder>
   <folder name="assets">
@@ -314,6 +314,6 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4031820542" seo="true" mt="1499601453160" redirect="true"/>
+  <file name="index.html" crc="48540769" seo="true" mt="1499601591674" redirect="true"/>
   <file name="politika.html" crc="4098070236" seo="true" mt="1499600281631" redirect="true"/>
 </manifest>
