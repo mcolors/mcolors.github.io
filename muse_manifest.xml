@@ -1,21 +1,22 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.bithub.io" resolutions="1x" timestamp="1499601620900">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.bithub.io" resolutions="1x" timestamp="1499606626244">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="politika.css" crc="88086376" ref="politika"/>
     <file name="iefonts_politika.css" crc="200498803" ref="politika"/>
-    <file name="index.css" crc="4193092074" ref="index"/>
-    <file name="iefonts_index.css" crc="3999448846" ref="index"/>
+    <file name="index.css" crc="277641441" ref="index"/>
+    <file name="iefonts_index.css" crc="86325666" ref="index"/>
+    <file name="upsell.css" crc="326049774" ref="upsell"/>
   </folder>
   <folder name="assets">
     <file name="instruktsia_chasy_gpstreker.pro.pdf" crc="234403194" seo="true" mt="1494356658000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:politika"/>
-    <file name="museutils.js" crc="46400467" ref="index:politika"/>
-    <file name="whatinput.js" crc="86476730" ref="index:politika"/>
-    <file name="museconfig.js" crc="436936948" ref="index:politika"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:politika:upsell"/>
+    <file name="museutils.js" crc="46400467" ref="index:politika:upsell"/>
+    <file name="whatinput.js" crc="86476730" ref="index:politika:upsell"/>
+    <file name="museconfig.js" crc="436936948" ref="index:politika:upsell"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="index:politika"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index:politika:upsell"/>
     <file name="webpro.js" crc="4152390327" ref="index"/>
     <file name="form_check.php" crc="4286608207" ref="index"/>
     <file name="form_throttle.php" crc="313199896" ref="index"/>
@@ -32,7 +33,7 @@
     <file name="form-u4488.php" crc="3793744798" ref="index"/>
     <file name="musewpdisclosure.js" crc="204784597" ref="index"/>
     <file name="form-u4288.php" crc="228683370" ref="index"/>
-    <file name="require.js" crc="85721165" ref="index:politika"/>
+    <file name="require.js" crc="85721165" ref="index:politika:upsell"/>
   </folder>
   <folder name="images">
     <file name="загруженное (4).jpg" crc="3764907729" ref="index">
@@ -314,6 +315,7 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="48540769" seo="true" mt="1499601591674" redirect="true"/>
+  <file name="index.html" crc="163410886" seo="true" mt="1499606593344" redirect="true"/>
   <file name="politika.html" crc="4098070236" seo="true" mt="1499600281631" redirect="true"/>
+  <file name="upsell.html" crc="304673675" seo="true" mt="1499601967444" redirect="false"/>
 </manifest>
