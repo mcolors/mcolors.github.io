@@ -1,13 +1,13 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499693647873">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499694224426">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="politika.css" crc="4113154106" ref="politika"/>
     <file name="iefonts_politika.css" crc="3824530138" ref="politika"/>
-    <file name="index.css" crc="4123001889" ref="index"/>
+    <file name="index.css" crc="4082677775" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="upsell.css" crc="516996541" ref="upsell"/>
     <file name="iefonts_upsell.css" crc="3824530138" ref="upsell"/>
-    <file name="nomq_index.css" crc="4156225051" ref="index"/>
+    <file name="nomq_index.css" crc="13119332" ref="index"/>
     <file name="nomq_upsell.css" crc="3918231053" ref="upsell"/>
     <file name="nomq_politika.css" crc="329534846" ref="politika"/>
   </folder>
@@ -574,7 +574,7 @@
     </file>
     <file name="img0016-u656-fr.png" crc="390324027" ref="index"/>
   </folder>
-  <file name="index.html" crc="3781365851" seo="true" mt="1499691032640" redirect="true"/>
+  <file name="index.html" crc="4212295025" seo="true" mt="1499694105359" redirect="true"/>
   <file name="politika.html" crc="183221797" seo="true" mt="1499685079948" redirect="true"/>
   <file name="upsell.html" crc="92508316" seo="true" mt="1499692045665" redirect="true"/>
 </manifest>
