@@ -1,13 +1,15 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499644993300">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499685223592">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="politika.css" crc="88086376" ref="politika"/>
-    <file name="iefonts_politika.css" crc="200498803" ref="politika"/>
-    <file name="index.css" crc="4145015644" ref="index"/>
+    <file name="politika.css" crc="4113154106" ref="politika"/>
+    <file name="iefonts_politika.css" crc="3824530138" ref="politika"/>
+    <file name="index.css" crc="42974191" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="upsell.css" crc="4112339597" ref="upsell"/>
-    <file name="iefonts_upsell.css" crc="331783008" ref="upsell"/>
-    <file name="nomq_index.css" crc="3981773348" ref="index"/>
+    <file name="upsell.css" crc="3795650539" ref="upsell"/>
+    <file name="iefonts_upsell.css" crc="3824530138" ref="upsell"/>
+    <file name="nomq_index.css" crc="4198690346" ref="index"/>
+    <file name="nomq_upsell.css" crc="86776377" ref="upsell"/>
+    <file name="nomq_politika.css" crc="329534846" ref="politika"/>
   </folder>
   <folder name="assets">
     <file name="instruktsia_chasy_gpstreker.pro.pdf" crc="234403194" seo="true" mt="1494356658000"/>
@@ -23,23 +25,23 @@
     <file name="form_check.php" crc="4286608207" ref="index"/>
     <file name="form_throttle.php" crc="313199896" ref="index"/>
     <file name="form_process.php" crc="3855659497" ref="index"/>
-    <file name="form-u4724.php" crc="89061794" ref="index"/>
+    <file name="form-u4724.php" crc="3821758564" ref="index"/>
     <file name="musewpslideshow.js" crc="380562115" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
     <file name="touchswipe.js" crc="4228958816" ref="index"/>
-    <file name="form-u4635.php" crc="4040183283" ref="index"/>
-    <file name="form-u4812.php" crc="314627291" ref="index"/>
-    <file name="form-u4983.php" crc="424167750" ref="index"/>
-    <file name="form-u4899.php" crc="4008832145" ref="index"/>
-    <file name="form-u4488.php" crc="259113117" ref="index"/>
+    <file name="form-u4635.php" crc="3797399772" ref="index"/>
+    <file name="form-u4812.php" crc="185792354" ref="index"/>
+    <file name="form-u4983.php" crc="4183315231" ref="index"/>
+    <file name="form-u4899.php" crc="396155674" ref="index"/>
+    <file name="form-u4488.php" crc="3790491236" ref="index"/>
     <file name="musewpdisclosure.js" crc="204784597" ref="index"/>
-    <file name="form-u4288.php" crc="3964577179" ref="index"/>
+    <file name="form-u4288.php" crc="241328905" ref="index"/>
     <file name="require.js" crc="85721165" ref="index:politika:upsell"/>
-    <file name="form-u5146.php" crc="338586517" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="52098982" ref="index"/>
-    <file name="form-u5382.php" crc="420659838" ref="upsell"/>
-    <file name="form-u5499.php" crc="297823208" ref="upsell"/>
-    <file name="form-u5588.php" crc="335495174" ref="upsell"/>
+    <file name="form-u5146.php" crc="3958413597" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="52098982" ref="index:politika:upsell"/>
+    <file name="form-u5588.php" crc="4069774240" ref="upsell"/>
+    <file name="form-u9265.php" crc="15660514" ref="upsell"/>
+    <file name="form-u9214.php" crc="4009462970" ref="upsell"/>
   </folder>
   <folder name="images">
     <file name="загруженное (4).jpg" crc="428084612" ref="index">
@@ -50,11 +52,13 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="img0003.png" crc="4109212285" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="img0001.png" crc="3958932604" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -80,7 +84,7 @@
     <file name="img0049.png" crc="95613319" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:politika:upsell"/>
     <file name="загруженное.png" crc="3775444864" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -118,8 +122,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="2.jpg" crc="3946176660" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -128,8 +134,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="4.jpg" crc="166237714" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -138,8 +146,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="6.jpg" crc="3798491513" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -148,8 +158,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="8.jpg" crc="90657371" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -158,8 +170,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="10.jpg" crc="28244126" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -168,8 +182,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="12.jpg" crc="4239582629" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -178,8 +194,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="20.jpg" crc="4084323440" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -188,8 +206,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="23.jpg" crc="4057795953" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -198,8 +218,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="356361692_2_644x461_umnye-chasy-q50-smart-baby-watch-q50-c-gps-fotografii_rev001.jpg" crc="4000212072" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -208,8 +230,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="14.jpg" crc="230051827" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -218,8 +242,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="16.jpg" crc="3808560264" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -228,8 +254,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="18.jpg" crc="485326365" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -262,8 +290,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="podarok.png" crc="334790689" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -311,8 +342,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (15).png" crc="4084278003" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -321,8 +354,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (17).png" crc="296390200" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -331,8 +366,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (19).png" crc="365538324" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -341,13 +378,16 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (21).png" crc="3896450774" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (22).png" crc="322874736" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -453,14 +493,24 @@
     </file>
     <file name="загруженное (12).jpg" crc="4131068789" ref="upsell">
       <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
     </file>
     <file name="загруженное (33).png" crc="4162855846" ref="upsell">
-      <caption webpage="upsell" alt=""/>
-      <caption webpage="upsell" alt=""/>
       <caption webpage="upsell" alt=""/>
     </file>
     <file name="загруженное (11)-u5350-fr.png" crc="210681081" ref="upsell"/>
     <file name="загруженнофывфцвфцве (34).png" crc="10552529" ref="upsell">
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
+      <caption webpage="upsell" alt=""/>
       <caption webpage="upsell" alt=""/>
       <caption webpage="upsell" alt=""/>
       <caption webpage="upsell" alt=""/>
@@ -479,8 +529,51 @@
     <file name="загруженное (35).png" crc="382573995" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="img0003-u125-fr.png" crc="4014606525" ref="index"/>
+    <file name="загруженное (35)-u7165-fr.png" crc="133541882" ref="index"/>
+    <file name="img0001-u186-fr2.png" crc="3904624893" ref="index"/>
+    <file name="img0016-u656-fr.jpg" crc="3956539444" ref="index"/>
+    <file name="comp2_08-u666-fr.png" crc="4095667311" ref="index"/>
+    <file name="comp2_17 (1)-u669-fr.png" crc="3984646924" ref="index"/>
+    <file name="comp2_08-u799-fr.png" crc="4095667311" ref="index"/>
+    <file name="comp2_04-u812-fr.png" crc="367511539" ref="index"/>
+    <file name="comp2_02-u849-fr.png" crc="293769336" ref="index"/>
+    <file name="загруженное (11)-u2969-fr3.png" crc="3965070047" ref="index"/>
+    <file name="загруженное (12)-u3016-fr3.png" crc="246095408" ref="index"/>
+    <file name="загруженное (13)-u3024-fr3.png" crc="3993840211" ref="index"/>
+    <file name="img0056-u3149-fr2.png" crc="371219657" ref="index"/>
+    <file name="загруженное (1)-u3240-fr2.jpg" crc="3954275401" ref="index"/>
+    <file name="загруженное (2)-u3241-fr2.jpg" crc="490220733" ref="index"/>
+    <file name="загруженное (3)-u3239-fr2.jpg" crc="4289605387" ref="index"/>
+    <file name="загруженное (5)-u3306-fr2.jpg" crc="3894393868" ref="index"/>
+    <file name="загруженное (4)-u3323-fr2.jpg" crc="4033772533" ref="index"/>
+    <file name="загруженное (6)-u3337-fr2.jpg" crc="3980391063" ref="index"/>
+    <file name="загруженное (7)-u3356-fr2.jpg" crc="99511813" ref="index"/>
+    <file name="загруженное (8)-u3370-fr2.jpg" crc="208121712" ref="index"/>
+    <file name="загруженное (9)-u3384-fr2.jpg" crc="175205171" ref="index"/>
+    <file name="garant-01-u3715-fr.png" crc="4059164882" ref="index"/>
+    <file name="garant-02-u3729-fr.png" crc="512684717" ref="index"/>
+    <file name="garant-03-u3732-fr.png" crc="513880875" ref="index"/>
+    <file name="garant-04-u3747-fr.png" crc="251535094" ref="index"/>
+    <file name="загруженное (10)-u3795-fr2.jpg" crc="99141878" ref="index"/>
+    <file name="2_пермь_ксения царева_ksushenka_tsareva-u3843-fr.jpg" crc="423819630" ref="index"/>
+    <file name="review-left-u3893-fr.jpg" crc="3990170125" ref="index"/>
+    <file name="4_москва_анна колченогова_id148371140-u3846-fr.jpg" crc="4116124822" ref="index"/>
+    <file name="review-right-u3910-fr.jpg" crc="211813605" ref="index"/>
+    <file name="3_москва_юлия горчакова_id193290078-u3849-fr.jpg" crc="3933655247" ref="index"/>
+    <file name="review-left-u3948-fr.jpg" crc="418603345" ref="index"/>
+    <file name="1_самара_татьяна харшева_harsheva-u4007-fr.jpg" crc="326357598" ref="index"/>
+    <file name="review-right-u4003-fr.jpg" crc="91324820" ref="index"/>
+    <file name="5_екатеринбург_екатерина василюк mitronina_katya-u3855-fr.jpg" crc="209913659" ref="index"/>
+    <file name="загруженное (31)-u5313-fr.png" crc="3949213903" ref="upsell"/>
+    <file name="загруженное (11)-u5350-fr2.png" crc="4170896970" ref="upsell"/>
+    <file name="загруженнzszsxcое (32)-u5433-fr.png" crc="3850378906" ref="upsell"/>
+    <file name="загруженное (32)-u5449-fr.png" crc="464611881" ref="upsell"/>
+    <file name="загруженное ssdfsa(32)-u5457-fr.png" crc="347425949" ref="upsell"/>
+    <file name="загруженное (12)-u5491-fr2.png" crc="4226731491" ref="upsell"/>
+    <file name="загруженное (13)-u5580-fr2.png" crc="293487150" ref="upsell"/>
   </folder>
-  <file name="index.html" crc="3916698557" seo="true" mt="1499644881253" redirect="true"/>
-  <file name="politika.html" crc="4098070236" seo="true" mt="1499600281631" redirect="true"/>
-  <file name="upsell.html" crc="4032610348" seo="true" mt="1499639479409" redirect="true"/>
+  <file name="index.html" crc="282864216" seo="true" mt="1499684973115" redirect="true"/>
+  <file name="politika.html" crc="183221797" seo="true" mt="1499685079948" redirect="true"/>
+  <file name="upsell.html" crc="4224967864" seo="true" mt="1499671888437" redirect="true"/>
 </manifest>
