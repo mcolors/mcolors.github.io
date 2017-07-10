@@ -53,4 +53,5 @@ $form = array(
 );
 
 process_form($form);
+echo "<script>parent.location='../upsell.php?name=".$_POST['custom_U4814']."&phone=".$_POST['custom_U8928']."'</script>";
 ?>

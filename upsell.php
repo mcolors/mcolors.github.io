@@ -99,7 +99,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <form class="form-grp clearfix grpelem" id="widgetu9265" method="post" enctype="multipart/form-data" action="scripts/form-u9265.php"><!-- none box -->
          <div class="fld-grp clearfix grpelem" id="widgetu9278" data-required="true"><!-- none box -->
           <label class="fld-label actAsDiv clearfix grpelem" id="u9279-3" for="widgetu9278_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u9279-3_0_content">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9280-3"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu9278_input" name="custom_U9278" tabindex="1"/></span>
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9280-3"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu9278_input" name="custom_U9278" tabindex="1" value="<? echo $_GET['name'];?>" /></span>
          </div>
          <div class="clearfix grpelem" id="u9267-4"><!-- content -->
           <p class="shared_content" data-content-guid="u9267-4_0_content">Отправка формы…</p>
@@ -117,7 +117,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          </button>
          <div class="fld-grp clearfix grpelem" id="widgetu9268" data-required="true"><!-- none box -->
           <label class="fld-label actAsDiv clearfix grpelem" id="u9269-3" for="widgetu9268_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u9269-3_0_content">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9271-3"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu9268_input" name="custom_U9268" tabindex="2"/></span>
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9271-3"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu9268_input" name="custom_U9268" tabindex="2" value="<? echo $_GET['phone'];?>" /></span>
          </div>
         </form>
         <div class="museBGSize grpelem shared_content" id="u5350" data-content-guid="u5350_content"><!-- simple frame --></div>
@@ -170,7 +170,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <form class="form-grp clearfix grpelem" id="widgetu9214" method="post" enctype="multipart/form-data" action="scripts/form-u9214.php"><!-- none box -->
          <div class="fld-grp clearfix grpelem" id="widgetu9227" data-required="true"><!-- none box -->
           <label class="fld-label actAsDiv clearfix grpelem" id="u9228-3" for="widgetu9227_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u9228-3_0_content">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9229-3"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu9227_input" name="custom_U9227" tabindex="4"/></span>
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9229-3"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu9227_input" name="custom_U9227" tabindex="4" value="<? echo $_GET['name'];?>" /></span>
          </div>
          <div class="clearfix grpelem" id="u9216-4"><!-- content -->
           <p class="shared_content" data-content-guid="u9216-4_0_content">Отправка формы…</p>
@@ -188,7 +188,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          </button>
          <div class="fld-grp clearfix grpelem" id="widgetu9217" data-required="true"><!-- none box -->
           <label class="fld-label actAsDiv clearfix grpelem" id="u9218-3" for="widgetu9217_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u9218-3_0_content">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9220-3"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu9217_input" name="custom_U9217" tabindex="5"/></span>
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9220-3"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu9217_input" name="custom_U9217" tabindex="5" value="<? echo $_GET['phone'];?>" /></span>
          </div>
         </form>
         <div class="museBGSize grpelem shared_content" id="u5491" data-content-guid="u5491_content"><!-- simple frame --></div>
@@ -231,7 +231,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <form class="form-grp clearfix grpelem" id="widgetu5588" method="post" enctype="multipart/form-data" action="scripts/form-u5588.php"><!-- none box -->
          <div class="fld-grp clearfix grpelem" id="widgetu5590" data-required="true"><!-- none box -->
           <label class="fld-label actAsDiv clearfix grpelem" id="u5591-3" for="widgetu5590_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u5591-3_0_content">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u5593-3"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu5590_input" name="custom_U5590" tabindex="7"/></span>
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u5593-3"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu5590_input" name="custom_U5590" tabindex="7" value="<? echo $_GET['name'];?>" /></span>
          </div>
          <div class="clearfix grpelem" id="u5599-4"><!-- content -->
           <p class="shared_content" data-content-guid="u5599-4_0_content">Отправка формы…</p>
@@ -249,7 +249,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          </button>
          <div class="fld-grp clearfix grpelem" id="widgetu9202" data-required="true"><!-- none box -->
           <label class="fld-label actAsDiv clearfix grpelem" id="u9203-3" for="widgetu9202_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u9203-3_0_content">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9205-3"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu9202_input" name="custom_U9202" tabindex="8"/></span>
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u9205-3"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu9202_input" name="custom_U9202" tabindex="8" value="<? echo $_GET['phone'];?>" /></span>
          </div>
         </form>
         <div class="clearfix grpelem shared_content" id="u9772" data-content-guid="u9772_content"><!-- group -->
