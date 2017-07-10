@@ -1,13 +1,13 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499685223592">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499686867947">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="politika.css" crc="4113154106" ref="politika"/>
     <file name="iefonts_politika.css" crc="3824530138" ref="politika"/>
-    <file name="index.css" crc="42974191" ref="index"/>
+    <file name="index.css" crc="3859643992" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
     <file name="upsell.css" crc="3795650539" ref="upsell"/>
     <file name="iefonts_upsell.css" crc="3824530138" ref="upsell"/>
-    <file name="nomq_index.css" crc="4198690346" ref="index"/>
+    <file name="nomq_index.css" crc="188178992" ref="index"/>
     <file name="nomq_upsell.css" crc="86776377" ref="upsell"/>
     <file name="nomq_politika.css" crc="329534846" ref="politika"/>
   </folder>
@@ -557,11 +557,10 @@
     <file name="garant-04-u3747-fr.png" crc="251535094" ref="index"/>
     <file name="загруженное (10)-u3795-fr2.jpg" crc="99141878" ref="index"/>
     <file name="2_пермь_ксения царева_ksushenka_tsareva-u3843-fr.jpg" crc="423819630" ref="index"/>
-    <file name="review-left-u3893-fr.jpg" crc="3990170125" ref="index"/>
+    <file name="review-left-u3893-fr.jpg" crc="418603345" ref="index"/>
     <file name="4_москва_анна колченогова_id148371140-u3846-fr.jpg" crc="4116124822" ref="index"/>
     <file name="review-right-u3910-fr.jpg" crc="211813605" ref="index"/>
     <file name="3_москва_юлия горчакова_id193290078-u3849-fr.jpg" crc="3933655247" ref="index"/>
-    <file name="review-left-u3948-fr.jpg" crc="418603345" ref="index"/>
     <file name="1_самара_татьяна харшева_harsheva-u4007-fr.jpg" crc="326357598" ref="index"/>
     <file name="review-right-u4003-fr.jpg" crc="91324820" ref="index"/>
     <file name="5_екатеринбург_екатерина василюк mitronina_katya-u3855-fr.jpg" crc="209913659" ref="index"/>
@@ -573,7 +572,7 @@
     <file name="загруженное (12)-u5491-fr2.png" crc="4226731491" ref="upsell"/>
     <file name="загруженное (13)-u5580-fr2.png" crc="293487150" ref="upsell"/>
   </folder>
-  <file name="index.html" crc="282864216" seo="true" mt="1499684973115" redirect="true"/>
+  <file name="index.html" crc="234073076" seo="true" mt="1499686728085" redirect="true"/>
   <file name="politika.html" crc="183221797" seo="true" mt="1499685079948" redirect="true"/>
   <file name="upsell.html" crc="4224967864" seo="true" mt="1499671888437" redirect="true"/>
 </manifest>
