@@ -1,14 +1,14 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499686867947">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499693647873">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="politika.css" crc="4113154106" ref="politika"/>
     <file name="iefonts_politika.css" crc="3824530138" ref="politika"/>
-    <file name="index.css" crc="3859643992" ref="index"/>
+    <file name="index.css" crc="4123001889" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="upsell.css" crc="3795650539" ref="upsell"/>
+    <file name="upsell.css" crc="516996541" ref="upsell"/>
     <file name="iefonts_upsell.css" crc="3824530138" ref="upsell"/>
-    <file name="nomq_index.css" crc="188178992" ref="index"/>
-    <file name="nomq_upsell.css" crc="86776377" ref="upsell"/>
+    <file name="nomq_index.css" crc="4156225051" ref="index"/>
+    <file name="nomq_upsell.css" crc="3918231053" ref="upsell"/>
     <file name="nomq_politika.css" crc="329534846" ref="politika"/>
   </folder>
   <folder name="assets">
@@ -22,9 +22,9 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index:upsell"/>
     <file name="jquery.watch.js" crc="4178585335" ref="index:politika:upsell"/>
     <file name="webpro.js" crc="4152390327" ref="index:upsell"/>
-    <file name="form_check.php" crc="4286608207" ref="index"/>
-    <file name="form_throttle.php" crc="313199896" ref="index"/>
-    <file name="form_process.php" crc="3855659497" ref="index"/>
+    <file name="form_check.php" crc="4286608207" ref="index:upsell"/>
+    <file name="form_throttle.php" crc="313199896" ref="index:upsell"/>
+    <file name="form_process.php" crc="3855659497" ref="index:upsell"/>
     <file name="form-u4724.php" crc="3821758564" ref="index"/>
     <file name="musewpslideshow.js" crc="380562115" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
@@ -84,7 +84,7 @@
     <file name="img0049.png" crc="95613319" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:politika:upsell"/>
+    <file name="blank.gif" crc="4208392903" ref="index:politika"/>
     <file name="загруженное.png" crc="3775444864" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -260,9 +260,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img0016.jpg" crc="499925820" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="comp2_08.png" crc="336792784" ref="index">
@@ -532,7 +529,6 @@
     <file name="img0003-u125-fr.png" crc="4014606525" ref="index"/>
     <file name="загруженное (35)-u7165-fr.png" crc="133541882" ref="index"/>
     <file name="img0001-u186-fr2.png" crc="3904624893" ref="index"/>
-    <file name="img0016-u656-fr.jpg" crc="3956539444" ref="index"/>
     <file name="comp2_08-u666-fr.png" crc="4095667311" ref="index"/>
     <file name="comp2_17 (1)-u669-fr.png" crc="3984646924" ref="index"/>
     <file name="comp2_08-u799-fr.png" crc="4095667311" ref="index"/>
@@ -571,8 +567,14 @@
     <file name="загруженное ssdfsa(32)-u5457-fr.png" crc="347425949" ref="upsell"/>
     <file name="загруженное (12)-u5491-fr2.png" crc="4226731491" ref="upsell"/>
     <file name="загруженное (13)-u5580-fr2.png" crc="293487150" ref="upsell"/>
+    <file name="img0016.png" crc="3929437018" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img0016-u656-fr.png" crc="390324027" ref="index"/>
   </folder>
-  <file name="index.html" crc="234073076" seo="true" mt="1499686728085" redirect="true"/>
+  <file name="index.html" crc="3781365851" seo="true" mt="1499691032640" redirect="true"/>
   <file name="politika.html" crc="183221797" seo="true" mt="1499685079948" redirect="true"/>
-  <file name="upsell.html" crc="4224967864" seo="true" mt="1499671888437" redirect="true"/>
+  <file name="upsell.html" crc="92508316" seo="true" mt="1499692045665" redirect="true"/>
 </manifest>
