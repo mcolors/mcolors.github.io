@@ -34,24 +34,23 @@ $form = array(
 		'custom_U9278' => array(
 			'order' => 1,
 			'type' => 'string',
-			'label' => 'Пользовательский текст:',
+			'label' => 'Имя:',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
+				'required' => 'Поле \'Имя:\' не может быть пустым.'
 			)
 		),
 		'custom_U9268' => array(
 			'order' => 2,
 			'type' => 'string',
-			'label' => 'Пользовательский текст:',
+			'label' => 'Номер телефона:',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
+				'required' => 'Поле \'Номер телефона:\' не может быть пустым.'
 			)
 		)
 	)
 );
 
 process_form($form);
-echo "<script>parent.location='../upsell.php?name=".$_POST['custom_U9278']."&phone=".$_POST['custom_U9268']."'</script>";
 ?>

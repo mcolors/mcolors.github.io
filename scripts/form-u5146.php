@@ -11,7 +11,7 @@ require_once('form_process.php');
 $form = array(
 	'subject' => 'Отправка Форма Домашняя',
 	'heading' => 'Отправка новой формы',
-	'success_redirect' => 'upsell.html',
+	'success_redirect' => '%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d1%8c%d1%82%d0%b5-%d1%82%d0%be%d0%b2%d0%b0%d1%80-%d1%81%d0%be-%d0%ba%d0%b8%d0%b4%d0%ba%d0%be%d0%b9.html',
 	'resources' => array(
 		'checkbox_checked' => 'Отмечено',
 		'checkbox_unchecked' => 'Флажок не установлен',
@@ -34,19 +34,19 @@ $form = array(
 		'custom_U5155' => array(
 			'order' => 1,
 			'type' => 'string',
-			'label' => 'Пользовательский текст:',
+			'label' => 'Имя:',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
+				'required' => 'Поле \'Имя:\' не может быть пустым.'
 			)
 		),
 		'custom_U8856' => array(
 			'order' => 2,
 			'type' => 'string',
-			'label' => 'Пользовательский текст:',
+			'label' => 'Номер телефона:',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
+				'required' => 'Поле \'Номер телефона:\' не может быть пустым.'
 			)
 		)
 	)
