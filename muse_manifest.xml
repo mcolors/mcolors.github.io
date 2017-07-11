@@ -1,73 +1,466 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499717049031">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sbwkid.ru" resolutions="1x" timestamp="1499814289745">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3892253192" ref="index"/>
-    <file name="nomq_index.css" crc="3767983178" ref="index"/>
-    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="________-_____-__-______.css" crc="3931029375" ref="добавьте-товар-со-кидкой"/>
-    <file name="nomq_________-_____-__-______.css" crc="245429057" ref="добавьте-товар-со-кидкой"/>
-    <file name="iefonts_________-_____-__-______.css" crc="3824530138" ref="добавьте-товар-со-кидкой"/>
-    <file name="politika.css" crc="4113154106" ref="politika"/>
-    <file name="nomq_politika.css" crc="329534846" ref="politika"/>
-    <file name="iefonts_politika.css" crc="3824530138" ref="politika"/>
+    <file name="index.css" crc="4163082504" ref="index"/>
+    <file name="iefonts_index.css" crc="3794814859" ref="index"/>
+    <file name="________-_____-__-______.css" crc="3785902496" ref="добавьте-товар-со-кидкой"/>
+    <file name="iefonts_________-_____-__-______.css" crc="3952602888" ref="добавьте-товар-со-кидкой"/>
+    <file name="politika.css" crc="4157446802" ref="politika"/>
+    <file name="iefonts_politika.css" crc="200498803" ref="politika"/>
   </folder>
   <folder name="assets">
     <file name="instruktsia_chasy_gpstreker.pro.pdf" crc="234403194" seo="true" mt="1494356658000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="museutils.js" crc="46400467" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="whatinput.js" crc="86476730" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="museconfig.js" crc="436936948" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index:добавьте-товар-со-кидкой"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="webpro.js" crc="4152390327" ref="index:добавьте-товар-со-кидкой"/>
-    <file name="form_check.php" crc="4286608207" ref="index"/>
-    <file name="form_throttle.php" crc="313199896" ref="index"/>
-    <file name="form_process.php" crc="3855659497" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>politika:phone>добавьте-товар-со-кидкой:tablet>index:tablet>politika:tablet>добавьте-товар-со-кидкой:index:politika:добавьте-товар-со-кидкой"/>
+    <file name="museutils.js" crc="46400467" ref="phone>index:phone>politika:phone>добавьте-товар-со-кидкой:tablet>index:tablet>politika:tablet>добавьте-товар-со-кидкой:index:politika:добавьте-товар-со-кидкой"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>politika:phone>добавьте-товар-со-кидкой:tablet>index:tablet>politika:tablet>добавьте-товар-со-кидкой:index:politika:добавьте-товар-со-кидкой"/>
+    <file name="museconfig.js" crc="436936948" ref="phone>index:phone>politika:phone>добавьте-товар-со-кидкой:tablet>index:tablet>politika:tablet>добавьте-товар-со-кидкой:index:politika:добавьте-товар-со-кидкой"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="phone>index:phone>добавьте-товар-со-кидкой:tablet>index:tablet>добавьте-товар-со-кидкой:index:добавьте-товар-со-кидкой"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="phone>index:phone>politika:phone>добавьте-товар-со-кидкой:tablet>index:tablet>politika:tablet>добавьте-товар-со-кидкой:index:politika:добавьте-товар-со-кидкой"/>
+    <file name="webpro.js" crc="4152390327" ref="phone>index:phone>добавьте-товар-со-кидкой:tablet>index:tablet>добавьте-товар-со-кидкой:index:добавьте-товар-со-кидкой"/>
+    <file name="form_check.php" crc="4286608207" ref="phone>index"/>
+    <file name="form_throttle.php" crc="313199896" ref="phone>index"/>
+    <file name="form_process.php" crc="3855659497" ref="phone>index"/>
+    <file name="form-u27274.php" crc="172444882" ref="phone>index"/>
+    <file name="musewpslideshow.js" crc="380562115" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.museoverlay.js" crc="3986278607" ref="phone>index:tablet>index:index"/>
+    <file name="touchswipe.js" crc="4228958816" ref="phone>index:tablet>index:index"/>
+    <file name="form-u27222.php" crc="4088361267" ref="phone>index"/>
+    <file name="form-u27078.php" crc="3836545816" ref="phone>index"/>
+    <file name="form-u27120.php" crc="4207750475" ref="phone>index"/>
+    <file name="form-u27154.php" crc="4145094552" ref="phone>index"/>
+    <file name="form-u27185.php" crc="3854397732" ref="phone>index"/>
+    <file name="form-u27056.php" crc="4070322443" ref="phone>index"/>
+    <file name="musewpdisclosure.js" crc="204784597" ref="phone>index:tablet>index:index"/>
+    <file name="form-u27006.php" crc="3959950135" ref="phone>index"/>
+    <file name="jquery.scrolleffects.js" crc="410690402" ref="phone>index:tablet>index:index"/>
+    <file name="require.js" crc="85721165" ref="phone>index:phone>politika:phone>добавьте-товар-со-кидкой:tablet>index:tablet>politika:tablet>добавьте-товар-со-кидкой:index:politika:добавьте-товар-со-кидкой"/>
+    <file name="form-u30424.php" crc="448902211" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="form-u30448.php" crc="3854839815" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="form-u30479.php" crc="4248747208" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="form-u31635.php" crc="223804935" ref="tablet>index"/>
+    <file name="form-u31688.php" crc="3941983793" ref="tablet>index"/>
+    <file name="form-u31493.php" crc="4101092180" ref="tablet>index"/>
+    <file name="form-u31527.php" crc="3828610816" ref="tablet>index"/>
+    <file name="form-u31593.php" crc="4045507591" ref="tablet>index"/>
+    <file name="form-u31559.php" crc="116140967" ref="tablet>index"/>
+    <file name="form-u31458.php" crc="191106152" ref="tablet>index"/>
+    <file name="form-u31418.php" crc="315475742" ref="tablet>index"/>
+    <file name="form-u34193.php" crc="298052228" ref="tablet>добавьте-товар-со-кидкой"/>
+    <file name="form-u34220.php" crc="4232982386" ref="tablet>добавьте-товар-со-кидкой"/>
+    <file name="form-u34254.php" crc="4212501787" ref="tablet>добавьте-товар-со-кидкой"/>
     <file name="form-u4724.php" crc="4023830195" ref="index"/>
-    <file name="musewpslideshow.js" crc="380562115" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
-    <file name="touchswipe.js" crc="4228958816" ref="index"/>
     <file name="form-u5146.php" crc="447522396" ref="index"/>
     <file name="form-u4635.php" crc="3997832715" ref="index"/>
     <file name="form-u4812.php" crc="118446517" ref="index"/>
     <file name="form-u4983.php" crc="4115004872" ref="index"/>
     <file name="form-u4899.php" crc="461469133" ref="index"/>
     <file name="form-u4488.php" crc="3992182963" ref="index"/>
-    <file name="musewpdisclosure.js" crc="204784597" ref="index"/>
     <file name="form-u4288.php" crc="241328905" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="410690402" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="52098982" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="require.js" crc="85721165" ref="index:politika:добавьте-товар-со-кидкой"/>
     <file name="form-u9265.php" crc="15660514" ref="добавьте-товар-со-кидкой"/>
     <file name="form-u9214.php" crc="4009462970" ref="добавьте-товар-со-кидкой"/>
     <file name="form-u5588.php" crc="4069774240" ref="добавьте-товар-со-кидкой"/>
   </folder>
   <folder name="images">
-    <file name="fon1.jpg" crc="4190534372" ref="index">
+    <file name="gps-часы-для-детей-купить!-smart-baby-watch-q50-favicon.ico" crc="11402864" ref="phone>index"/>
+    <file name="fon1.jpg" crc="4190534372" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img0003-u27263-fr.png" crc="4014606525" ref="phone>index"/>
+    <file name="загруженное (35)-u27262-fr.png" crc="133541882" ref="phone>index"/>
+    <file name="img0001-u26724-fr.png" crc="3904624893" ref="phone>index"/>
+    <file name="podarok.png" crc="334790689" seo="true" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="загруженное (35).png" crc="382573995" ref="index">
+    <file name="blank.gif" crc="4208392903" ref="phone>index:tablet>index:index"/>
+    <file name="up-chevron-button.svg" crc="91672669" ref="phone>index:tablet>index:index"/>
+    <file name="up-chevron-button_poster_u10265.png" crc="4132048665" ref="phone>index:tablet>index:index"/>
+    <file name="загруженное (1).png" crc="337389820" ref="phone>index:tablet>index:index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="img0003.png" crc="4109212285" ref="index">
+    <file name="загруженное.png" crc="3775444864" ref="phone>index:tablet>index:index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="загруженное (2).png" crc="4191398987" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (7).png" crc="471703118" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (5).png" crc="250795643" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (8).png" crc="3983209190" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (4).png" crc="3952204908" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (9).png" crc="215625795" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (3).png" crc="3936257874" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (6).png" crc="512687646" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7.jpg" crc="3905331571" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8.jpg" crc="90657371" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2.jpg" crc="3946176660" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9.jpg" crc="380828932" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3.jpg" crc="172148820" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="10.jpg" crc="28244126" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1.jpg" crc="3813537658" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4.jpg" crc="166237714" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="11.jpg" crc="216084386" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5.jpg" crc="87104207" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="12.jpg" crc="4239582629" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6.jpg" crc="3798491513" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="13.jpg" crc="505704254" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="19.jpg" crc="488875018" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="14.jpg" crc="230051827" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="20.jpg" crc="4084323440" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="15.jpg" crc="301775244" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="21.jpg" crc="51655949" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="16.jpg" crc="3808560264" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="23.jpg" crc="4057795953" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="17.jpg" crc="4155334628" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="24.jpg" crc="404867688" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="18.jpg" crc="485326365" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="356361692_2_644x461_umnye-chasy-q50-smart-baby-watch-q50-c-gps-fotografii_rev001.jpg" crc="4000212072" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img0016-u26775-fr.png" crc="390324027" ref="phone>index"/>
+    <file name="comp2_08-u26776-fr.png" crc="4095667311" ref="phone>index"/>
+    <file name="comp2_17 (1)-u26777-fr.png" crc="3984646924" ref="phone>index"/>
+    <file name="child-fon-2.jpg" crc="357010686" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp2_08-u26786-fr.png" crc="4095667311" ref="phone>index"/>
+    <file name="comp2_04-u26793-fr.png" crc="367511539" ref="phone>index"/>
+    <file name="comp2_02-u26788-fr.png" crc="293769336" ref="phone>index"/>
+    <file name="child-fon-11.jpg" crc="3895013827" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (11)-u26852-fr.png" crc="3965070047" ref="phone>index"/>
+    <file name="загруженное (12)-u26853-fr.png" crc="246095408" ref="phone>index"/>
+    <file name="загруженное (13)-u26854-fr.png" crc="3993840211" ref="phone>index"/>
+    <file name="загруженное (1)-u26879-fr.jpg" crc="3954275401" ref="phone>index"/>
+    <file name="загруженное (2)-u26880-fr.jpg" crc="490220733" ref="phone>index"/>
+    <file name="загруженное (3)-u26881-fr.jpg" crc="4289605387" ref="phone>index"/>
+    <file name="загруженное (5)-u26884-fr.jpg" crc="3894393868" ref="phone>index"/>
+    <file name="загруженное (4)-u26882-fr.jpg" crc="4033772533" ref="phone>index"/>
+    <file name="загруженное (6)-u26887-fr.jpg" crc="3980391063" ref="phone>index"/>
+    <file name="загруженное (7)-u26885-fr.jpg" crc="99511813" ref="phone>index"/>
+    <file name="загруженное (8)-u26886-fr.jpg" crc="208121712" ref="phone>index"/>
+    <file name="загруженное (9)-u26883-fr.jpg" crc="175205171" ref="phone>index"/>
+    <file name="img0056-u26919-fr.png" crc="371219657" ref="phone>index"/>
+    <file name="загруженное (14).png" crc="4225197013" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (15).png" crc="4084278003" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (16).png" crc="224557991" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (17).png" crc="296390200" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (22).png" crc="322874736" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (19).png" crc="365538324" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (20).png" crc="171960699" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (21).png" crc="3896450774" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (18).png" crc="414303136" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="garant-01-u26946-fr.png" crc="4059164882" ref="phone>index"/>
+    <file name="garant-02-u26945-fr.png" crc="512684717" ref="phone>index"/>
+    <file name="garant-03-u26940-fr.png" crc="513880875" ref="phone>index"/>
+    <file name="garant-04-u26943-fr.png" crc="251535094" ref="phone>index"/>
+    <file name="загруженное (10)-u26938-fr.jpg" crc="99141878" ref="phone>index"/>
+    <file name="загруженное (24).png" crc="399795390" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (25).png" crc="3992717508" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (26).png" crc="25730938" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (27).png" crc="4041198580" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1_самара_татьяна харшева_harsheva-u27255-fr.jpg" crc="326357598" ref="phone>index"/>
+    <file name="review-left-u26949-fr.jpg" crc="418603345" ref="phone>index"/>
+    <file name="2_пермь_ксения царева_ksushenka_tsareva-u26698-fr.jpg" crc="423819630" ref="phone>index"/>
+    <file name="review-right-u26952-fr.jpg" crc="211813605" ref="phone>index"/>
+    <file name="3_москва_юлия горчакова_id193290078-u27253-fr.jpg" crc="3933655247" ref="phone>index"/>
+    <file name="4_москва_анна колченогова_id148371140-u26702-fr.jpg" crc="4116124822" ref="phone>index"/>
+    <file name="review-right-u26953-fr.jpg" crc="91324820" ref="phone>index"/>
+    <file name="5_екатеринбург_екатерина василюк mitronina_katya-u27259-fr.jpg" crc="209913659" ref="phone>index"/>
+    <file name="снимок.jpg" crc="4056177284" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img0001.png" crc="3958932604" seo="true" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (11).jpg" crc="507108885" ref="phone>добавьте-товар-со-кидкой:tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженное (31)-u30409-fr.png" crc="3949213903" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="загруженное (12).jpg" crc="4131068789" ref="phone>добавьте-товар-со-кидкой:tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженнофывфцвфцве (34).png" crc="10552529" ref="phone>добавьте-товар-со-кидкой:tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженнzszsxcое (32)-u30416-fr.png" crc="3850378906" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="загруженное (32)-u30414-fr.png" crc="464611881" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="загруженное ssdfsa(32)-u30415-fr.png" crc="347425949" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="загруженное (11)-u30419-fr.png" crc="4170896970" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="загруженное (33).png" crc="4162855846" ref="phone>добавьте-товар-со-кидкой:tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженное (12)-u30466-fr.png" crc="4226731491" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="загруженное (13)-u30499-fr.png" crc="293487150" ref="phone>добавьте-товар-со-кидкой"/>
+    <file name="img0003.png" crc="4109212285" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (35).png" crc="382573995" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img0001-u31136-fr.png" crc="4209586221" ref="tablet>index"/>
+    <file name="img0016.png" crc="3929437018" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp2_08.png" crc="336792784" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp2_17 (1).png" crc="3806523997" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp2_02.png" crc="249042989" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="det-chasi-3.png" crc="31741747" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="comp2_04.png" crc="150723512" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (11)-u31270-fr.png" crc="517584283" ref="tablet>index"/>
+    <file name="загруженное (12)-u31269-fr.png" crc="496394757" ref="tablet>index"/>
+    <file name="загруженное (13)-u31268-fr.png" crc="3829189070" ref="tablet>index"/>
+    <file name="img0056-u31331-fr.png" crc="4229599271" ref="tablet>index"/>
+    <file name="загруженное (1)-u31289-fr.jpg" crc="110626709" ref="tablet>index"/>
+    <file name="загруженное (2)-u31296-fr.jpg" crc="370090216" ref="tablet>index"/>
+    <file name="загруженное (3)-u31290-fr.jpg" crc="4273678914" ref="tablet>index"/>
+    <file name="загруженное (5)-u31297-fr.jpg" crc="3854606165" ref="tablet>index"/>
+    <file name="загруженное (4)-u31292-fr.jpg" crc="3986313522" ref="tablet>index"/>
+    <file name="загруженное (6)-u31294-fr.jpg" crc="393080279" ref="tablet>index"/>
+    <file name="загруженное (7)-u31293-fr.jpg" crc="330079778" ref="tablet>index"/>
+    <file name="загруженное (8)-u31295-fr.jpg" crc="230789508" ref="tablet>index"/>
+    <file name="загруженное (9)-u31291-fr.jpg" crc="3938270030" ref="tablet>index"/>
+    <file name="garant-01.png" crc="69528325" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="garant-02.png" crc="56912849" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="garant-03.png" crc="137113115" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="garant-04.png" crc="98649462" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (10)-u31350-fr.jpg" crc="402549261" ref="tablet>index"/>
+    <file name="1_самара_татьяна харшева_harsheva.jpg" crc="289751718" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="review-left.jpg" crc="4109317888" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="review-right.jpg" crc="244387711" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2_пермь_ксения царева_ksushenka_tsareva.jpg" crc="4092319742" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4_москва_анна колченогова_id148371140.jpg" crc="3963769280" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3_москва_юлия горчакова_id193290078.jpg" crc="228738286" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5_екатеринбург_екатерина василюк mitronina_katya.jpg" crc="224127617" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (31).png" crc="171669634" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженнzszsxcое (32).png" crc="143637747" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженное (32).png" crc="236208234" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженное ssdfsa(32).png" crc="245868263" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой">
+      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
+    </file>
+    <file name="загруженное (11)-u34188-fr.png" crc="210681081" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой"/>
+    <file name="загруженное (12)-u34246-fr.png" crc="496253268" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой"/>
+    <file name="загруженное (13)-u34250-fr.png" crc="219180536" ref="tablet>добавьте-товар-со-кидкой:добавьте-товар-со-кидкой"/>
     <file name="img0048.png" crc="415417052" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img0001.png" crc="3958932604" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -81,386 +474,49 @@
     <file name="img0020.png" crc="21586383" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="podarok.png" crc="334790689" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="img0049.png" crc="95613319" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="blank.gif" crc="4208392903" ref="index:politika:добавьте-товар-со-кидкой"/>
-    <file name="up-chevron-button.svg" crc="91672669" ref="index"/>
-    <file name="up-chevron-button_poster_u10265.png" crc="4132048665" ref="index"/>
-    <file name="загруженное.png" crc="3775444864" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (1).png" crc="337389820" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (2).png" crc="4191398987" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (3).png" crc="3936257874" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (4).png" crc="3952204908" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (5).png" crc="250795643" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (6).png" crc="512687646" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (7).png" crc="471703118" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (9).png" crc="215625795" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (8).png" crc="3983209190" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (10).png" crc="152056710" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="7.jpg" crc="3905331571" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="1.jpg" crc="3813537658" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="8.jpg" crc="90657371" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="2.jpg" crc="3946176660" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="9.jpg" crc="380828932" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="10.jpg" crc="28244126" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="3.jpg" crc="172148820" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="4.jpg" crc="166237714" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="11.jpg" crc="216084386" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="5.jpg" crc="87104207" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="12.jpg" crc="4239582629" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="6.jpg" crc="3798491513" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="13.jpg" crc="505704254" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="19.jpg" crc="488875018" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="14.jpg" crc="230051827" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="20.jpg" crc="4084323440" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="15.jpg" crc="301775244" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="16.jpg" crc="3808560264" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="21.jpg" crc="51655949" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="23.jpg" crc="4057795953" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="17.jpg" crc="4155334628" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="24.jpg" crc="404867688" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="18.jpg" crc="485326365" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="356361692_2_644x461_umnye-chasy-q50-smart-baby-watch-q50-c-gps-fotografii_rev001.jpg" crc="4000212072" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img0016.png" crc="3929437018" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="comp2_08.png" crc="336792784" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="comp2_17 (1).png" crc="3806523997" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="child-fon-2.jpg" crc="357010686" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="comp2_02.png" crc="249042989" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="det-chasi-3.png" crc="31741747" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="comp2_04.png" crc="150723512" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="загруженное (11)-u2969-fr.png" crc="107434211" ref="index"/>
     <file name="загруженное (12)-u3016-fr.png" crc="165696561" ref="index"/>
     <file name="загруженное (13)-u3024-fr.png" crc="4262977107" ref="index"/>
-    <file name="child-fon-11.jpg" crc="3895013827" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="img0056.png" crc="433219651" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (1).jpg" crc="177320725" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (2).jpg" crc="366735491" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (3).jpg" crc="4169584960" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (5).jpg" crc="430215017" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (4).jpg" crc="428084612" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (6).jpg" crc="236467488" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (7).jpg" crc="49669686" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (8).jpg" crc="167636956" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (9).jpg" crc="66414460" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (14).png" crc="4225197013" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (15).png" crc="4084278003" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (16).png" crc="224557991" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (17).png" crc="296390200" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (18).png" crc="414303136" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (19).png" crc="365538324" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (20).png" crc="171960699" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (21).png" crc="3896450774" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (22).png" crc="322874736" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (23).png" crc="113644229" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="garant-01.png" crc="69528325" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="garant-02.png" crc="56912849" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="garant-03.png" crc="137113115" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="garant-04.png" crc="98649462" ref="index">
-      <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (10).jpg" crc="202316204" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (24).png" crc="399795390" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (26).png" crc="25730938" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (27).png" crc="4041198580" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное (25).png" crc="3992717508" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="1_самара_татьяна харшева_harsheva.jpg" crc="289751718" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="review-left.jpg" crc="4109317888" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="review-right.jpg" crc="244387711" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="2_пермь_ксения царева_ksushenka_tsareva.jpg" crc="4092319742" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="3_москва_юлия горчакова_id193290078.jpg" crc="228738286" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="4_москва_анна колченогова_id148371140.jpg" crc="3963769280" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="5_екатеринбург_екатерина василюк mitronina_katya.jpg" crc="224127617" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="загруженное (29).png" crc="243880680" ref="index">
@@ -468,116 +524,38 @@
     </file>
     <file name="загруженное (28).png" crc="196516416" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img0001-u186-fr.png" crc="4209586221" ref="index"/>
-    <file name="img0021-u243-fr.png" crc="370724688" ref="index"/>
-    <file name="img0020-u229-fr.png" crc="3809160087" ref="index"/>
-    <file name="img0049-u348-fr.png" crc="4013535566" ref="index"/>
-    <file name="загруженное (11)-u2969-fr2.png" crc="517584283" ref="index"/>
-    <file name="загруженное (12)-u3016-fr2.png" crc="496394757" ref="index"/>
-    <file name="загруженное (13)-u3024-fr2.png" crc="3829189070" ref="index"/>
-    <file name="img0056-u3149-fr.png" crc="4229599271" ref="index"/>
-    <file name="загруженное (1)-u3240-fr.jpg" crc="110626709" ref="index"/>
-    <file name="загруженное (2)-u3241-fr.jpg" crc="370090216" ref="index"/>
-    <file name="загруженное (3)-u3239-fr.jpg" crc="4273678914" ref="index"/>
-    <file name="загруженное (5)-u3306-fr.jpg" crc="3854606165" ref="index"/>
-    <file name="загруженное (4)-u3323-fr.jpg" crc="3986313522" ref="index"/>
-    <file name="загруженное (6)-u3337-fr.jpg" crc="393080279" ref="index"/>
-    <file name="загруженное (7)-u3356-fr.jpg" crc="330079778" ref="index"/>
-    <file name="загруженное (8)-u3370-fr.jpg" crc="230789508" ref="index"/>
-    <file name="загруженное (9)-u3384-fr.jpg" crc="3938270030" ref="index"/>
-    <file name="загруженное (10)-u3795-fr.jpg" crc="402549261" ref="index"/>
-    <file name="загруженное (29)-u4266-fr.png" crc="528374950" ref="index"/>
-    <file name="загруженное (28)-u4277-fr.png" crc="4210212963" ref="index"/>
-    <file name="img0003-u125-fr.png" crc="4014606525" ref="index"/>
-    <file name="загруженное (35)-u7165-fr.png" crc="133541882" ref="index"/>
-    <file name="img0001-u186-fr2.png" crc="3904624893" ref="index"/>
-    <file name="img0016-u656-fr.png" crc="390324027" ref="index"/>
-    <file name="comp2_08-u666-fr.png" crc="4095667311" ref="index"/>
-    <file name="comp2_17 (1)-u669-fr.png" crc="3984646924" ref="index"/>
-    <file name="comp2_08-u799-fr.png" crc="4095667311" ref="index"/>
-    <file name="comp2_04-u812-fr.png" crc="367511539" ref="index"/>
-    <file name="comp2_02-u849-fr.png" crc="293769336" ref="index"/>
-    <file name="загруженное (11)-u2969-fr3.png" crc="3965070047" ref="index"/>
-    <file name="загруженное (12)-u3016-fr3.png" crc="246095408" ref="index"/>
-    <file name="загруженное (13)-u3024-fr3.png" crc="3993840211" ref="index"/>
-    <file name="img0056-u3149-fr2.png" crc="371219657" ref="index"/>
-    <file name="загруженное (1)-u3240-fr2.jpg" crc="3954275401" ref="index"/>
-    <file name="загруженное (2)-u3241-fr2.jpg" crc="490220733" ref="index"/>
-    <file name="загруженное (3)-u3239-fr2.jpg" crc="4289605387" ref="index"/>
-    <file name="загруженное (5)-u3306-fr2.jpg" crc="3894393868" ref="index"/>
-    <file name="загруженное (4)-u3323-fr2.jpg" crc="4033772533" ref="index"/>
-    <file name="загруженное (6)-u3337-fr2.jpg" crc="3980391063" ref="index"/>
-    <file name="загруженное (7)-u3356-fr2.jpg" crc="99511813" ref="index"/>
-    <file name="загруженное (8)-u3370-fr2.jpg" crc="208121712" ref="index"/>
-    <file name="загруженное (9)-u3384-fr2.jpg" crc="175205171" ref="index"/>
-    <file name="garant-01-u3715-fr.png" crc="4059164882" ref="index"/>
-    <file name="garant-02-u3729-fr.png" crc="512684717" ref="index"/>
-    <file name="garant-03-u3732-fr.png" crc="513880875" ref="index"/>
-    <file name="garant-04-u3747-fr.png" crc="251535094" ref="index"/>
-    <file name="загруженное (10)-u3795-fr2.jpg" crc="99141878" ref="index"/>
-    <file name="1_самара_татьяна харшева_harsheva-u4007-fr.jpg" crc="326357598" ref="index"/>
-    <file name="review-left-u3893-fr.jpg" crc="418603345" ref="index"/>
-    <file name="2_пермь_ксения царева_ksushenka_tsareva-u3843-fr.jpg" crc="423819630" ref="index"/>
-    <file name="review-right-u3910-fr.jpg" crc="211813605" ref="index"/>
-    <file name="3_москва_юлия горчакова_id193290078-u3849-fr.jpg" crc="3933655247" ref="index"/>
-    <file name="4_москва_анна колченогова_id148371140-u3846-fr.jpg" crc="4116124822" ref="index"/>
-    <file name="review-right-u4003-fr.jpg" crc="91324820" ref="index"/>
-    <file name="5_екатеринбург_екатерина василюк mitronina_katya-u3855-fr.jpg" crc="209913659" ref="index"/>
-    <file name="загруженное (11).jpg" crc="507108885" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
     </file>
     <file name="загруженное (30).png" crc="392689439" ref="добавьте-товар-со-кидкой">
       <caption webpage="добавьте-товар-со-кидкой" alt=""/>
     </file>
-    <file name="загруженное (31).png" crc="171669634" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженное (12).jpg" crc="4131068789" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженное (33).png" crc="4162855846" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженнофывфцвфцве (34).png" crc="10552529" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженнzszsxcое (32).png" crc="143637747" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженное (32).png" crc="236208234" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженное ssdfsa(32).png" crc="245868263" ref="добавьте-товар-со-кидкой">
-      <caption webpage="добавьте-товар-со-кидкой" alt=""/>
-    </file>
-    <file name="загруженное (11)-u5350-fr.png" crc="210681081" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (12)-u5491-fr.png" crc="496253268" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (13)-u5580-fr.png" crc="219180536" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (31)-u5313-fr.png" crc="3949213903" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженнzszsxcое (32)-u5433-fr.png" crc="3850378906" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (32)-u5449-fr.png" crc="464611881" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное ssdfsa(32)-u5457-fr.png" crc="347425949" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (11)-u5350-fr2.png" crc="408318073" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (12)-u5491-fr2.png" crc="406292961" ref="добавьте-товар-со-кидкой"/>
-    <file name="загруженное (13)-u5580-fr2.png" crc="3981804587" ref="добавьте-товар-со-кидкой"/>
   </folder>
-  <file name="index.html" crc="3868249748" seo="true" mt="1499716571695" redirect="true"/>
-  <file name="politika.html" crc="183221797" seo="true" mt="1499685079948" redirect="true"/>
-  <file name="добавьте-товар-со-кидкой.html" crc="423350627" seo="true" mt="1499716533702" redirect="true"/>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="________-_____-__-______.css" crc="454809634" ref="tablet>добавьте-товар-со-кидкой"/>
+      <file name="iefonts_________-_____-__-______.css" crc="391994561" ref="tablet>добавьте-товар-со-кидкой"/>
+      <file name="index.css" crc="4274946525" ref="tablet>index"/>
+      <file name="iefonts_index.css" crc="61876620" ref="tablet>index"/>
+      <file name="politika.css" crc="374769841" ref="tablet>politika"/>
+      <file name="iefonts_politika.css" crc="10619597" ref="tablet>politika"/>
+    </folder>
+    <file name="index.html" crc="355329560" seo="true" mt="1499813517681" redirect="true"/>
+    <file name="politika.html" crc="303381025" seo="true" mt="1499813250336" redirect="true"/>
+    <file name="добавьте-товар-со-кидкой.html" crc="317971636" seo="true" mt="1499813460204" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="________-_____-__-______.css" crc="3811100487" ref="phone>добавьте-товар-со-кидкой"/>
+      <file name="iefonts_________-_____-__-______.css" crc="282046807" ref="phone>добавьте-товар-со-кидкой"/>
+      <file name="index.css" crc="3879342913" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="4071118841" ref="phone>index"/>
+      <file name="politika.css" crc="3882918300" ref="phone>politika"/>
+      <file name="iefonts_politika.css" crc="427040079" ref="phone>politika"/>
+    </folder>
+    <file name="index.html" crc="4093978936" seo="true" mt="1499811622695" redirect="true"/>
+    <file name="politika.html" crc="153297881" seo="true" mt="1499811622695" redirect="true"/>
+    <file name="добавьте-товар-со-кидкой.html" crc="4057024124" seo="true" mt="1499813547362" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4206641206" seo="true" mt="1499813718612" redirect="true"/>
+  <file name="politika.html" crc="84267410" seo="true" mt="1499814136386" redirect="true"/>
+  <file name="добавьте-товар-со-кидкой.html" crc="290153807" seo="true" mt="1499814105476" redirect="true"/>
 </manifest>
