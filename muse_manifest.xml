@@ -1,57 +1,80 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500494747753">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500557524199">
   <folder name="css">
-    <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="521481474" ref="index"/>
-    <file name="iefonts_index.css" crc="4201423002" ref="index"/>
+    <file name="site_global.css" crc="3781537592"/>
+    <file name="index.css" crc="3979222518" ref="index"/>
+    <file name="iefonts_index.css" crc="3853153130" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="46400467" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="436936948" ref="index"/>
-    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
     <file name="jquery.watch.js" crc="4178585335" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
+    <file name="webpro.js" crc="4152390327" ref="index"/>
+    <file name="form_check.php" crc="4286608207" ref="index"/>
+    <file name="form_throttle.php" crc="313199896" ref="index"/>
+    <file name="form_process.php" crc="3855659497" ref="index"/>
+    <file name="form-u585.php" crc="255966028" ref="index"/>
+    <file name="musewpslideshow.js" crc="380562115" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
+    <file name="touchswipe.js" crc="4228958816" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="85721165" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="call-answer.png" crc="4152597915" ref="index">
+    <file name="salon-masthead.jpg" crc="123652937" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="placeholder-filled-point.png" crc="4088361138" ref="index">
+    <file name="безымянный-1.png" crc="525279671" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="england-wallpaper-15.jpg" crc="151023983" ref="index">
+    <file name="down-arrow1.png" crc="424682427" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="6608_0-u553-fr.png" crc="4197414960" ref="index"/>
-    <file name="вставленные-svg-135571x114.svg" crc="493745269" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="вставленные svg 135571x114_poster_.png" crc="283017697" ref="index"/>
-    <file name="testimonials.png" crc="3914675368" ref="index">
+    <file name="down-arrow.png" crc="289269885" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="безымянный-2.png" crc="4090489255" ref="index">
+      <caption webpage="index" alt="Записаться"/>
+    </file>
+    <file name="icons2.svg" crc="3773190141" ref="index"/>
+    <file name="icons2_poster_u737.png" crc="509155862" ref="index"/>
+    <file name="загруженное.png" crc="3892247617" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="check-mark.png" crc="207783254" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="b-017.svg" crc="4016215391" ref="index"/>
-    <file name="b-017_poster_u885.png" crc="4286362092" ref="index"/>
-    <file name="facebook-letter-logo_poster_u4301.png" crc="3759881424" ref="index">
+    <file name="0-tovar-u2063-fr.png" crc="440638494" ref="index"/>
+    <file name="back.png" crc="4169478525" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="icons3.svg" crc="218892366" ref="index"/>
-    <file name="icons3_poster_u899.png" crc="290371160" ref="index"/>
-    <file name="vk_poster_u4271.png" crc="3799844267" ref="index">
+    <file name="next.png" crc="429298931" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="icons4.svg" crc="137690327" ref="index"/>
-    <file name="icons4_poster_u883.png" crc="3773274550" ref="index"/>
-    <file name="instagram-logo_poster_u4290.png" crc="4139706987" ref="index">
+    <file name="загруженное.jpg" crc="3946968458" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3759032965" seo="true" mt="1500494652172" redirect="true"/>
+  <file name="index.html" crc="129047314" seo="true" mt="1500557507406" redirect="true"/>
 </manifest>
