@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500559232944">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500559447405">
   <folder name="css">
     <file name="site_global.css" crc="3781537592"/>
     <file name="index.css" crc="162552384" ref="index"/>
@@ -76,5 +76,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4026738823" seo="true" mt="1500559205920" redirect="true"/>
+  <file name="index.html" crc="4092476914" seo="true" mt="1500559431686" redirect="true"/>
 </manifest>
