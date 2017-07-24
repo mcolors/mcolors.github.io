@@ -1,14 +1,14 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500560478682">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500902803624">
   <folder name="css">
     <file name="site_global.css" crc="3781537592"/>
-    <file name="index.css" crc="263001460" ref="index"/>
-    <file name="iefonts_index.css" crc="4282903968" ref="index"/>
+    <file name="index.css" crc="3911076497" ref="index"/>
+    <file name="iefonts_index.css" crc="90113546" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="46400467" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="436936948" ref="index"/>
+    <file name="museconfig.js" crc="4273287925" ref="index"/>
     <file name="jquery.watch.js" crc="4178585335" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
     <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
@@ -36,8 +36,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="down-arrow.png" crc="289269885" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -54,16 +57,20 @@
     </file>
     <file name="icons2.svg" crc="3773190141" ref="index"/>
     <file name="icons2_poster_u737.png" crc="509155862" ref="index"/>
+    <file name="check-mark.png" crc="207783254" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="загруженное.png" crc="3892247617" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="check-mark.png" crc="207783254" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="0-tovar-u2747-fr.png" crc="440638494" ref="index"/>
+    <file name="hair-dryer.png" crc="503582890" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="0-tovar-u2063-fr.png" crc="440638494" ref="index"/>
+    <file name="makeup.png" crc="3852363657" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="back.png" crc="4169478525" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -76,5 +83,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="362535324" seo="true" mt="1500560458687" redirect="true"/>
+  <file name="index.html" crc="164914039" seo="true" mt="1500902747504" redirect="true"/>
 </manifest>
