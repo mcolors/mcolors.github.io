@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500902803624">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1500903466118">
   <folder name="css">
     <file name="site_global.css" crc="3781537592"/>
-    <file name="index.css" crc="3911076497" ref="index"/>
-    <file name="iefonts_index.css" crc="90113546" ref="index"/>
+    <file name="index.css" crc="4169221362" ref="index"/>
+    <file name="iefonts_index.css" crc="4011587630" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -55,14 +55,6 @@
     <file name="безымянный-2.png" crc="4090489255" ref="index">
       <caption webpage="index" alt="Записаться"/>
     </file>
-    <file name="icons2.svg" crc="3773190141" ref="index"/>
-    <file name="icons2_poster_u737.png" crc="509155862" ref="index"/>
-    <file name="check-mark.png" crc="207783254" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="загруженное.png" crc="3892247617" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="0-tovar-u2747-fr.png" crc="440638494" ref="index"/>
     <file name="hair-dryer.png" crc="503582890" ref="index">
       <caption webpage="index" alt=""/>
@@ -83,5 +75,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="164914039" seo="true" mt="1500902747504" redirect="true"/>
+  <file name="index.html" crc="4087547965" seo="true" mt="1500903442492" redirect="true"/>
 </manifest>
