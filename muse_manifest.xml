@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501679735598">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501680128807">
   <folder name="css">
     <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="503790706" ref="index"/>
-    <file name="iefonts_index.css" crc="4138838756" ref="index"/>
+    <file name="index.css" crc="264492744" ref="index"/>
+    <file name="iefonts_index.css" crc="3918596826" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -75,5 +75,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3879633540" seo="true" mt="1501679627007" redirect="true"/>
+  <file name="index.html" crc="250193085" seo="true" mt="1501680104288" redirect="true"/>
 </manifest>
