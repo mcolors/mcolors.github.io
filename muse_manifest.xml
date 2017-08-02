@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501677736475">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501679641939">
   <folder name="css">
     <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="3951457915" ref="index"/>
-    <file name="iefonts_index.css" crc="357745043" ref="index"/>
+    <file name="index.css" crc="503790706" ref="index"/>
+    <file name="iefonts_index.css" crc="4138838756" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -22,6 +22,9 @@
     <file name="musewpslideshow.js" crc="380562115" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
     <file name="touchswipe.js" crc="4228958816" ref="index"/>
+    <file name="form-u1459.php" crc="441836216" ref="index"/>
+    <file name="form-u1636.php" crc="155268212" ref="index"/>
+    <file name="form-u1729.php" crc="3791335483" ref="index"/>
   </folder>
   <folder name="images">
     <file name="call-answer.png" crc="397780010" ref="index">
@@ -70,6 +73,7 @@
     <file name="10xnjbtjp7u.jpg" crc="473128284" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="index-favicon.ico" crc="377279354" ref="index"/>
   </folder>
-  <file name="index.html" crc="3808540549" seo="true" mt="1501677732058" redirect="true"/>
+  <file name="index.html" crc="3879633540" seo="true" mt="1501679627007" redirect="true"/>
 </manifest>
