@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501679641939">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501679735598">
   <folder name="css">
     <file name="site_global.css" crc="3977661465"/>
     <file name="index.css" crc="503790706" ref="index"/>
@@ -9,11 +9,8 @@
     <file name="museutils.js" crc="46400467" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="4273287925" ref="index"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
-    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
-    <file name="require.js" crc="85721165" ref="index"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
     <file name="webpro.js" crc="4152390327" ref="index"/>
     <file name="form_check.php" crc="4286608207" ref="index"/>
     <file name="form_throttle.php" crc="313199896" ref="index"/>
@@ -22,24 +19,51 @@
     <file name="musewpslideshow.js" crc="380562115" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
     <file name="touchswipe.js" crc="4228958816" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
     <file name="form-u1459.php" crc="441836216" ref="index"/>
     <file name="form-u1636.php" crc="155268212" ref="index"/>
     <file name="form-u1729.php" crc="3791335483" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="85721165" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="call-answer.png" crc="397780010" ref="index">
+    <file name="index-favicon.ico" crc="377279354" ref="index"/>
+    <file name="tower_bridge_from_shad_thames.jpg" crc="277344175" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="placeholder-filled-point.png" crc="3790292966" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="call-answer.png" crc="397780010" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kvgqxzao25g.jpg" crc="3946634642" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="6608_0-u553-fr.png" crc="4197414960" ref="index"/>
+    <file name="checklist.svg" crc="424207776" ref="index"/>
+    <file name="checklist_poster_u1293.png" crc="4241946379" ref="index"/>
+    <file name="mortarboard.svg" crc="247782795" ref="index"/>
+    <file name="mortarboard_poster_u1277.png" crc="147483425" ref="index"/>
+    <file name="teacher.svg" crc="4082932980" ref="index"/>
+    <file name="teacher_poster_u1285.png" crc="3982329275" ref="index"/>
+    <file name="certification.svg" crc="4062554679" ref="index"/>
+    <file name="certification_poster_u1327.png" crc="459707541" ref="index"/>
     <file name="вставленные-svg-135571x114.svg" crc="493745269" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="вставленные svg 135571x114_poster_.png" crc="283017697" ref="index"/>
+    <file name="anrjopzghc8.jpg" crc="3913356113" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ka2dj2afduw.jpg" crc="482007460" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="10xnjbtjp7u.jpg" crc="473128284" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="icons3.svg" crc="218892366" ref="index"/>
     <file name="icons3_poster_u899.png" crc="290371160" ref="index"/>
     <file name="vk_poster_u4271.png" crc="3799844267" ref="index">
@@ -50,30 +74,6 @@
     <file name="instagram-logo_poster_u4290.png" crc="4139706987" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kvgqxzao25g.jpg" crc="3946634642" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="tower_bridge_from_shad_thames.jpg" crc="277344175" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="checklist.svg" crc="424207776" ref="index"/>
-    <file name="checklist_poster_u1293.png" crc="4241946379" ref="index"/>
-    <file name="mortarboard.svg" crc="247782795" ref="index"/>
-    <file name="mortarboard_poster_u1277.png" crc="147483425" ref="index"/>
-    <file name="certification.svg" crc="4062554679" ref="index"/>
-    <file name="certification_poster_u1327.png" crc="459707541" ref="index"/>
-    <file name="teacher.svg" crc="4082932980" ref="index"/>
-    <file name="teacher_poster_u1285.png" crc="3982329275" ref="index"/>
-    <file name="anrjopzghc8.jpg" crc="3913356113" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ka2dj2afduw.jpg" crc="482007460" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="10xnjbtjp7u.jpg" crc="473128284" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="index-favicon.ico" crc="377279354" ref="index"/>
   </folder>
   <file name="index.html" crc="3879633540" seo="true" mt="1501679627007" redirect="true"/>
 </manifest>
