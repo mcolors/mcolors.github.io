@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501690737362">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501760141921">
   <folder name="css">
     <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="3893308716" ref="index"/>
-    <file name="iefonts_index.css" crc="3918596826" ref="index"/>
+    <file name="index.css" crc="472729081" ref="index"/>
+    <file name="iefonts_index.css" crc="4123648389" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -15,7 +15,7 @@
     <file name="form_check.php" crc="4286608207" ref="index"/>
     <file name="form_throttle.php" crc="313199896" ref="index"/>
     <file name="form_process.php" crc="3855659497" ref="index"/>
-    <file name="form-u1184.php" crc="318563458" ref="index"/>
+    <file name="form-u1184.php" crc="3967797193" ref="index"/>
     <file name="musewpslideshow.js" crc="380562115" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
     <file name="touchswipe.js" crc="4228958816" ref="index"/>
@@ -25,6 +25,7 @@
     <file name="form-u1729.php" crc="3791335483" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="85721165" ref="index"/>
+    <file name="form-u2018.php" crc="536316331" ref="index"/>
   </folder>
   <folder name="images">
     <file name="index-favicon.ico" crc="377279354" ref="index"/>
@@ -42,13 +43,9 @@
     </file>
     <file name="6608_0-u553-fr.png" crc="4197414960" ref="index"/>
     <file name="checklist.svg" crc="424207776" ref="index"/>
-    <file name="checklist_poster_u1293.png" crc="4241946379" ref="index"/>
     <file name="mortarboard.svg" crc="247782795" ref="index"/>
-    <file name="mortarboard_poster_u1277.png" crc="147483425" ref="index"/>
     <file name="teacher.svg" crc="4082932980" ref="index"/>
-    <file name="teacher_poster_u1285.png" crc="3982329275" ref="index"/>
     <file name="certification.svg" crc="4062554679" ref="index"/>
-    <file name="certification_poster_u1327.png" crc="459707541" ref="index"/>
     <file name="вставленные-svg-135571x114.svg" crc="493745269" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -74,6 +71,10 @@
     <file name="instagram-logo_poster_u4290.png" crc="4139706987" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="checklist_poster_u1879.png" crc="4241946379" ref="index"/>
+    <file name="mortarboard_poster_u1859.png" crc="147483425" ref="index"/>
+    <file name="teacher_poster_u1866.png" crc="3982329275" ref="index"/>
+    <file name="certification_poster_u1872.png" crc="459707541" ref="index"/>
   </folder>
-  <file name="index.html" crc="3773278087" seo="true" mt="1501690716877" redirect="true"/>
+  <file name="index.html" crc="4200329906" seo="true" mt="1501760063055" redirect="true"/>
 </manifest>
