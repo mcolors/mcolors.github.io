@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501776492297">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501776895464">
   <folder name="css">
     <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="4115082050" ref="index"/>
+    <file name="index.css" crc="4085590832" ref="index"/>
     <file name="iefonts_index.css" crc="4038550264" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -85,9 +85,9 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="4_4xcdrbu5e-u553-fr.png" crc="277168273" ref="index"/>
-    <file name="telephone.png" crc="413824899" ref="index">
+    <file name="telephone.png" crc="293539099" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="76401953" seo="true" mt="1501776448429" redirect="true"/>
+  <file name="index.html" crc="72708728" seo="true" mt="1501776840163" redirect="true"/>
 </manifest>
