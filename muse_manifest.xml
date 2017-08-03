@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501760141921">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501776492297">
   <folder name="css">
     <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="472729081" ref="index"/>
-    <file name="iefonts_index.css" crc="4123648389" ref="index"/>
+    <file name="index.css" crc="4115082050" ref="index"/>
+    <file name="iefonts_index.css" crc="4038550264" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -25,7 +25,10 @@
     <file name="form-u1729.php" crc="3791335483" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="require.js" crc="85721165" ref="index"/>
-    <file name="form-u2018.php" crc="536316331" ref="index"/>
+    <file name="form-u2018.php" crc="145644978" ref="index"/>
+    <file name="form-u2781.php" crc="490452175" ref="index"/>
+    <file name="form-u2546.php" crc="287576827" ref="index"/>
+    <file name="form-u2976.php" crc="4143830867" ref="index"/>
   </folder>
   <folder name="images">
     <file name="index-favicon.ico" crc="377279354" ref="index"/>
@@ -41,7 +44,6 @@
     <file name="kvgqxzao25g.jpg" crc="3946634642" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="6608_0-u553-fr.png" crc="4197414960" ref="index"/>
     <file name="checklist.svg" crc="424207776" ref="index"/>
     <file name="mortarboard.svg" crc="247782795" ref="index"/>
     <file name="teacher.svg" crc="4082932980" ref="index"/>
@@ -75,6 +77,17 @@
     <file name="mortarboard_poster_u1859.png" crc="147483425" ref="index"/>
     <file name="teacher_poster_u1866.png" crc="3982329275" ref="index"/>
     <file name="certification_poster_u1872.png" crc="459707541" ref="index"/>
+    <file name="hyvpa-fl6vy.jpg" crc="315232588" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4_4xcdrbu5e-u2909-fr.jpg" crc="4065330066" ref="index"/>
+    <file name="hsdwf3yiny8.jpg" crc="460832541" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4_4xcdrbu5e-u553-fr.png" crc="277168273" ref="index"/>
+    <file name="telephone.png" crc="413824899" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4200329906" seo="true" mt="1501760063055" redirect="true"/>
+  <file name="index.html" crc="76401953" seo="true" mt="1501776448429" redirect="true"/>
 </manifest>
