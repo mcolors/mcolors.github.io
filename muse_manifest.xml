@@ -1,121 +1,282 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1501942456241">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mcolors.ru" resolutions="1x" timestamp="1502051577331">
   <folder name="css">
-    <file name="site_global.css" crc="3977661465"/>
-    <file name="index.css" crc="4242494831" ref="index"/>
-    <file name="iefonts_index.css" crc="201588967" ref="index"/>
+    <file name="site_global.css" crc="3781537592"/>
+    <file name="index.css" crc="472374478" ref="index"/>
+    <file name="iefonts_index.css" crc="3955520992" ref="index"/>
+    <file name="nomq_index.css" crc="4027495946" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
-    <file name="museutils.js" crc="46400467" ref="phone>index:index"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
-    <file name="museconfig.js" crc="436936948" ref="phone>index:index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="phone>index:index"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="phone>index:index"/>
-    <file name="webpro.js" crc="4152390327" ref="phone>index:index"/>
-    <file name="form_check.php" crc="4286608207" ref="phone>index"/>
-    <file name="form_throttle.php" crc="313199896" ref="phone>index"/>
-    <file name="form_process.php" crc="3855659497" ref="phone>index"/>
-    <file name="form-u6050.php" crc="388751560" ref="phone>index"/>
-    <file name="jquery.musemenu.js" crc="3936200140" ref="phone>index:index"/>
-    <file name="musewpslideshow.js" crc="380562115" ref="phone>index:index"/>
-    <file name="jquery.museoverlay.js" crc="3986278607" ref="phone>index:index"/>
-    <file name="touchswipe.js" crc="4228958816" ref="phone>index:index"/>
-    <file name="form-u6098.php" crc="53051544" ref="phone>index"/>
-    <file name="form-u6073.php" crc="117508356" ref="phone>index"/>
-    <file name="form-u6132.php" crc="62942240" ref="phone>index"/>
-    <file name="form-u6155.php" crc="3917334128" ref="phone>index"/>
-    <file name="form-u7177.php" crc="4145383526" ref="phone>index"/>
-    <file name="form-u7228.php" crc="296962432" ref="phone>index"/>
-    <file name="form-u6245.php" crc="3909600912" ref="phone>index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="phone>index:index"/>
-    <file name="require.js" crc="85721165" ref="phone>index:index"/>
-    <file name="form-u1184.php" crc="3773559588" ref="index"/>
-    <file name="form-u2018.php" crc="145644978" ref="index"/>
-    <file name="form-u2781.php" crc="4061297146" ref="index"/>
-    <file name="form-u2546.php" crc="287576827" ref="index"/>
-    <file name="form-u1459.php" crc="441836216" ref="index"/>
-    <file name="form-u1636.php" crc="155268212" ref="index"/>
-    <file name="form-u1729.php" crc="3791335483" ref="index"/>
-    <file name="form-u2976.php" crc="4143830867" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="46400467" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="436936948" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="index"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
+    <file name="webpro.js" crc="4152390327" ref="index"/>
+    <file name="form_check.php" crc="4286608207" ref="index"/>
+    <file name="form_throttle.php" crc="313199896" ref="index"/>
+    <file name="form_process.php" crc="3855659497" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3936200140" ref="index"/>
+    <file name="musewpslideshow.js" crc="380562115" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3986278607" ref="index"/>
+    <file name="touchswipe.js" crc="4228958816" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="85721165" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="52098982" ref="index"/>
+    <file name="form-u585.php" crc="255966028" ref="index"/>
+    <file name="form-u3962.php" crc="17962818" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="index-favicon.ico" crc="4278691581" ref="phone>index"/>
-    <file name="tower_bridge_from_shad_thames.jpg" crc="277344175" ref="phone>index:index">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="img_4865-01-08-17-08-28.jpg" crc="224736357" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kvgqxzao25g.jpg" crc="3804773126" seo="true" ref="phone>index:index">
+    <file name="безымянный-2.png" crc="4090489255" ref="index">
+      <caption webpage="index" alt="Записаться"/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="call-answer.png" crc="397780010" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="placeholder-filled-point.png" crc="3790292966" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="menu.png" crc="3820728526" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="hsdwf3yiny8.jpg" crc="460832541" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="4_4xcdrbu5e-u5992-fr.jpg" crc="4065330066" ref="phone>index:index"/>
-    <file name="hyvpa-fl6vy.jpg" crc="315232588" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="checklist.svg" crc="424207776" ref="phone>index:index"/>
-    <file name="checklist_poster_u1879.png" crc="4241946379" ref="phone>index:index"/>
-    <file name="mortarboard.svg" crc="247782795" ref="phone>index:index"/>
-    <file name="mortarboard_poster_u1859.png" crc="147483425" ref="phone>index:index"/>
-    <file name="teacher.svg" crc="4082932980" ref="phone>index:index"/>
-    <file name="teacher_poster_u1866.png" crc="3982329275" ref="phone>index:index"/>
-    <file name="certification.svg" crc="4062554679" ref="phone>index:index"/>
-    <file name="certification_poster_u1872.png" crc="459707541" ref="phone>index:index"/>
-    <file name="4_4xcdrbu5e-u5998-fr.png" crc="277168273" ref="phone>index:index"/>
-    <file name="anrjopzghc8-u6021-fr.jpg" crc="4217082344" ref="phone>index"/>
-    <file name="10xnjbtjp7u-u7151-fr.jpg" crc="418714042" ref="phone>index"/>
-    <file name="ka2dj2afduw-u7098-fr.jpg" crc="250592665" ref="phone>index"/>
-    <file name="telephone.png" crc="10706133" ref="phone>index:index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="icons3.svg" crc="218892366" ref="phone>index:index"/>
-    <file name="icons3_poster_u899.png" crc="290371160" ref="phone>index:index"/>
-    <file name="vk_poster_u4271-u6045-fr.png" crc="470359980" ref="phone>index"/>
-    <file name="icons4.svg" crc="137690327" ref="phone>index:index"/>
-    <file name="icons4_poster_u883.png" crc="3773274550" ref="phone>index:index"/>
-    <file name="instagram-logo_poster_u4290-u6044-fr.png" crc="337280994" ref="phone>index"/>
-    <file name="вставленные-svg-135571x114.svg" crc="493745269" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="вставленные svg 135571x114_poster_.png" crc="283017697" ref="index"/>
-    <file name="anrjopzghc8.jpg" crc="3913356113" ref="index">
+    <file name="безымянный-1.png" crc="525279671" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="ka2dj2afduw.jpg" crc="135883502" ref="index">
+    <file name="down-arrow1.png" crc="424682427" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="10xnjbtjp7u.jpg" crc="4154952861" ref="index">
+    <file name="down-arrow.png" crc="289269885" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="vk_poster_u4271.png" crc="3799844267" ref="index">
+    <file name="8zp8gwczwss.jpg" crc="245030893" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="instagram-logo_poster_u4290.png" crc="4139706987" ref="index">
+    <file name="things-your-hairstylist-wont-tell-you-cut-and-color.jpg" crc="227237263" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="roman-kraft-105792.jpg" crc="3855654287" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alexandru-zdrobau-84424.jpg" crc="76014698" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image_56621_cold.jpg" crc="532393235" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hair-dryer.png" crc="503582890" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="makeup.png" crc="3852363657" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4862-30-07-17-09-07.jpg" crc="150895431" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4851-30-07-17-01-14.jpg" crc="27018226" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4850-30-07-17-01-14.jpg" crc="4018045757" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4859-30-07-17-09-07.jpg" crc="16031874" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4856-30-07-17-09-08.jpg" crc="3821985565" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1.jpg" crc="391647809" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2.jpg" crc="319747378" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3.jpg" crc="402244071" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4.jpg" crc="3846058496" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5.jpg" crc="3804569633" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6.jpg" crc="164291318" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7.jpg" crc="68292853" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8.jpg" crc="212028597" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9.jpg" crc="4043001585" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="10.jpg" crc="3793601571" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="11.jpg" crc="4266358361" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="12.jpg" crc="258292715" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="back.png" crc="4169478525" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="next.png" crc="429298931" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное.jpg" crc="3946968458" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="безымянный-2-buttonu3958-r-fr.png" crc="479120971" ref="index"/>
+    <file name="безымянный-2-u3968-4-fr.png" crc="485493351" ref="index"/>
+    <file name="vk-social-network-logo.png" crc="4110957578" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram-logo.png" crc="464622719" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_4865-01-08-17-08-28-u576-fr.jpg" crc="3966286547" ref="index"/>
+    <file name="img_4865-01-08-17-08-28-u576-fr2.jpg" crc="4211485209" ref="index"/>
+    <file name="img_4865-01-08-17-08-28-u576-fr3.jpg" crc="185974666" ref="index"/>
+    <file name="8zp8gwczwss-u2747-fr.jpg" crc="3770200375" ref="index"/>
+    <file name="things-your-hairstylist-wont-tell-you-cut-and-color-u2063-fr.jpg" crc="4132572045" ref="index"/>
+    <file name="roman-kraft-105792-u2759-fr.jpg" crc="387235817" ref="index"/>
+    <file name="безымянный-2-buttonu2216-fr.png" crc="3893648069" ref="index"/>
+    <file name="alexandru-zdrobau-84424-u1173-fr.jpg" crc="4051571574" ref="index"/>
+    <file name="image_56621_cold-u2023-fr.jpg" crc="150455388" ref="index"/>
+    <file name="img_4862-30-07-17-09-07-u4082-fr.jpg" crc="4174936664" ref="index"/>
+    <file name="img_4851-30-07-17-01-14-u4079-fr.jpg" crc="3815018292" ref="index"/>
+    <file name="img_4850-30-07-17-01-14-u3923-fr.jpg" crc="272084859" ref="index"/>
+    <file name="img_4859-30-07-17-09-07-u4123-fr.jpg" crc="4124010567" ref="index"/>
+    <file name="img_4856-30-07-17-09-08-u4129-fr.jpg" crc="138924908" ref="index"/>
+    <file name="1-u2152-fr.jpg" crc="169577970" ref="index"/>
+    <file name="2-u2155-fr.jpg" crc="3788724668" ref="index"/>
+    <file name="3-u2163-fr.jpg" crc="4002774873" ref="index"/>
+    <file name="4-u2178-fr.jpg" crc="444315180" ref="index"/>
+    <file name="5-u2179-fr.jpg" crc="3941475009" ref="index"/>
+    <file name="6-u2180-fr.jpg" crc="3906532685" ref="index"/>
+    <file name="7-u3615-fr.jpg" crc="86160405" ref="index"/>
+    <file name="8-u3616-fr.jpg" crc="3805813465" ref="index"/>
+    <file name="9-u3617-fr.jpg" crc="488834760" ref="index"/>
+    <file name="10-u3636-fr.jpg" crc="4057694961" ref="index"/>
+    <file name="11-u3637-fr.jpg" crc="504679494" ref="index"/>
+    <file name="12-u3638-fr.jpg" crc="529221711" ref="index"/>
   </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="index.css" crc="260074154" ref="phone>index"/>
-      <file name="iefonts_index.css" crc="3978986984" ref="phone>index"/>
-    </folder>
-    <file name="index.html" crc="280916892" seo="true" mt="1501942445548" redirect="true"/>
-  </folder>
-  <file name="index.html" crc="4195893882" seo="true" mt="1501939446854" redirect="true"/>
+  <file name="index.html" crc="4053317098" seo="true" mt="1502051543037" redirect="true"/>
 </manifest>
