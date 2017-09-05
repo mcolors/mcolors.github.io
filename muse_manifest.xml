@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="m.com" resolutions="1x" timestamp="1504643532846">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="m.com" resolutions="1x" timestamp="1504643774227">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3887434182" ref="index"/>
+    <file name="index.css" crc="507038138" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
@@ -125,5 +125,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3863373434" seo="true" mt="1504643458604" redirect="true"/>
+  <file name="index.html" crc="203546004" seo="true" mt="1504643731296" redirect="true"/>
 </manifest>
