@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="m.com" resolutions="1x" timestamp="1504644509012">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="m.com" resolutions="1x" timestamp="1504644753974">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4110532257" ref="index"/>
+    <file name="index.css" crc="4292082500" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
@@ -29,7 +29,7 @@
     <file name="form-u2590.php" crc="4126827141" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="phone1.png" crc="366383493" ref="index">
+    <file name="phone1.png" crc="491746373" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="measuring-tape2.png" crc="4051390326" ref="index">
@@ -107,7 +107,7 @@
     <file name="tools.png" crc="4230555793" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dan-gold-220226.jpg" crc="4061473146" ref="index">
+    <file name="dan-gold-220226.jpg" crc="245746115" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="house-roof (1).png" crc="3821280238" ref="index">
@@ -124,5 +124,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3966079075" seo="true" mt="1504644488211" redirect="true"/>
+  <file name="index.html" crc="245590208" seo="true" mt="1504644731287" redirect="true"/>
 </manifest>
