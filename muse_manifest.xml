@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="m.com" resolutions="1x" timestamp="1505214195545">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="m.com" resolutions="1x" timestamp="1505222263413">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="280903178" ref="index"/>
+    <file name="index.css" crc="4264169034" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
@@ -22,11 +22,11 @@
     <file name="form_check.php" crc="4110044762" ref="index"/>
     <file name="form_throttle.php" crc="22190333" ref="index"/>
     <file name="form_process.php" crc="257545537" ref="index"/>
-    <file name="form-u166.php" crc="4072621867" ref="index"/>
-    <file name="form-u626.php" crc="3771858361" ref="index"/>
-    <file name="form-u1655.php" crc="163849731" ref="index"/>
+    <file name="form-u166.php" crc="453955206" ref="index"/>
+    <file name="form-u626.php" crc="4067462982" ref="index"/>
+    <file name="form-u1655.php" crc="3983198195" ref="index"/>
     <file name="require.js" crc="3861931657" ref="index"/>
-    <file name="form-u2590.php" crc="4126827141" ref="index"/>
+    <file name="form-u2590.php" crc="3984486932" ref="index"/>
   </folder>
   <folder name="images">
     <file name="phone1.png" crc="491746373" ref="index">
@@ -54,9 +54,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="stylish-modern-bathroom-design-9.jpg" crc="3966603018" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="без имени-1.jpg" crc="62784650" ref="index">
@@ -124,6 +121,15 @@
     <file name="безымянный-2.png" crc="515520193" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="remont-kvartiri-pod-kluch-v-krasnodare.jpg" crc="4133817450" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1432025919_5d03.jpg" crc="233122616" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sleep_010002.jpg" crc="258808032" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3761720188" seo="true" mt="1505214172246" redirect="true"/>
+  <file name="index.html" crc="3989340745" seo="true" mt="1505222229369" redirect="true"/>
 </manifest>

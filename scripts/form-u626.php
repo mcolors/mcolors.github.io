@@ -27,8 +27,8 @@ $form = array(
 		'unknown_method' => 'Неизвестный метод запроса сервера'
 	),
 	'email' => array(
-		'from' => 'mail@pricheskizhirnova.ru',
-		'to' => 'mail@pricheskizhirnova.ru'
+		'from' => 'kttronsibir@mail.ru',
+		'to' => 'kttronsibir@mail.ru'
 	),
 	'fields' => array(
 		'custom_U632' => array(
