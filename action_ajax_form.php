@@ -1,7 +1,7 @@
 <?php
 
     if(!isset($_POST['submitted'])) {
-        $to = "a.m.limonov@yandex.ru";
+        $to = "v628966@yandex.ru";
         $subject = "Заявка с сайта";
         $subject = "=?utf-8?B?".base64_encode($subject)."?=";
         $headers = "Content-type: text/html charset=utf-8\r\n";
