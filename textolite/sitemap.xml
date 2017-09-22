@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://123.ru/index.html</loc>
+    <lastmod>2017-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://123.ru/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/vk-social-network-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/instagram-logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20(2).png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/hours.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/min.png</image:loc>
+    </image:image>
+  </url>
+</urlset>

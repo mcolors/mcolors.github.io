@@ -1,0 +1,61 @@
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506104958332">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4204791060" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="17924269" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="278381782" ref="index"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="index"/>
+    <file name="webpro.js" crc="416662029" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3809204180" ref="index"/>
+    <file name="form_check.php" crc="4110044762" ref="index"/>
+    <file name="form_throttle.php" crc="22190333" ref="index"/>
+    <file name="form_process.php" crc="257545537" ref="index"/>
+    <file name="form-u860.php" crc="369172048" ref="index"/>
+    <file name="require.js" crc="3861931657" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="загруженное.png" crc="4189344029" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vk-social-network-logo.png" crc="355834023" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram-logo.png" crc="526943543" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (2).png" crc="475707729" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hours.png" crc="249071605" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="min.png" crc="4047689867" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное.jpg" crc="4273702859" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="transformlogo.jpg" crc="332699059" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (1).jpg" crc="10719709" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="condiition3.jpg" crc="4439017" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="condiition4.jpg" crc="59096458" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="загруженное (1)2.jpg" crc="536605187" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="295590230" seo="true" mt="1506104893950" redirect="true"/>
+</manifest>
