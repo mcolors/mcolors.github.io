@@ -1,365 +1,358 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="robots" content="none"/>
+<html class="nojs html css_verticalspacer" lang="ru-RU">
+ <head>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2017.1.0.379"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-
-    <link rel="stylesheet" href="/css/promo-page.css">
-    <link rel="stylesheet" href="/css/index.css">
-
-
-    <title>Хотите продать авто?</title>
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-</head>
-<body class="cd-notouch">
-
-<div class="site-wrapper">
-    <div class="site-pusher"></div>
-    <nav>
-        <div class="close-btn"></div>
-        <ul class="nav">
-        </ul>
-    </nav>
-    <header>
-        <div class="slider-wrapper no-video">
-            <ul class="slider" id="slider">
-                <li class="active">
-                    <div class="for-img">
-                    </div>
-                    <div class="slider__txt">
-                        <p>&nbsp;</p>
-
-                        <p style="margin: 0 0 20px;"><span style="font-size:40pt;"><strong><span style="line-height: 1;">Хотите продать автомобиль?</span></strong></span></p>
-
-                        <p>&nbsp;</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <style>
-
-            .formsteps__head-wr {
-                position: absolute;
-                bottom: 25%;
-                left: 50%;
-                min-width: 800px;
-                transform: translateX(-50%);
-            }
-            .slider {
-                min-height: 890px;
-                height: 100vh;
-            }
-            .formsteps__popup-close {
-                display: none;
-            }
-            @media all and (max-width: 1024px) {
-                .formsteps__head-wr {
-                    min-width: 0;
-                }
-                .slider {
-                    min-height: 980px;
-                }
-                .slider__txt {
-                    padding-top: 110px;
-                }
-            }
-        </style>
-
-        <div class="formsteps__head-wr">
-            <div class="formsteps" data-tpl="db:formsteps.tmp.lp-key.tpl" data-form_id="85641641">
-                <div class="formsteps__popup-close"></div>
-                <div class="formsteps__overlay formsteps__overlay--hidden">
-                    <p class="formsteps__number">
-                        <span class="js-formsteps__current">1</span> из <span class="js-formsteps__total">6</span>
-                    </p>
-                    <p class="formsteps__overlay-title">Идет обработка данных</p>
-                    <div class="formsteps__overlay-progress">
-                        <svg xmlns="//www.w3.org/2000/svg" version="1.1" width="100" height="64" viewBox="0 0 70 64">
-                            <circle class="bottom" cx="35" cy="32" r="27" stroke-width="3" fill="none"></circle>
-                            <circle class="top" cx="35" cy="32" r="27" stroke-width="3" fill="none"></circle>
-                            <path d="M 16 29, L30 44, 67 8" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="3"></path>
-                        </svg>
-                        <p class="formsteps__overlay-percent"><span>0</span></p>
-                    </div>
-                </div>
-                <div class="formsteps__progress">
-
-                    <ul class="formsteps__progress-line">
-                        <li class="formsteps__progress-item formsteps__progress-item--current"></li>
-                        <li class="formsteps__progress-item"></li>
-                        <li class="formsteps__progress-item"></li>
-                        <li class="formsteps__progress-item"></li>
-                        <li class="formsteps__progress-item"></li>
-                    </ul>
-                    <p class="formsteps__number">
-                        <span class="js-formsteps__current">1</span> из <span class="js-formsteps__total">6</span>
-                    </p>
-
-                </div>
-                <form method="post" id="outsource-application" action="javascript:void(0);" onsubmit="ajax()" class="formsteps__content">
-                    <p class="formsteps__title">УЗНАЙТЕ СТОИМОСТЬ ПРЯМО СЕЙЧАС</p>
-                    <ul class="formsteps__steps">
-                        <li class="formsteps__step formsteps__step--current">
-                            <p class="formsteps__head">
-                                Какую марку и модель автомобиля Вы хотите продать?
-                            </p>
-                            <div class="formsteps__inputs">
-                                <div class="label-wrap label-wrap--big">
-                                    <label class="formsteps__text-container">
-                                        <input type="text" maxlength="100" data-type="text" data-validator="text" class="formsteps__text" name="model" placeholder="Например, Volkswagen passat">
-                                    </label>
-                                </div>
-                            </div>
-
-                        </li>
-                        <li class="formsteps__step formsteps__step">
-                            <p class="formsteps__head">
-                                Какого года авто?
-                            </p>
-                            <div class="formsteps__inputs">
-                                <div class="label-wrap label-wrap--big">
-                                    <label class="formsteps__text-container">
-                                        <input type="text" maxlength="100" data-type="text" data-validator="text" class="formsteps__text" name="ear" placeholder="Например, 2006">
-                                    </label>
-                                </div>
-                            </div>
-
-                        </li>
-                        <li class="formsteps__step">
-                            <p class="formsteps__head">
-                                Какое состояние?
-                            </p>
-                            <div class="formsteps__inputs">
-                                <div class="label-wrap">
-                                    <label>
-                                        <input type="radio" name="sostoyanie" value="Хорошее" checked>
-                                        <span class="formsteps__radio"></span>
-                                        <span class="formsteps__radio-title">Хорошее</span>
-                                    </label>
-                                </div>
-
-                                <div class="label-wrap">
-                                    <label>
-                                        <input type="radio" name="sostoyanie" value="Среднее">
-                                        <span class="formsteps__radio"></span>
-                                        <span class="formsteps__radio-title">Среднее</span>
-                                    </label>
-                                </div>
-
-                                <div class="label-wrap">
-                                    <label>
-                                        <input type="radio" name="sostoyanie" value="Плохое">
-                                        <span class="formsteps__radio"></span>
-                                        <span class="formsteps__radio-title">Плохое</span>
-                                    </label>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="formsteps__step">
-                            <p class="formsteps__head">
-                                По какой цене Вы желаете продать автомобиль?
-                            </p>
-                            <div class="formsteps__inputs">
-                                <div class="label-wrap label-wrap--big">
-                                    <label class="formsteps__text-container">
-                                        <input type="text" maxlength="100" data-type="text" data-validator="text" class="formsteps__text" name="price" placeholder="Например, 530 000 руб.">
-                                    </label>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="formsteps__step">
-                            <p class="formsteps__head">
-                                На какой номер телефона сообщить стоимость? Услуга бесплатная.
-                            </p>
-                            <div class="formsteps__inputs">
-                                <div class="label-wrap">
-                                    <label class="js-required  formsteps__text-container">
-                                        <input type="text" maxlength="100" name="phone" placeholder="+7 (***) ***-**-**" class="formsteps__text" required="required">
-                                    </label>
-                                </div>
-                                <input type="submit" value="Узнать стоимость" class="formsteps__btn formsteps__btn--submit">
-
-                                <script src="/js/ajax.js"></script>
-
-                            </div>
-                            <div id="results" class="js-final formsteps__final formsteps__final--hidden">
-                                <p class="formsteps__head">
-                                    Спасибо за обращение!
-                                </p>
-                                <p class="formsteps__thanks">Мы сообщим Вам стоимость в ближайшее время!</p>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <div class="formsteps__controls">
-                        <a href="javascript:void(0);" class="js-formsteps-btn formsteps__btn formsteps__btn--whole formsteps__btn--disabled">Назад</a
-                        ><a href="javascript:void(0);" class="js-formsteps-btn formsteps__btn">Дальше</a>
-                    </div>
-                </form>
-            </div>	    	</div>
-        <div class="header__top">
-            <div class="phones-popup">
-                <div class="s3-popup__close"></div>
-                <div class="phones-popup__title">Наши телефоны</div>
-
-                <div class="phones-popup__number">8 (922) 652 89 66</div>
-                <div class="phones-popup__text">v628966@yandex.ru</div>
-
-            </div>
-            <div class="header__left">
-                <div  class="logo">
-                    <p>Логотип</p>
-                    <img src="/img/logo.png" height="34" width="172" alt="">
-                </div>
-            </div>
-
-
-            <div class="top-phones">
-                <a href="tel:89226528966">8 (922) 652 89 66</a>
-            </div>
-            <div class="header__helper">
-                <div class="header__right">
-                    <a href="#" class="phones-btn"><span>Контакты</span></a>
-                    <div class="phones">
-                        <div class="phones__item">
-                            <strong>8 (922) 652 89 66</strong>
-                            v628966@yandex.ru
-                        </div>
-                    </div>
-                </div>
-                <div class="header__middle">
-                    <div class="header__line"></div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <style>
-        .ny-sale {
-            height: 170px;
-            position: relative;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 3;
-            font-size: 0;
-            line-height: 0;
-            background: #203895;
-        }
-
-        .ny-sale img {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-            -o-transform: translateX(-50%);
-            transform: translateX(-50%);
-            max-width: 2560px;
-        }
-    </style>
-</div>
-
-<div class="promo-popup promo-popup--thx promo-popup--hidden">
-    <div class="promo-popup__content">
-        <div class="promo-popup__close"></div>
-        <p class="promo-popup__title">
-            Спасибо! <br>
-            С&nbsp;вами свяжется наш менеджер в&nbsp;течение 10-15 минут
-        </p>
-        <p class="promo-popup__subtitle">
-            Отдел продаж работает с понедельника по пятницу с 9:00 до 18:00 (по Мск.).
-        </p>
-    </div>
-</div>
-
-
-<!--script src="/g/jquery/jquery-1.10.2.min.js"></script-->
-<script src="/js/slick.min.js"></script>
-
-<script src="/js/retina.min.js"></script>
-<script src="/js/jquery.inputmask.bundle.min.js"></script>
-
-<script src="/js/form-steps.js"></script>
-
-
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpdisclosure.js", "require.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <title>Домашняя</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4204791060" id="pagesheet"/>
+  <!-- JS includes -->
+  <script src="https://use.typekit.net/ik/rICNXnVYeJhL5B0mCwew1HBhHfkrpUecGKJzVN0QgFCfeT3gfFfw13bPH26t5Q6UwRyLwR4KZ2yq5e4cjQ4qjhjtwes8wc4qjcjUjhm8ZewaZcw-eKG0wQJDO14uO2IkwkokiPUaiaS0wQJDO14uJ6y3ifuDZW4TZKJ4Zc8kjPuDjAoDH6qJkqCbMg6IJMI7f6Rin3IbMs62JMI7f6RZn3IbMs6IJMI7f6Rpn3IbMs6FJMBHgIuuShAbMie08StB.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+    <!--HTML Widget code-->
+  
 <style>
-    .formsteps-popup {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        padding: 10px;
-        z-index: 200;
-        display:-ms-flexbox;display:flex;
-        vertical-align: middle;
-        background-color: rgba(0,0,0,0.5);
-        box-sizing: border-box;
-    }
-    .site-wrapper {
-        position: relative;
-        z-index: 1
-    }
-    .formsteps-popup--hidden {
-        display: none;
-    }
-    .formsteps {
-        margin: 0 auto;
-    }
-    .code-input {display: none;}
-
-
-    @media (max-width: 834px) {
-        .formsteps__head-wr {
-            min-width: fit-content;
-        }
-
-        #slider > li > div.slider__txt > p:nth-child(3) > span {
-            font-size: 45px !important;
-        }
-
-        #slider > li > div.slider__txt > p:nth-child(2) > span {
-            font-size: 45px !important;
-        }
-    }
-
-    @media (max-width: 780px) {
-        #slider > li > div.slider__txt > p:nth-child(3) > span {
-            font-size: 36px !important;
-        }
-
-        #slider > li > div.slider__txt > p:nth-child(2) > span {
-            font-size: 36px !important;
-        }
-    }
-
-    @media (max-width: 615px) {
-        #slider > li > div.slider__txt > p:nth-child(3) > span {
-            font-size: 26px !important;
-        }
-        .formsteps__head-wr {
-            min-width: 0;
-            width: 98%;
-        }
-        .formsteps {
-            display: block;
-            max-height: none;
-        }
-    }
+    #u246 {top:-3333px;}
+    .q {border-top-left-radius:0px 0px; border-top-right-radius:0px 0px; border-bottom-right-radius:0px 0px; border-bottom-left-radius:0px 0px; -webkit-border-top-left-radius: 0px 0px; -webkit-border-top-right-radius:0px 0px; -webkit-border-bottom-right-radius:0px 0px; -webkit-border-bottom-left-radius:0px 0px; -o-transform:skewX(0deg) skewY(-1deg); -moz-transform:skewX(0deg) skewY(-1deg); -webkit-transform:skewX(0deg) skewY(-1deg); transform:skewX(0deg) skewY(-1deg);}
+    .w {border-top-left-radius:0px 0px; border-top-right-radius:0px 0px; border-bottom-right-radius:0px 0px; border-bottom-left-radius:0px 0px; -webkit-border-top-left-radius: 0px 0px; -webkit-border-top-right-radius:0px 0px; -webkit-border-bottom-right-radius:0px 0px; -webkit-border-bottom-left-radius:0px 0px; -o-transform:skewX(0deg) skewY(1deg); -moz-transform:skewX(0deg) skewY(1deg); -webkit-transform:skewX(0deg) skewY(1deg); transform:skewX(0deg) skewY(1deg);}
 </style>
 
+<style>
+    #u596 {top:-3333px;}
+    .e {border-top-left-radius:0px 0px; border-top-right-radius:0px 0px; border-bottom-right-radius:0px 0px; border-bottom-left-radius:0px 0px; -webkit-border-top-left-radius: 0px 0px; -webkit-border-top-right-radius:0px 0px; -webkit-border-bottom-right-radius:0px 0px; -webkit-border-bottom-left-radius:0px 0px; -o-transform:skewX(0deg) skewY(-1deg); -moz-transform:skewX(0deg) skewY(-1deg); -webkit-transform:skewX(0deg) skewY(-1deg); transform:skewX(0deg) skewY(-1deg);}
+    .r {border-top-left-radius:0px 0px; border-top-right-radius:0px 0px; border-bottom-right-radius:0px 0px; border-bottom-left-radius:0px 0px; -webkit-border-top-left-radius: 0px 0px; -webkit-border-top-right-radius:0px 0px; -webkit-border-bottom-right-radius:0px 0px; -webkit-border-bottom-left-radius:0px 0px; -o-transform:skewX(0deg) skewY(1deg); -moz-transform:skewX(0deg) skewY(1deg); -webkit-transform:skewX(0deg) skewY(1deg); transform:skewX(0deg) skewY(1deg);}
+</style>
 
-</body>
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu164"><!-- column -->
+     <div class="browser_width colelem" id="u164-bw">
+      <div id="u164"><!-- group -->
+       <div class="clearfix" id="u164_align_to_page">
+        <div class="clearfix grpelem" id="pbuttonu97"><!-- column -->
+         <div class="Button rounded-corners clearfix colelem" id="buttonu97"><!-- container box -->
+          <div class="clearfix grpelem" id="u98-4"><!-- content -->
+           <p>ЗАПИСАТЬСЯ</p>
+          </div>
+         </div>
+         <a class="anchor_item colelem" id="h"></a>
+        </div>
+        <div class="clearfix grpelem" id="ppbuttonu116"><!-- column -->
+         <div class="clearfix colelem" id="pbuttonu116"><!-- group -->
+          <a class="nonblock nontext Button anim_swing rounded-corners clearfix grpelem" id="buttonu116" href="index.html#h"><!-- container box --><div class="clearfix grpelem" id="u117-4"><!-- content --><p>САЛОН</p></div></a>
+          <a class="nonblock nontext Button anim_swing rounded-corners clearfix grpelem" id="buttonu131" href="index.html#u"><!-- container box --><div class="clearfix grpelem" id="u132-4"><!-- content --><p>УСЛУГИ</p></div></a>
+          <div class="Button rounded-corners clearfix grpelem" id="buttonu143"><!-- container box -->
+           <div class="clearfix grpelem" id="u144-4"><!-- content -->
+            <p>КОНТАКТЫ</p>
+           </div>
+          </div>
+          <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu155" href="tel:+7%20800%20555%2035%2035"><!-- container box --><div class="clearfix grpelem" id="u156-4"><!-- content --><p>+7 999 511 10 99</p></div></a>
+         </div>
+         <div class="clearfix colelem" id="pu227-4"><!-- group -->
+          <div class="clearfix grpelem" id="u227-4"><!-- content -->
+           <p>8&nbsp; 6</p>
+          </div>
+          <div class="clip_frame grpelem" id="u175"><!-- image -->
+           <img class="block" id="u175_img" src="images/%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b6%d0%b5%d0%bd%d0%bd%d0%be%d0%b5.png?crc=4189344029" alt="" width="492" height="576"/>
+          </div>
+          <div class="clearfix grpelem" id="u219-4"><!-- content -->
+           <p>Gee Beauty</p>
+          </div>
+         </div>
+        </div>
+        <div class="clip_frame grpelem" id="u197"><!-- image -->
+         <img class="block" id="u197_img" src="images/vk-social-network-logo.png?crc=355834023" alt="" width="27" height="27"/>
+        </div>
+        <div class="clip_frame grpelem" id="u207"><!-- image -->
+         <img class="block" id="u207_img" src="images/instagram-logo.png?crc=526943543" alt="" width="26" height="26"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width colelem" id="u234-bw">
+      <div id="u234"><!-- group -->
+       <div class="clearfix" id="u234_align_to_page">
+        <div class="clearfix grpelem" id="u237-4"><!-- content -->
+         <p>«Gree Beauty» открывает свои двери только для представительниц прекрасного пола. Отдохните и расслабьтесь от повседневной суеты, окунутесь в атмосферу роскоши и почувствуйте себя настоящей принцессой.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u1049-4"><!-- content -->
+      <p>STYLE</p>
+     </div>
+     <div class="clearfix colelem" id="ppu1052-4"><!-- group -->
+      <div class="clearfix grpelem" id="pu1052-4"><!-- column -->
+       <div class="clearfix colelem" id="u1052-4"><!-- content -->
+        <p>«Gree Beauty» - это место, куда женщины приходят с надеждами на позитивные улучшения и за чудесными преображениями.</p>
+       </div>
+       <div class="clearfix colelem" id="u1061-4"><!-- content -->
+        <p>BEAUTY</p>
+       </div>
+       <div class="clearfix colelem" id="u1064-4"><!-- content -->
+        <p>Доступная роскошь, уход, натуральность, здоровье и красот по привлекательным ценам.</p>
+       </div>
+       <div class="clearfix colelem" id="u1073-4"><!-- content -->
+        <p>PARTY</p>
+       </div>
+       <div class="clearfix colelem" id="u1076-4"><!-- content -->
+        <p>Наша студия красоты, это не просто место, куда приходят за преображением, это клуб по интересам, где Вы можете провести девичник, устроить сборы невесты и ее подружек, а так же поболтать с подругой за бокалом шампанского.</p>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u1099"><!-- group -->
+       <div class="clearfix grpelem" id="pu1039"><!-- group -->
+        <div class="clip_frame grpelem" id="u1039"><!-- image -->
+         <img class="block" id="u1039_img" src="images/%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b6%d0%b5%d0%bd%d0%bd%d0%be%d0%b5%20(2).png?crc=475707729" alt="" width="492" height="493"/>
+        </div>
+        <div class="clip_frame grpelem" id="u1079"><!-- image -->
+         <img class="block" id="u1079_img" src="images/hours.png?crc=249071605" alt="" width="22" height="107"/>
+        </div>
+        <div class="clip_frame grpelem" id="u1089" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.342,M12=0.9397,M21=-0.9397,M22=-0.342,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-61" data-mu-ie-matrix-dy="35"><!-- image -->
+         <img class="block" id="u1089_img" src="images/min.png?crc=4047689867" alt="" width="30" height="150"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu260"><!-- group -->
+      <div class="browser_width grpelem" id="u260-bw">
+       <div class="w" id="u260"><!-- group -->
+        <div class="clearfix" id="u260_align_to_page">
+         <div class="museBGSize size_fixed grpelem" id="u246"><!-- custom html -->
+          
+
+
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem" id="u243-bw">
+       <div id="u243"><!-- group -->
+        <div class="clearfix" id="u243_align_to_page">
+         <a class="anchor_item grpelem" id="u"></a>
+         <div class="clearfix grpelem" id="u240-4"><!-- content -->
+          <p>УСЛУГИ</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu428"><!-- group -->
+      <div class="browser_width grpelem" id="u428-bw">
+       <div class="q" id="u428"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem" id="u439-bw">
+       <div id="u439"><!-- group -->
+        <div class="clearfix" id="u439_align_to_page">
+         <div class="clearfix grpelem" id="pu293-4"><!-- column -->
+          <div class="clearfix colelem" id="u293-4"><!-- content -->
+           <p>НОГТЕВОЙ СЕРВИС</p>
+          </div>
+          <div class="clearfix colelem" id="u299-6"><!-- content -->
+           <p>Ногтевой сервис оказывают мастера высокого уровня, используя стерильные инструменты, индивидуальные пилки и пуфы. Основные линейки стойких покрытий удивительных оттенков представлены брендами:</p>
+           <p>CND, Christina Fitzgerald, EVO, Smith and Cult.</p>
+          </div>
+          <ul class="AccordionWidget clearfix colelem" id="accordionu302"><!-- vertical box -->
+           <li class="AccordionPanel clearfix colelem" id="u303"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u306-4"><!-- content --><p>+ Маникюр</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u304"><!-- group --><div class="clearfix grpelem" id="u305-22"><!-- content --><p>Маникюр классический</p><p><br/>Маникюр аппаратный</p><p><br/>Маникюр европейский (не обрезной)</p><p>&nbsp;</p><p>Маникюр Christina Fitzgerald</p><p>&nbsp;</p><p>Маникюр Alessandro</p><p>&nbsp;</p><p>Экспресс маникюр</p><p>&nbsp;</p><p>Ремонт одного ногтя гелем</p></div><div class="clearfix grpelem" id="u406-22"><!-- content --><p>1600</p><p>&nbsp;</p><p>1900</p><p>&nbsp;</p><p>1700</p><p>&nbsp;</p><p>2300</p><p>&nbsp;</p><p>2000<br/><br/>900<br/><br/>300</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u311"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u312-4"><!-- content --><p>+ Педикюр</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u313"><!-- group --><div class="clearfix grpelem" id="u410-16"><!-- content --><p>Педикюр классический</p><p>&nbsp;</p><p>Педикюр комбинированный</p><p>&nbsp;</p><p>Педикюр аппаратный</p><p>&nbsp;</p><p>Педикюр Christina Fitzgerald</p><p>&nbsp;</p><p>Педикюр Alessandro</p></div><div class="clearfix grpelem" id="u411-16"><!-- content --><p>2700р</p><p>&nbsp;</p><p>2900р</p><p>&nbsp;</p><p>3000р</p><p>&nbsp;</p><p>3500р</p><p>&nbsp;</p><p>3100р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u307"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u308-4"><!-- content --><p>+ Цвет</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u309"><!-- group --><div class="clearfix grpelem" id="u416-28"><!-- content --><p>Покрытие лаком CF</p><p>&nbsp;</p><p>Покрытие лаком Smith &amp; Cult</p><p>&nbsp;</p><p>Покрытие гель лаком CND</p><p>&nbsp;</p><p>Покрытие кислородным лаком EVO</p><p>&nbsp;</p><p>Френч\ Лунный</p><p>&nbsp;</p><p>Дизайн простой</p><p>&nbsp;</p><p>Дизайн сложный</p><p>&nbsp;</p><p>Снятие гель-лака</p><p>&nbsp;</p><p>Бережное снятие EVO</p></div><div class="clearfix grpelem" id="u417-28"><!-- content --><p>700р</p><p>&nbsp;</p><p>900р</p><p>&nbsp;</p><p>1600р</p><p>&nbsp;</p><p>2300р</p><p>&nbsp;</p><p>800р</p><p>&nbsp;</p><p>100р</p><p>&nbsp;</p><p>400р</p><p>&nbsp;</p><p>400р</p><p>&nbsp;</p><p>1200р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u366"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u369-4"><!-- content --><p>+ Дополнительно</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u367"><!-- group --><div class="clearfix grpelem" id="u422-13"><!-- content --><p>Удаление натоптыша</p><p>&nbsp;</p><p>Обработка мазоли</p><p>&nbsp;</p><p>Работа с вросшим ногтем</p><p>&nbsp;</p><p>Работа с диабетической стопой</p></div><div class="clearfix grpelem" id="u423-13"><!-- content --><p>300р</p><p>&nbsp;</p><p>300р</p><p>&nbsp;</p><p>500р</p><p>&nbsp;</p><p>500р</p></div></div></li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu583"><!-- group -->
+      <div class="browser_width grpelem" id="u583-bw">
+       <div class="e" id="u583"><!-- group -->
+        <div class="clearfix" id="u583_align_to_page">
+         <div class="museBGSize size_fixed grpelem" id="u596"><!-- custom html -->
+          
+
+
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem" id="u604-bw">
+       <div id="u604"><!-- group -->
+        <div class="clearfix" id="u604_align_to_page">
+         <div class="clearfix grpelem" id="pu511-4"><!-- column -->
+          <div class="clearfix colelem" id="u511-4"><!-- content -->
+           <p>ПАРИКМАХЕРСКИЕ УСЛУГИ</p>
+          </div>
+          <div class="clearfix colelem" id="u514-4"><!-- content -->
+           <p>Весь спектр парикмахерских услуг - это придание волосам формы и цвета, укладки любой сложности, эффективное восстановление по всей длине и многое другое. В команде нашего салона работают исключительно ТОП-стилисты на проверенных брендах.</p>
+          </div>
+          <ul class="AccordionWidget clearfix colelem" id="accordionu517"><!-- vertical box -->
+           <li class="AccordionPanel clearfix colelem" id="u533"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u534-4"><!-- content --><p>+ Форма</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u535"><!-- group --><div class="clearfix grpelem" id="u537-16"><!-- content --><p>Стрижка женская и сушка</p><p>&nbsp;</p><p>Коррекция стрижки</p><p>&nbsp;</p><p>Стрижка мужская</p><p>&nbsp;</p><p>Стрижка машинкой</p><p>&nbsp;</p><p>Стрижка детская</p></div><div class="clearfix grpelem" id="u536-16"><!-- content --><p>4000р</p><p>&nbsp;</p><p>2500р</p><p>&nbsp;</p><p>2800р</p><p>&nbsp;</p><p>200р</p><p>&nbsp;</p><p>1200р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u528"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u529-4"><!-- content --><p>+ Стиль</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u530"><!-- group --><div class="clearfix grpelem" id="u532-19"><!-- content --><p>Экспресс укладка (15мин)</p><p>&nbsp;</p><p>Простая укладка</p><p>&nbsp;</p><p>Сложная укладка</p><p>&nbsp;</p><p>Вечерний образ</p><p>&nbsp;</p><p>Свадебная прическа</p><p>&nbsp;</p><p>Репетиция свадебной прически</p></div><div class="clearfix grpelem" id="u531-19"><!-- content --><p>2300р</p><p>&nbsp;</p><p>3000р</p><p>&nbsp;</p><p>3600р</p><p>&nbsp;</p><p>4000р</p><p>&nbsp;</p><p>5500р</p><p>&nbsp;</p><p>2500р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u518"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u519-4"><!-- content --><p>+ Уходы</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u520"><!-- group --><div class="clearfix grpelem" id="u522-16"><!-- content --><p>Здоровая эстетика от ElioKap</p><p>&nbsp;</p><p>Восстановление волос и кожи головы ElioKap</p><p>&nbsp;</p><p>Био окрашивание ElioKap короткие волосы</p><p>&nbsp;</p><p>Био окрашивание ElioKap длинные волосы</p><p>&nbsp;</p><p>Уход Kevin Murphy по типу волос</p></div><div class="clearfix grpelem" id="u521-19"><!-- content --><p>2800р</p><p>&nbsp;</p><p>3700р</p><p>&nbsp;</p><p>&nbsp;</p><p>2600р</p><p>&nbsp;</p><p>&nbsp;</p><p>600р</p><p>&nbsp;</p><p>&nbsp;</p><p>200р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u523"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u524-4"><!-- content --><p>+ Цвет KYDRA</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u525"><!-- group --><div class="clearfix grpelem" id="u526-52"><!-- content --><p>Окрашивание корней</p><p>&nbsp;</p><p>Окрашивание классическое</p><p>&nbsp;</p><p>Персональный цвет</p><p>&nbsp;</p><p>Эксклюзивный цвет</p><p>&nbsp;</p><p>Авторский цвет</p><p>&nbsp;</p><p>Тонировние</p><p>&nbsp;</p><p>Блондирование классическое</p><p>&nbsp;</p><p>Персональное блондирование</p><p>&nbsp;</p><p>Эксклюзивный блонд</p><p>&nbsp;</p><p>Авторсий блонд</p><p>&nbsp;</p><p>Тонирование &quot;Вуаль&quot;</p><p>&nbsp;</p><p>Тонирование &quot;Глянец&quot;</p><p>&nbsp;</p><p>Блики солнца</p><p>&nbsp;</p><p>Kydra Nature Классическое окрашивание</p><p>&nbsp;</p><p>Kydra Nature Персональный цвет</p><p>&nbsp;</p><p>Kydra Nature Эксклюзивный цвет</p><p>&nbsp;</p><p>Kydra Nature Авторский цвет</p></div><div class="clearfix grpelem" id="u527-52"><!-- content --><p>4000р</p><p>&nbsp;</p><p>5500р</p><p>&nbsp;</p><p>7800р</p><p>&nbsp;</p><p>10000р</p><p>&nbsp;</p><p>12500р</p><p>&nbsp;</p><p>3500р</p><p>&nbsp;</p><p>6500р</p><p>&nbsp;</p><p>8400р</p><p>&nbsp;</p><p>11600р</p><p>&nbsp;</p><p>13200р</p><p>&nbsp;</p><p>3600р</p><p>&nbsp;</p><p>4000р</p><p>&nbsp;</p><p>3400р</p><p>&nbsp;</p><p>7800р</p><p>&nbsp;</p><p>11900р</p><p>&nbsp;</p><p>&nbsp;14300р</p><p>&nbsp;</p><p>15800р</p></div></div></li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu748"><!-- group -->
+      <div class="browser_width grpelem" id="u748-bw">
+       <div class="r" id="u748"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem" id="u762-bw">
+       <div id="u762"><!-- group -->
+        <div class="clearfix" id="u762_align_to_page">
+         <div class="clearfix grpelem" id="pu676-4"><!-- column -->
+          <div class="clearfix colelem" id="u676-4"><!-- content -->
+           <p>КОСМЕТОЛОГИЯ</p>
+          </div>
+          <div class="clearfix colelem" id="u679-4"><!-- content -->
+           <p>Полезная косметология - это поддержание природной красоты и улучшение внешних данных. Эффективный уход за собой основан на грамотном подборе средств и квалификации косметолога. Наши специалисты составят индивидуальную программу, проведя предварительный анализ вашей кожи. В Erwin Beauty мы применяем новейшие технологии для максимального результата, благодаря использованию достижений микромалекулятной косметологии.</p>
+          </div>
+          <ul class="AccordionWidget clearfix colelem" id="accordionu682"><!-- vertical box -->
+           <li class="AccordionPanel clearfix colelem" id="u683"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u687-4"><!-- content --><p>+ Аппаратная</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u684"><!-- group --><div class="clearfix grpelem" id="u685-19"><!-- content --><p>Чистка Ультазвуковая + dermalogica</p><p>&nbsp;</p><p>Чистка Ультазвуковая</p><p>&nbsp;</p><p>Алмазная микродермобразия лицо</p><p>&nbsp;</p><p>Алмазная микродермобразия лицо и шея</p><p>&nbsp;</p><p>Алмазная микродермобразия лицо, шея и декольте</p><p>&nbsp;</p><p>Ультрафонофорез</p></div><div class="clearfix grpelem" id="u686-21"><!-- content --><p>4500р</p><p>&nbsp;</p><p>2500р</p><p>&nbsp;</p><p>3200р</p><p>&nbsp;</p><p>4800р</p><p>&nbsp;</p><p>&nbsp;</p><p>6400р</p><p>&nbsp;</p><p>&nbsp;</p><p>1400р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u698"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u702-4"><!-- content --><p>+ BABOR</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u699"><!-- group --><div class="clearfix grpelem" id="u700-46"><!-- content --><p>Уход ЧИСТЫЙ КИСЛОРОД</p><p>&nbsp;</p><p>Уход УСПОКАИВАЮЩАЯ НЕЖНОСТЬ</p><p>&nbsp;</p><p>Уход СИЯНИЕ КРАСОТЫ</p><p>&nbsp;</p><p>Уход КОМПЛЕКСС</p><p>&nbsp;</p><p>Уход ЗОЛОТО МАРОККО</p><p>&nbsp;</p><p>Уход Золото Марокко</p><p>&nbsp;</p><p>Уход ТРОЙНОЙ ЭФФЕКТ</p><p>&nbsp;</p><p>Уход Брызги шампанского</p><p>&nbsp;</p><p>УХОД ЭКСПРЕСС-ЛИФТИНГ</p><p>&nbsp;</p><p>Уход Гранатовый Браслет</p><p>&nbsp;</p><p>УХОД ЛИФТИНГ 3D</p><p>&nbsp;</p><p>Уход HSR Лифтинг-Эксперт</p><p>&nbsp;</p><p>Уход HSR Интегральный Лифтинг</p><p>&nbsp;</p><p>Уход HSR Лифтинг-Эксперт с индивидуальным набором</p><p>&nbsp;</p><p>Уход HSR Интегральный Лифтинг с индивидуальным набором</p></div><div class="clearfix grpelem" id="u701-47"><!-- content --><p>4200р</p><p>&nbsp;</p><p>5500р</p><p>&nbsp;</p><p>5500р</p><p>&nbsp;</p><p>5500р</p><p>&nbsp;</p><p>5600р</p><p>&nbsp;</p><p>5600р</p><p>&nbsp;</p><p>6000р</p><p>&nbsp;</p><p>6000р</p><p>&nbsp;</p><p>6400р</p><p>&nbsp;</p><p>7000р</p><p>&nbsp;</p><p>7500р</p><p>&nbsp;</p><p>7500р</p><p>&nbsp;</p><p>7500р</p><p>&nbsp;</p><p>8500р</p><p>&nbsp;</p><p>&nbsp;</p><p>8500р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u688"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u692-4"><!-- content --><p>+ DERMALOGICA</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u689"><!-- group --><div class="clearfix grpelem" id="u691-16"><!-- content --><p>MicroZone</p><p>&nbsp;</p><p>Dermalogica процедура по состоянию кожи 60мин</p><p>&nbsp;</p><p>Dermalogica процедура по состоянию кожи 75мин</p><p>&nbsp;</p><p>Dermalogica процедура направленного действия 60мин</p><p>&nbsp;</p><p>Dermalogica процедура направленного действия 75мин</p></div><div class="clearfix grpelem" id="u690-19"><!-- content --><p>2000р</p><p>&nbsp;</p><p>5000р</p><p>&nbsp;</p><p>&nbsp;</p><p>6000р</p><p>&nbsp;</p><p>&nbsp;</p><p>5200р</p><p>&nbsp;</p><p>&nbsp;</p><p>6200р</p></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u693"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u694-4"><!-- content --><p>+ РУЧНЫЕ МЕТОДИКИ</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u695"><!-- group --><div class="clearfix grpelem" id="u696-10"><!-- content --><p>Механическая чистка</p><p>&nbsp;</p><p>Массаж лица лимфодренажный</p><p>&nbsp;</p><p>Массаж лица миофасциальный</p></div><div class="clearfix grpelem" id="u697-3"><!-- content --><p>&nbsp;</p></div></div></li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u765-4"><!-- content -->
+      <p>УСЛУГИ ВИЗАЖИСТА</p>
+     </div>
+     <div class="clearfix colelem" id="u768-6"><!-- content -->
+      <p>Наш makeup – тонкий, достаточно легкий или неординарный и смелый.</p>
+      <p>Ваша суть должна быть дополнена, а не изменена. Творческий подход визажистов Erwin Beauty призван выявить самое лучшее в вас, с аккуратными рекомендациями и индивидуальными уроками по нанесению макияжа. Услуги свадебного мэйка также доступны в нашем салоне, как и мэйк для специальных мероприятий и вечеринок.</p>
+     </div>
+     <ul class="AccordionWidget clearfix colelem" id="accordionu771"><!-- vertical box -->
+      <li class="AccordionPanel clearfix colelem" id="u772"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u776-4"><!-- content --><p>+ МАКИЯЖ</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u773"><!-- group --><div class="clearfix grpelem" id="u774-16"><!-- content --><p>Макияж - акцент</p><p>&nbsp;</p><p>Дневной макияж</p><p>&nbsp;</p><p>Вечерний макияж</p><p>&nbsp;</p><p>Свадебный макияж</p><p>&nbsp;</p><p>Ресницы (пучки)</p></div><div class="clearfix grpelem" id="u775-16"><!-- content --><p>2500р</p><p>&nbsp;</p><p>3200р</p><p>&nbsp;</p><p>4500р</p><p>&nbsp;</p><p>5500р</p><p>&nbsp;</p><p>500р</p></div></div></li>
+      <li class="AccordionPanel clearfix colelem" id="u787"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u788-4"><!-- content --><p>+ НАРАЩИВАНИЕ РЕСНИЦ</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u789"><!-- group --><div class="clearfix grpelem" id="u791-19"><!-- content --><p>Наращивание ресниц</p><p>&nbsp;</p><p>Наращивание ресниц 2d</p><p>&nbsp;</p><p>Наращивание ресниц 3d</p><p>&nbsp;</p><p>Наращивание ресниц частичное (уголки)</p><p>&nbsp;</p><p>Коррекция наращивания</p><p>&nbsp;</p><p>Снятие ресниц</p></div><div class="clearfix grpelem" id="u790-20"><!-- content --><p>4000р</p><p>&nbsp;</p><p>4500р</p><p>&nbsp;</p><p>5800р</p><p>&nbsp;</p><p>3000р</p><p>&nbsp;</p><p>&nbsp;</p><p>3000р</p><p>&nbsp;</p><p>800р</p></div></div></li>
+      <li class="AccordionPanel clearfix colelem" id="u782"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u786-4"><!-- content --><p>+ BROW BEAUTY HD</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u783"><!-- group --><div class="clearfix grpelem" id="u785-13"><!-- content --><p>Архитектура бровей</p><p>&nbsp;</p><p>Коррекция формы</p><p>&nbsp;</p><p>Окрашивание бровей</p><p>&nbsp;</p><p>Окрашивание ресниц</p></div><div class="clearfix grpelem" id="u784-13"><!-- content --><p>2000р</p><p>&nbsp;</p><p>1500р</p><p>&nbsp;</p><p>1500р</p><p>&nbsp;</p><p>1500р</p></div></div></li>
+     </ul>
+     <div class="clearfix colelem" id="pu1036"><!-- group -->
+      <div class="clearfix grpelem" id="u1036"><!-- group -->
+       <div class="clearfix grpelem" id="pu1102-4"><!-- column -->
+        <div class="clearfix colelem" id="u1102-4"><!-- content -->
+         <p>КОНТАКТЫ</p>
+        </div>
+        <div class="clearfix colelem" id="u1108-4"><!-- content -->
+         <p>&nbsp;Сургут, ул. 50 лет ВЛКСМ, 6а</p>
+        </div>
+        <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu1114" href="tel:+7%20800%20555%2035%2035"><!-- container box --><div class="clearfix grpelem" id="u1115-4"><!-- content --><p>+7 999 511 10 99</p></div></a>
+        <div class="clearfix colelem" id="u1126-4"><!-- content -->
+         <p>info@erwinbeauty.com</p>
+        </div>
+       </div>
+      </div>
+      <div class="grpelem" id="u1031"><!-- custom html -->
+       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4dc52a144ece5f95bf676d75e14cc4e56b90f858a114bc77c4123a5ec73ded48&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>
+      </div>
+     </div>
+     <div class="browser_width colelem" id="u837-bw">
+      <div id="u837"><!-- group -->
+       <div class="clearfix" id="u837_align_to_page">
+        <div class="clearfix grpelem" id="pu857-4"><!-- column -->
+         <div class="clearfix colelem" id="u857-4"><!-- content -->
+          <p>Заполните эту форму, и наш администратор свяжется с вами в удобное время!</p>
+         </div>
+         <form class="form-grp clearfix colelem" id="widgetu860" method="post" enctype="multipart/form-data" action="scripts/form-u860.php"><!-- none box -->
+          <div class="fld-grp clearfix grpelem" id="widgetu866" data-required="true"><!-- none box -->
+           <label class="fld-label actAsDiv clearfix grpelem" id="u868-3" for="widgetu866_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+           <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u869-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu866_input" name="custom_U866" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu866_prompt" for="widgetu866_input"><span class="actAsPara">Ваше имя</span></label></span>
+          </div>
+          <div class="fld-grp clearfix grpelem" id="widgetu870" data-required="true" data-type="email"><!-- none box -->
+           <label class="fld-label actAsDiv clearfix grpelem" id="u872-3" for="widgetu870_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+           <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u873-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu870_input" name="Email" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu870_prompt" for="widgetu870_input"><span class="actAsPara">Email</span></label></span>
+          </div>
+          <div class="clearfix grpelem" id="u875-4"><!-- content -->
+           <p>…</p>
+          </div>
+          <div class="clearfix grpelem" id="u861-4"><!-- content -->
+           <p>На сервере произошла ошибка.</p>
+          </div>
+          <div class="clearfix grpelem" id="u876-4"><!-- content -->
+           <p>Мы скоро с Вами свяжемся!</p>
+          </div>
+          <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u874-4" type="submit" value="ЗАПИСАТЬСЯ" tabindex="7"><!-- content -->
+           <div style="margin-top:-19px;height:19px;">
+            <p>ЗАПИСАТЬСЯ</p>
+           </div>
+          </button>
+          <div class="fld-grp clearfix grpelem" id="widgetu862" data-required="false"><!-- none box -->
+           <label class="fld-label actAsDiv clearfix grpelem" id="u864-3" for="widgetu862_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+           <span class="fld-textarea actAsDiv clearfix grpelem" id="u865-4"><!-- content --><textarea class="wrapped-input" id="widgetu862_input" name="custom_U862" tabindex="6"></textarea><label class="wrapped-input fld-prompt" id="widgetu862_prompt" for="widgetu862_input"><span class="actAsPara">На какие услуги хотите записаться?</span></label></span>
+          </div>
+          <div class="fld-grp clearfix grpelem" id="widgetu913" data-required="true"><!-- none box -->
+           <label class="fld-label actAsDiv clearfix grpelem" id="u914-3" for="widgetu913_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+           <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u915-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu913_input" name="custom_U913" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu913_prompt" for="widgetu913_input"><span class="actAsPara">Ваш телефон</span></label></span>
+          </div>
+          <div class="fld-grp clearfix grpelem" id="widgetu930" data-required="true"><!-- none box -->
+           <label class="fld-label actAsDiv clearfix grpelem" id="u931-3" for="widgetu930_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+           <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u932-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu930_input" name="custom_U930" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu930_prompt" for="widgetu930_input"><span class="actAsPara">Дата</span></label></span>
+          </div>
+          <div class="fld-grp clearfix grpelem" id="widgetu950" data-required="true"><!-- none box -->
+           <label class="fld-label actAsDiv clearfix grpelem" id="u951-3" for="widgetu950_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
+           <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u952-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu950_input" name="custom_U950" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu950_prompt" for="widgetu950_input"><span class="actAsPara">Время</span></label></span>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="5572" data-content-above-spacer="5571" data-content-below-spacer="0"></div>
+   </div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpdisclosure"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#accordionu302', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu302 */
+Muse.Utils.initWidget('#accordionu517', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu517 */
+Muse.Utils.initWidget('#accordionu682', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu682 */
+Muse.Utils.initWidget('#accordionu771', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu771 */
+Muse.Utils.initWidget('#widgetu860', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu860 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=3861931657" type="text/javascript" async data-main="scripts/museconfig.js?crc=278381782" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
 </html>
