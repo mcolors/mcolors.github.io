@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506107935190">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506108537217">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3887162132" ref="index"/>
+    <file name="index.css" crc="114138753" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasansregular.woff" crc="334820634"/>
@@ -65,5 +65,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="516166124" seo="true" mt="1506107924548" redirect="true"/>
+  <file name="index.html" crc="3938035384" seo="true" mt="1506108514666" redirect="true"/>
 </manifest>
