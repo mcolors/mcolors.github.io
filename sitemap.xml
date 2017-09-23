@@ -6,9 +6,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://123.ru/images/_________.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://123.ru/images/car-with-wrench.png</image:loc>
     </image:image>
     <image:image>
@@ -34,6 +31,9 @@
     </image:image>
     <image:image>
       <image:loc>http://123.ru/images/mann-filter-logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/gfdk.png</image:loc>
     </image:image>
   </url>
 </urlset>
