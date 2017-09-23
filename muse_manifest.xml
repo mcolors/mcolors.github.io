@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506179981170">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506180077754">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3991146530" ref="index"/>
+    <file name="index.css" crc="3825228463" ref="index"/>
     <file name="iefonts_index.css" crc="75812443" ref="index"/>
   </folder>
   <folder name="fonts">
@@ -128,5 +128,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="15109313" seo="true" mt="1506179968472" redirect="true"/>
+  <file name="index.html" crc="3830264964" seo="true" mt="1506180040363" redirect="true"/>
 </manifest>
