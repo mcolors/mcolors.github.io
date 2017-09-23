@@ -31,35 +31,8 @@ $form = array(
 		'to' => 'airminorcorp@gmail.com'
 	),
 	'fields' => array(
-		'custom_U866' => array(
-			'order' => 2,
-			'type' => 'string',
-			'label' => 'Пользовательский текст:',
-			'required' => true,
-			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
-			)
-		),
-		'Email' => array(
+		'custom_U1361' => array(
 			'order' => 1,
-			'type' => 'email',
-			'label' => 'Пользовательский текст:',
-			'required' => true,
-			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.',
-				'format' => 'Поле \'Пользовательский текст:\' содержит недействительное сообщение эл. почты.'
-			)
-		),
-		'custom_U862' => array(
-			'order' => 6,
-			'type' => 'string',
-			'label' => 'Пользовательский текст:',
-			'required' => false,
-			'errors' => array(
-			)
-		),
-		'custom_U913' => array(
-			'order' => 4,
 			'type' => 'string',
 			'label' => 'Пользовательский текст:',
 			'required' => true,
@@ -67,17 +40,8 @@ $form = array(
 				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
 			)
 		),
-		'custom_U930' => array(
-			'order' => 5,
-			'type' => 'string',
-			'label' => 'Пользовательский текст:',
-			'required' => true,
-			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
-			)
-		),
-		'custom_U950' => array(
-			'order' => 3,
+		'custom_U1412' => array(
+			'order' => 2,
 			'type' => 'string',
 			'label' => 'Пользовательский текст:',
 			'required' => true,
