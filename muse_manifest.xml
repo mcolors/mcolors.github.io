@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506442499776">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506445369398">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3764884879" ref="index"/>
-    <file name="nomq_index.css" crc="324283230" ref="index"/>
+    <file name="index.css" crc="228032930" ref="index"/>
+    <file name="nomq_index.css" crc="4019624625" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasanslight.woff" crc="4038868557"/>
@@ -30,6 +30,10 @@
     <file name="form-u860.php" crc="369172048" ref="index"/>
     <file name="jquery.museresponsive.js" crc="4267800278" ref="index"/>
     <file name="require.js" crc="3861931657" ref="index"/>
+    <file name="form-u1915.php" crc="4240029725" ref="index"/>
+    <file name="musewpslideshow.js" crc="4034900702" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="528673841" ref="index"/>
+    <file name="touchswipe.js" crc="432264157" ref="index"/>
   </folder>
   <folder name="images">
     <file name="загруженное.png" crc="4189344029" seo="true" ref="index">
@@ -83,5 +87,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="339547595" seo="true" mt="1506442479222" redirect="true"/>
+  <file name="index.html" crc="123306720" seo="true" mt="1506445154463" redirect="true"/>
 </manifest>

@@ -11,19 +11,24 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpdisclosure.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "musewpdisclosure.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Домашняя</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3764884879" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=228032930" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=324283230" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4019624625" id="nomq_pagesheet"/>
   <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
   <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/-fFTWWmdIPWbKEiSh1Lf7F23f2ABfx8ZFMVf_wcE8VtfeTMgfFfw13bPH26t5Q6UwRyLwR4KZ2yq5e4cjQ4qjhjtwes8wc4qjcjUjhm8ZewaZcw-eKG0wQJDO14uO2IkwkokiPUaiaS0wQJDO14uJ68c-W4yOWFyd1wKfYgXOWF8Sc8cH6GJh-vgIMMjgfMgH6GJa-vgIMMjMkMgH6qJkqCbMs6IJMBHgIuuShAbMjVE7StB.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/roboto:n4,i4:all.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/AOZR_7K3xDty766cvgmkF2NS76WuXFeFEkk4LwrcYibfeTMgfFfw13bPH26t5Q6UwRyLwR4KZ2yq5e4cjQ4qjhjtwes8wc4qjcjUjhm8ZewaZcw-eKG0wQJDO14uO2IkwkokiPUaiaS0wQJDO14uJ68c-W4yOWFyd1wKfYgXOWF8Sc8cH6GJh-vgIMMjgfMgH6GJa-vgIMMjMkMgH6qJkqCbMs6IJMBHgIuuShAbMdKb7CtB.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -113,10 +118,55 @@ document.body.style.overflow = 'visible';
       <div class="browser_width colelem" id="u164-bw">
        <div id="u164"><!-- group -->
         <div class="clearfix" id="u164_align_to_page">
-         <div class="clearfix grpelem" id="pbuttonu97"><!-- column -->
-          <div class="Button rounded-corners clearfix colelem shared_content" id="buttonu97" data-content-guid="buttonu97_content"><!-- container box -->
-           <div class="clearfix grpelem" id="u98-4"><!-- content -->
-            <p>ЗАПИСАТЬСЯ</p>
+         <div class="clearfix grpelem" id="ppamphletu1842"><!-- column -->
+          <div class="PamphletWidget clearfix widget_invisible colelem" id="pamphletu1842" data-islightbox="true"><!-- none box -->
+           <div class="ThumbGroup clearfix grpelem" id="u1850"><!-- none box -->
+            <div class="popup_anchor" id="u1852popup">
+             <div class="Thumb popup_element clearfix" id="u1852"><!-- group -->
+              <div class="Button rounded-corners clearfix grpelem shared_content" id="buttonu97" data-content-guid="buttonu97_content"><!-- container box -->
+               <div class="clearfix grpelem" id="u98-4"><!-- content -->
+                <p>ЗАПИСАТЬСЯ</p>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor" id="u1843popup" data-lightbox="true">
+            <div class="ContainerGroup rgba-background clearfix" id="u1843"><!-- stack box -->
+             <div class="Container clearfix grpelem" id="u1848"><!-- group -->
+              <form class="form-grp clearfix grpelem" id="widgetu1915" method="post" enctype="multipart/form-data" action="scripts/form-u1915.php"><!-- none box -->
+               <div class="fld-grp clearfix grpelem" id="widgetu1921" data-required="true"><!-- none box -->
+                <label class="fld-label actAsDiv clearfix grpelem" id="u1922-3" for="widgetu1921_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u1922-3_0_content">&nbsp;</span></label>
+                <span class="fld-input NoWrap actAsDiv rgba-background rounded-corners clearfix grpelem" id="u1923-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu1921_input" name="custom_U1921" tabindex="1" data-content-guid="widgetu1921_input_content"/><label class="wrapped-input fld-prompt" id="widgetu1921_prompt" for="widgetu1921_input"><span class="actAsPara shared_content" data-content-guid="widgetu1921_prompt_0_content">Введите имя</span></label></span>
+               </div>
+               <div class="clearfix grpelem" id="u1931-4"><!-- content -->
+                <p class="shared_content" data-content-guid="u1931-4_0_content">Отправка формы…</p>
+               </div>
+               <div class="clearfix grpelem" id="u1916-4"><!-- content -->
+                <p class="shared_content" data-content-guid="u1916-4_0_content">На сервере произошла ошибка.</p>
+               </div>
+               <div class="clearfix grpelem" id="u1925-4"><!-- content -->
+                <p class="shared_content" data-content-guid="u1925-4_0_content">Форма получена.</p>
+               </div>
+               <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u1930-4" type="submit" value="Отправить" tabindex="3"><!-- content -->
+                <div style="margin-top:-12px;height:12px;" class="shared_content" data-content-guid="u1930-4_0_content">
+                 <p>Отправить</p>
+                </div>
+               </button>
+               <div class="fld-grp clearfix grpelem" id="widgetu1917" data-required="true"><!-- none box -->
+                <label class="fld-label actAsDiv clearfix grpelem" id="u1919-3" for="widgetu1917_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u1919-3_0_content">&nbsp;</span></label>
+                <span class="fld-input NoWrap actAsDiv rgba-background rounded-corners clearfix grpelem" id="u1920-4"><!-- content --><input class="wrapped-input shared_content" type="tel" spellcheck="false" id="widgetu1917_input" name="custom_U1917" tabindex="2" data-content-guid="widgetu1917_input_content"/><label class="wrapped-input fld-prompt" id="widgetu1917_prompt" for="widgetu1917_input"><span class="actAsPara shared_content" data-content-guid="widgetu1917_prompt_0_content">Введите номер телефона</span></label></span>
+               </div>
+              </form>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor" id="u1854popup">
+            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u1854"><!-- group -->
+             <div class="clearfix grpelem shared_content" id="u2014-4" data-content-guid="u2014-4_content"><!-- content -->
+              <p>X</p>
+             </div>
+            </div>
            </div>
           </div>
           <a class="anchor_item colelem shared_content" id="h" data-content-guid="h_content"></a>
@@ -132,14 +182,14 @@ document.body.style.overflow = 'visible';
            </div>
            <a class="nonblock nontext Button rounded-corners clearfix grpelem shared_content" id="buttonu155" href="tel:+7%20800%20555%2035%2035" data-content-guid="buttonu155_content"><!-- container box --><div class="clearfix grpelem" id="u156-4"><!-- content --><p>+7 999 511 10 99</p></div></a>
           </div>
-          <div class="clearfix colelem shared_content" id="pu175" data-content-guid="pu175_content"><!-- group -->
-           <div class="clip_frame grpelem" id="u175"><!-- image -->
+          <div class="clearfix colelem" id="pu175"><!-- group -->
+           <div class="clip_frame grpelem shared_content" id="u175" data-content-guid="u175_content"><!-- image -->
             <img class="block temp_no_img_src" id="u175_img" data-orig-src="images/%d0%b7%d0%b0%d0%b3%d1%80%d1%83%d0%b6%d0%b5%d0%bd%d0%bd%d0%be%d0%b5.png?crc=4189344029" alt="" width="492" height="576" src="images/blank.gif?crc=4208392903"/>
            </div>
-           <div class="clearfix grpelem" id="u219-4"><!-- content -->
+           <div class="clearfix grpelem shared_content" id="u219-4" data-content-guid="u219-4_content"><!-- content -->
             <p>Gee Beauty</p>
            </div>
-           <div class="size_fixed grpelem" id="u1487"><!-- custom html -->
+           <div class="size_fixed grpelem shared_content" id="u1487" data-content-guid="u1487_content"><!-- custom html -->
             
 
 
@@ -240,6 +290,31 @@ document.body.style.overflow = 'visible';
         </div>
        </div>
       </div>
+      <div class="clearfix colelem" id="pu583"><!-- group -->
+       <div class="browser_width grpelem shared_content" id="u583-bw" data-content-guid="u583-bw_content">
+        <div class="e" id="u583"><!-- simple frame --></div>
+       </div>
+       <div class="browser_width grpelem" id="u604-bw">
+        <div id="u604"><!-- group -->
+         <div class="clearfix" id="u604_align_to_page">
+          <div class="clearfix grpelem" id="pu511-4"><!-- column -->
+           <div class="clearfix colelem shared_content" id="u511-4" data-content-guid="u511-4_content"><!-- content -->
+            <p>ПАРИКМАХЕРСКИЕ УСЛУГИ</p>
+           </div>
+           <div class="clearfix colelem shared_content" id="u514-4" data-content-guid="u514-4_content"><!-- content -->
+            <p>Весь спектр парикмахерских услуг - это придание волосам формы и цвета, укладки любой сложности, эффективное восстановление по всей длине и многое другое. Наши специалисты постоянно проходят обучение у известных стилистов. Мы работаем на проверенных брендах: Z. One Concept, L'Oreal.</p>
+           </div>
+           <ul class="AccordionWidget clearfix colelem" id="accordionu517"><!-- vertical box -->
+            <li class="AccordionPanel clearfix colelem" id="u533"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u534-4"><!-- content --><p class="shared_content" data-content-guid="u534-4_0_content">+ Укладки</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u535"><!-- group --><div class="clearfix grpelem shared_content" id="pu1183-4" data-content-guid="pu1183-4_content"><!-- column --><div class="clearfix colelem" id="u1183-4"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu537-13"><!-- group --><div class="clearfix grpelem" id="u537-13"><!-- content --><p>Укладка брашинг</p><p>&nbsp;</p><p>Коктейльная укладка</p><p>&nbsp;</p><p>Вечерняя укладка</p><p>&nbsp;</p><p>Плетение простое</p></div><div class="clearfix grpelem" id="u1267-17"><!-- content --><p id="u1267-2">Короткие</p><p id="u1267-3">&nbsp;</p><p id="u1267-4">&nbsp;</p><p id="u1267-6">800р</p><p id="u1267-7">&nbsp;</p><p id="u1267-9">1100р</p><p id="u1267-10">&nbsp;</p><p id="u1267-12">1300р</p><p id="u1267-13">&nbsp;</p><p id="u1267-15">2800р</p></div><div class="clearfix grpelem" id="u1219-18"><!-- content --><p id="u1219-2">Средние</p><p id="u1219-3">&nbsp;</p><p id="u1219-4">&nbsp;</p><p id="u1219-6">1100р</p><p id="u1219-7">&nbsp;</p><p id="u1219-9">1300р</p><p id="u1219-10">&nbsp;</p><p id="u1219-13"><span id="u1219-11">от</span> 2000р</p><p id="u1219-14">&nbsp;</p><p id="u1219-16">300р</p></div><div class="clearfix grpelem" id="u1213-18"><!-- content --><p id="u1213-2">Длинные</p><p id="u1213-3">&nbsp;</p><p id="u1213-4">&nbsp;</p><p id="u1213-6">1300р</p><p id="u1213-7">&nbsp;</p><p id="u1213-9">1500р</p><p id="u1213-10">&nbsp;</p><p id="u1213-13"><span id="u1213-11">от</span> 2500р</p><p id="u1213-14">&nbsp;</p><p id="u1213-16">3200р</p></div><div class="clearfix grpelem" id="pu1273-4"><!-- column --><div class="clearfix colelem" id="u1273-4"><!-- content --><p>Очень длинные</p></div><div class="clearfix colelem" id="u536-15"><!-- content --><p>&nbsp;</p><p>1500р</p><p>&nbsp;</p><p>1800р</p><p>&nbsp;</p><p><span id="u536-8">от </span>3500р</p><p>&nbsp;</p><p>3400р</p></div></div></div></div></div></li>
+            <li class="AccordionPanel clearfix colelem" id="u528"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u529-4"><!-- content --><p class="shared_content" data-content-guid="u529-4_0_content">+ Стрижки</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u530"><!-- group --><div class="clearfix grpelem" id="pu1277-4"><!-- column --><div class="clearfix colelem shared_content" id="u1277-4" data-content-guid="u1277-4_content"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu1276-18"><!-- group --><div class="clearfix grpelem shared_content" id="u1276-18" data-content-guid="u1276-18_content"><!-- content --><p>Моделирование челки</p><p>&nbsp;</p><p>Баланс периметра</p><p>&nbsp;</p><p>Стрижка классическая</p><p>&nbsp;</p><p>Стрижка детская</p><p>(до 8 лет)</p><p>&nbsp;</p><p>Hair Tatoo</p></div><div class="clearfix grpelem shared_content" id="u1278-14" data-content-guid="u1278-14_content"><!-- content --><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>2500р</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1279-4" data-content-guid="u1279-4_content"><!-- content --><p>Очень длинные</p></div><div class="clearfix grpelem shared_content" id="u1280-18" data-content-guid="u1280-18_content"><!-- content --><p id="u1280-2">Длинные</p><p id="u1280-3">&nbsp;</p><p id="u1280-4">&nbsp;</p><p id="u1280-5">&nbsp;</p><p id="u1280-6">&nbsp;</p><p id="u1280-7">&nbsp;</p><p id="u1280-8">&nbsp;</p><p id="u1280-9">&nbsp;</p><p id="u1280-11">2000р</p><p id="u1280-12">&nbsp;</p><p id="u1280-13">&nbsp;</p><p id="u1280-14">&nbsp;</p><p id="u1280-15">&nbsp;</p><p id="u1280-16">&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1281-18" data-content-guid="u1281-18_content"><!-- content --><p id="u1281-2">Средние</p><p id="u1281-3">&nbsp;</p><p id="u1281-4">&nbsp;</p><p id="u1281-5">&nbsp;</p><p id="u1281-6">&nbsp;</p><p id="u1281-7">&nbsp;</p><p id="u1281-8">&nbsp;</p><p id="u1281-9">&nbsp;</p><p id="u1281-11">1700р</p><p id="u1281-12">&nbsp;</p><p id="u1281-13">&nbsp;</p><p id="u1281-14">&nbsp;</p><p id="u1281-15">&nbsp;</p><p id="u1281-16">&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1282-18" data-content-guid="u1282-18_content"><!-- content --><p id="u1282-2">Короткие</p><p id="u1282-3">&nbsp;</p><p id="u1282-4">&nbsp;</p><p id="u1282-5">&nbsp;</p><p id="u1282-6">&nbsp;</p><p id="u1282-7">&nbsp;</p><p id="u1282-8">&nbsp;</p><p id="u1282-9">&nbsp;</p><p id="u1282-11">1500р</p><p id="u1282-12">&nbsp;</p><p id="u1282-13">&nbsp;</p><p id="u1282-14">&nbsp;</p><p id="u1282-15">&nbsp;</p><p id="u1282-16">&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1794-4" data-content-guid="u1794-4_content"><!-- content --><p>800р</p></div><div class="clearfix grpelem shared_content" id="u1816-4" data-content-guid="u1816-4_content"><!-- content --><p>800р</p></div><div class="clearfix grpelem shared_content" id="u1822-4" data-content-guid="u1822-4_content"><!-- content --><p>500-1500p</p></div><div class="clearfix grpelem shared_content" id="u1832-4" data-content-guid="u1832-4_content"><!-- content --><p>500р</p></div></div></div></div></li>
+            <li class="AccordionPanel clearfix colelem" id="u1325"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1334-4"><!-- content --><p class="shared_content" data-content-guid="u1334-4_0_content">+ Окрашивание (бренд «Z.One concept»)</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1326"><!-- group --><div class="clearfix grpelem" id="pu1349-4"><!-- column --><div class="clearfix colelem shared_content" id="u1349-4" data-content-guid="u1349-4_content"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu1348-19"><!-- group --><div class="clearfix grpelem shared_content" id="u1348-19" data-content-guid="u1348-19_content"><!-- content --><p>Окрашивание в 1 тон</p><p>&nbsp;</p><p>Сложное окрашивание</p><p>&nbsp;</p><p>Обесцвечивание</p><p>&nbsp;</p><p>Мелирование</p><p>&nbsp;</p><p>Декапирование</p><p>&nbsp;</p><p>Осветление 1-й пряди</p></div><div class="clearfix grpelem" id="ppu1354-21"><!-- column --><div class="clearfix colelem" id="pu1354-21"><!-- group --><div class="clearfix grpelem shared_content" id="u1354-21" data-content-guid="u1354-21_content"><!-- content --><p id="u1354-2">Короткие</p><p id="u1354-3">&nbsp;</p><p id="u1354-4">&nbsp;</p><p id="u1354-6">3000р</p><p id="u1354-7">&nbsp;</p><p id="u1354-8">&nbsp;</p><p id="u1354-10">4800р</p><p id="u1354-11">&nbsp;</p><p id="u1354-13">3100р</p><p id="u1354-14">&nbsp;</p><p id="u1354-16">3600р</p><p id="u1354-17">&nbsp;</p><p id="u1354-19">2800р</p></div><div class="clearfix grpelem shared_content" id="u1353-21" data-content-guid="u1353-21_content"><!-- content --><p id="u1353-2">Средние</p><p id="u1353-3">&nbsp;</p><p id="u1353-4">&nbsp;</p><p id="u1353-6">3500р</p><p id="u1353-7">&nbsp;</p><p id="u1353-8">&nbsp;</p><p id="u1353-10">5500р</p><p id="u1353-11">&nbsp;</p><p id="u1353-13">3500р</p><p id="u1353-14">&nbsp;</p><p id="u1353-16">3900р</p><p id="u1353-17">&nbsp;</p><p id="u1353-19">3000р</p></div><div class="clearfix grpelem shared_content" id="u1352-21" data-content-guid="u1352-21_content"><!-- content --><p id="u1352-2">Длинные</p><p id="u1352-3">&nbsp;</p><p id="u1352-4">&nbsp;</p><p id="u1352-6">4000р</p><p id="u1352-7">&nbsp;</p><p id="u1352-8">&nbsp;</p><p id="u1352-10">6800р</p><p id="u1352-11">&nbsp;</p><p id="u1352-13">3900р</p><p id="u1352-14">&nbsp;</p><p id="u1352-16">4200р</p><p id="u1352-17">&nbsp;</p><p id="u1352-19">3200р</p></div><div class="clearfix grpelem shared_content" id="pu1351-4" data-content-guid="pu1351-4_content"><!-- column --><div class="clearfix colelem" id="u1351-4"><!-- content --><p>Очень длинные</p></div><div class="clearfix colelem" id="u1350-18"><!-- content --><p>&nbsp;</p><p>4800р</p><p>&nbsp;</p><p>&nbsp;</p><p>8100р</p><p>&nbsp;</p><p>4300р</p><p>&nbsp;</p><p>4500р</p><p>&nbsp;</p><p>3400р</p></div></div></div><div class="clearfix colelem shared_content" id="u1771-4" data-content-guid="u1771-4_content"><!-- content --><p>500р</p></div></div></div></div></div></li>
+            <li class="AccordionPanel clearfix colelem" id="u1369"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1370-4"><!-- content --><p class="shared_content" data-content-guid="u1370-4_0_content">+ Окрашивание (бренд «L`Oreal»)</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1371"><!-- group --><div class="clearfix grpelem" id="pu1393-4"><!-- column --><div class="clearfix colelem shared_content" id="u1393-4" data-content-guid="u1393-4_content"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu1392-19"><!-- group --><div class="clearfix grpelem shared_content" id="u1392-19" data-content-guid="u1392-19_content"><!-- content --><p>Окрашивание в 1 тон</p><p>&nbsp;</p><p>Сложное окрашивание</p><p>&nbsp;</p><p>Обесцвечивание</p><p>&nbsp;</p><p>Мелирование</p><p>&nbsp;</p><p>Декапирование</p><p>&nbsp;</p><p>Осветление 1-й пряди</p></div><div class="clearfix grpelem" id="ppu1398-21"><!-- column --><div class="clearfix colelem" id="pu1398-21"><!-- group --><div class="clearfix grpelem shared_content" id="u1398-21" data-content-guid="u1398-21_content"><!-- content --><p id="u1398-2">Короткие</p><p id="u1398-3">&nbsp;</p><p id="u1398-4">&nbsp;</p><p id="u1398-6">3000р</p><p id="u1398-7">&nbsp;</p><p id="u1398-8">&nbsp;</p><p id="u1398-10">4800р</p><p id="u1398-11">&nbsp;</p><p id="u1398-13">3100р</p><p id="u1398-14">&nbsp;</p><p id="u1398-16">3600р</p><p id="u1398-17">&nbsp;</p><p id="u1398-19">2800р</p></div><div class="clearfix grpelem shared_content" id="u1397-21" data-content-guid="u1397-21_content"><!-- content --><p id="u1397-2">Средние</p><p id="u1397-3">&nbsp;</p><p id="u1397-4">&nbsp;</p><p id="u1397-6">3500р</p><p id="u1397-7">&nbsp;</p><p id="u1397-8">&nbsp;</p><p id="u1397-10">5500р</p><p id="u1397-11">&nbsp;</p><p id="u1397-13">3500р</p><p id="u1397-14">&nbsp;</p><p id="u1397-16">3900р</p><p id="u1397-17">&nbsp;</p><p id="u1397-19">3000р</p></div><div class="clearfix grpelem shared_content" id="u1396-21" data-content-guid="u1396-21_content"><!-- content --><p id="u1396-2">Длинные</p><p id="u1396-3">&nbsp;</p><p id="u1396-4">&nbsp;</p><p id="u1396-6">4000р</p><p id="u1396-7">&nbsp;</p><p id="u1396-8">&nbsp;</p><p id="u1396-10">6800р</p><p id="u1396-11">&nbsp;</p><p id="u1396-13">3900р</p><p id="u1396-14">&nbsp;</p><p id="u1396-16">4200р</p><p id="u1396-17">&nbsp;</p><p id="u1396-19">3200р</p></div><div class="clearfix grpelem shared_content" id="pu1395-4" data-content-guid="pu1395-4_content"><!-- column --><div class="clearfix colelem" id="u1395-4"><!-- content --><p>Очень длинные</p></div><div class="clearfix colelem" id="u1394-18"><!-- content --><p>&nbsp;</p><p>4800р</p><p>&nbsp;</p><p>&nbsp;</p><p>8100р</p><p>&nbsp;</p><p>4300р</p><p>&nbsp;</p><p>4500р</p><p>&nbsp;</p><p>3400р</p></div></div></div><div class="clearfix colelem shared_content" id="u1777-4" data-content-guid="u1777-4_content"><!-- content --><p>500р</p></div></div></div></div></div></li>
+           </ul>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
       <div class="clearfix colelem" id="pu748"><!-- group -->
        <div class="browser_width grpelem shared_content" id="u748-bw" data-content-guid="u748-bw_content">
         <div class="r" id="u748"><!-- group -->
@@ -277,29 +352,6 @@ document.body.style.overflow = 'visible';
          </div>
         </div>
        </div>
-       <div class="browser_width grpelem shared_content" id="u583-bw" data-content-guid="u583-bw_content">
-        <div class="e" id="u583"><!-- simple frame --></div>
-       </div>
-       <div class="browser_width grpelem shared_content" id="u604-bw" data-content-guid="u604-bw_content">
-        <div id="u604"><!-- group -->
-         <div class="clearfix" id="u604_align_to_page">
-          <div class="clearfix grpelem" id="pu511-4"><!-- column -->
-           <div class="clearfix colelem" id="u511-4"><!-- content -->
-            <p>ПАРИКМАХЕРСКИЕ УСЛУГИ</p>
-           </div>
-           <div class="clearfix colelem" id="u514-4"><!-- content -->
-            <p>Весь спектр парикмахерских услуг - это придание волосам формы и цвета, укладки любой сложности, эффективное восстановление по всей длине и многое другое. Наши специалисты постоянно проходят обучение у известных стилистов. Мы работаем на проверенных брендах: Z. One Concept, L'Oreal.</p>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <ul class="AccordionWidget clearfix grpelem" id="accordionu517"><!-- vertical box -->
-        <li class="AccordionPanel clearfix colelem" id="u533"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u534-4"><!-- content --><p class="shared_content" data-content-guid="u534-4_0_content">+ Укладки</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u535"><!-- group --><div class="clearfix grpelem shared_content" id="pu1183-4" data-content-guid="pu1183-4_content"><!-- column --><div class="clearfix colelem" id="u1183-4"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu537-13"><!-- group --><div class="clearfix grpelem" id="u537-13"><!-- content --><p>Укладка брашинг</p><p>&nbsp;</p><p>Коктейльная укладка</p><p>&nbsp;</p><p>Вечерняя укладка</p><p>&nbsp;</p><p>Плетение простое</p></div><div class="clearfix grpelem" id="u1267-17"><!-- content --><p id="u1267-2">Короткие</p><p id="u1267-3">&nbsp;</p><p id="u1267-4">&nbsp;</p><p id="u1267-6">800р</p><p id="u1267-7">&nbsp;</p><p id="u1267-9">1100р</p><p id="u1267-10">&nbsp;</p><p id="u1267-12">1300р</p><p id="u1267-13">&nbsp;</p><p id="u1267-15">2800р</p></div><div class="clearfix grpelem" id="u1219-18"><!-- content --><p id="u1219-2">Средние</p><p id="u1219-3">&nbsp;</p><p id="u1219-4">&nbsp;</p><p id="u1219-6">1100р</p><p id="u1219-7">&nbsp;</p><p id="u1219-9">1300р</p><p id="u1219-10">&nbsp;</p><p id="u1219-13"><span id="u1219-11">от</span> 2000р</p><p id="u1219-14">&nbsp;</p><p id="u1219-16">300р</p></div><div class="clearfix grpelem" id="u1213-18"><!-- content --><p id="u1213-2">Длинные</p><p id="u1213-3">&nbsp;</p><p id="u1213-4">&nbsp;</p><p id="u1213-6">1300р</p><p id="u1213-7">&nbsp;</p><p id="u1213-9">1500р</p><p id="u1213-10">&nbsp;</p><p id="u1213-13"><span id="u1213-11">от</span> 2500р</p><p id="u1213-14">&nbsp;</p><p id="u1213-16">3200р</p></div><div class="clearfix grpelem" id="pu1273-4"><!-- column --><div class="clearfix colelem" id="u1273-4"><!-- content --><p>Очень длинные</p></div><div class="clearfix colelem" id="u536-15"><!-- content --><p>&nbsp;</p><p>1500р</p><p>&nbsp;</p><p>1800р</p><p>&nbsp;</p><p><span id="u536-8">от </span>3500р</p><p>&nbsp;</p><p>3400р</p></div></div></div></div></div></li>
-        <li class="AccordionPanel clearfix colelem" id="u528"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u529-4"><!-- content --><p class="shared_content" data-content-guid="u529-4_0_content">+ Стрижки</p></div><div class="AccordionPanelContent clearfix colelem" id="u530"><!-- group --><div class="clearfix grpelem" id="pu1277-4"><!-- column --><div class="clearfix colelem shared_content" id="u1277-4" data-content-guid="u1277-4_content"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu1276-18"><!-- group --><div class="clearfix grpelem shared_content" id="u1276-18" data-content-guid="u1276-18_content"><!-- content --><p>Моделирование челки</p><p>&nbsp;</p><p>Баланс периметра</p><p>&nbsp;</p><p>Стрижка классическая</p><p>&nbsp;</p><p>Стрижка детская</p><p>(до 8 лет)</p><p>&nbsp;</p><p>Hair Tatoo</p></div><div class="clearfix grpelem shared_content" id="u1278-14" data-content-guid="u1278-14_content"><!-- content --><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>2500р</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1279-4" data-content-guid="u1279-4_content"><!-- content --><p>Очень длинные</p></div><div class="clearfix grpelem shared_content" id="u1280-18" data-content-guid="u1280-18_content"><!-- content --><p id="u1280-2">Длинные</p><p id="u1280-3">&nbsp;</p><p id="u1280-4">&nbsp;</p><p id="u1280-5">&nbsp;</p><p id="u1280-6">&nbsp;</p><p id="u1280-7">&nbsp;</p><p id="u1280-8">&nbsp;</p><p id="u1280-9">&nbsp;</p><p id="u1280-11">2000р</p><p id="u1280-12">&nbsp;</p><p id="u1280-13">&nbsp;</p><p id="u1280-14">&nbsp;</p><p id="u1280-15">&nbsp;</p><p id="u1280-16">&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1281-18" data-content-guid="u1281-18_content"><!-- content --><p id="u1281-2">Средние</p><p id="u1281-3">&nbsp;</p><p id="u1281-4">&nbsp;</p><p id="u1281-5">&nbsp;</p><p id="u1281-6">&nbsp;</p><p id="u1281-7">&nbsp;</p><p id="u1281-8">&nbsp;</p><p id="u1281-9">&nbsp;</p><p id="u1281-11">1700р</p><p id="u1281-12">&nbsp;</p><p id="u1281-13">&nbsp;</p><p id="u1281-14">&nbsp;</p><p id="u1281-15">&nbsp;</p><p id="u1281-16">&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1282-18" data-content-guid="u1282-18_content"><!-- content --><p id="u1282-2">Короткие</p><p id="u1282-3">&nbsp;</p><p id="u1282-4">&nbsp;</p><p id="u1282-5">&nbsp;</p><p id="u1282-6">&nbsp;</p><p id="u1282-7">&nbsp;</p><p id="u1282-8">&nbsp;</p><p id="u1282-9">&nbsp;</p><p id="u1282-11">1500р</p><p id="u1282-12">&nbsp;</p><p id="u1282-13">&nbsp;</p><p id="u1282-14">&nbsp;</p><p id="u1282-15">&nbsp;</p><p id="u1282-16">&nbsp;</p></div><div class="clearfix grpelem shared_content" id="u1794-4" data-content-guid="u1794-4_content"><!-- content --><p>800р</p></div><div class="clearfix grpelem shared_content" id="u1816-4" data-content-guid="u1816-4_content"><!-- content --><p>800р</p></div><div class="clearfix grpelem shared_content" id="u1822-4" data-content-guid="u1822-4_content"><!-- content --><p>500-1500p</p></div><div class="clearfix grpelem shared_content" id="u1832-4" data-content-guid="u1832-4_content"><!-- content --><p>500р</p></div></div></div></div></li>
-        <li class="AccordionPanel clearfix colelem" id="u1325"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1334-4"><!-- content --><p class="shared_content" data-content-guid="u1334-4_0_content">+ Окрашивание (бренд «Z.One concept»)</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1326"><!-- group --><div class="clearfix grpelem" id="pu1349-4"><!-- column --><div class="clearfix colelem shared_content" id="u1349-4" data-content-guid="u1349-4_content"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu1348-19"><!-- group --><div class="clearfix grpelem shared_content" id="u1348-19" data-content-guid="u1348-19_content"><!-- content --><p>Окрашивание в 1 тон</p><p>&nbsp;</p><p>Сложное окрашивание</p><p>&nbsp;</p><p>Обесцвечивание</p><p>&nbsp;</p><p>Мелирование</p><p>&nbsp;</p><p>Декапирование</p><p>&nbsp;</p><p>Осветление 1-й пряди</p></div><div class="clearfix grpelem" id="ppu1354-21"><!-- column --><div class="clearfix colelem" id="pu1354-21"><!-- group --><div class="clearfix grpelem shared_content" id="u1354-21" data-content-guid="u1354-21_content"><!-- content --><p id="u1354-2">Короткие</p><p id="u1354-3">&nbsp;</p><p id="u1354-4">&nbsp;</p><p id="u1354-6">3000р</p><p id="u1354-7">&nbsp;</p><p id="u1354-8">&nbsp;</p><p id="u1354-10">4800р</p><p id="u1354-11">&nbsp;</p><p id="u1354-13">3100р</p><p id="u1354-14">&nbsp;</p><p id="u1354-16">3600р</p><p id="u1354-17">&nbsp;</p><p id="u1354-19">2800р</p></div><div class="clearfix grpelem shared_content" id="u1353-21" data-content-guid="u1353-21_content"><!-- content --><p id="u1353-2">Средние</p><p id="u1353-3">&nbsp;</p><p id="u1353-4">&nbsp;</p><p id="u1353-6">3500р</p><p id="u1353-7">&nbsp;</p><p id="u1353-8">&nbsp;</p><p id="u1353-10">5500р</p><p id="u1353-11">&nbsp;</p><p id="u1353-13">3500р</p><p id="u1353-14">&nbsp;</p><p id="u1353-16">3900р</p><p id="u1353-17">&nbsp;</p><p id="u1353-19">3000р</p></div><div class="clearfix grpelem shared_content" id="u1352-21" data-content-guid="u1352-21_content"><!-- content --><p id="u1352-2">Длинные</p><p id="u1352-3">&nbsp;</p><p id="u1352-4">&nbsp;</p><p id="u1352-6">4000р</p><p id="u1352-7">&nbsp;</p><p id="u1352-8">&nbsp;</p><p id="u1352-10">6800р</p><p id="u1352-11">&nbsp;</p><p id="u1352-13">3900р</p><p id="u1352-14">&nbsp;</p><p id="u1352-16">4200р</p><p id="u1352-17">&nbsp;</p><p id="u1352-19">3200р</p></div><div class="clearfix grpelem shared_content" id="pu1351-4" data-content-guid="pu1351-4_content"><!-- column --><div class="clearfix colelem" id="u1351-4"><!-- content --><p>Очень длинные</p></div><div class="clearfix colelem" id="u1350-18"><!-- content --><p>&nbsp;</p><p>4800р</p><p>&nbsp;</p><p>&nbsp;</p><p>8100р</p><p>&nbsp;</p><p>4300р</p><p>&nbsp;</p><p>4500р</p><p>&nbsp;</p><p>3400р</p></div></div></div><div class="clearfix colelem shared_content" id="u1771-4" data-content-guid="u1771-4_content"><!-- content --><p>500р</p></div></div></div></div></div></li>
-        <li class="AccordionPanel clearfix colelem" id="u1369"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u1370-4"><!-- content --><p class="shared_content" data-content-guid="u1370-4_0_content">+ Окрашивание (бренд «L`Oreal»)</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u1371"><!-- group --><div class="clearfix grpelem" id="pu1393-4"><!-- column --><div class="clearfix colelem shared_content" id="u1393-4" data-content-guid="u1393-4_content"><!-- content --><p>Длинна волос</p></div><div class="clearfix colelem" id="pu1392-19"><!-- group --><div class="clearfix grpelem shared_content" id="u1392-19" data-content-guid="u1392-19_content"><!-- content --><p>Окрашивание в 1 тон</p><p>&nbsp;</p><p>Сложное окрашивание</p><p>&nbsp;</p><p>Обесцвечивание</p><p>&nbsp;</p><p>Мелирование</p><p>&nbsp;</p><p>Декапирование</p><p>&nbsp;</p><p>Осветление 1-й пряди</p></div><div class="clearfix grpelem" id="ppu1398-21"><!-- column --><div class="clearfix colelem" id="pu1398-21"><!-- group --><div class="clearfix grpelem shared_content" id="u1398-21" data-content-guid="u1398-21_content"><!-- content --><p id="u1398-2">Короткие</p><p id="u1398-3">&nbsp;</p><p id="u1398-4">&nbsp;</p><p id="u1398-6">3000р</p><p id="u1398-7">&nbsp;</p><p id="u1398-8">&nbsp;</p><p id="u1398-10">4800р</p><p id="u1398-11">&nbsp;</p><p id="u1398-13">3100р</p><p id="u1398-14">&nbsp;</p><p id="u1398-16">3600р</p><p id="u1398-17">&nbsp;</p><p id="u1398-19">2800р</p></div><div class="clearfix grpelem shared_content" id="u1397-21" data-content-guid="u1397-21_content"><!-- content --><p id="u1397-2">Средние</p><p id="u1397-3">&nbsp;</p><p id="u1397-4">&nbsp;</p><p id="u1397-6">3500р</p><p id="u1397-7">&nbsp;</p><p id="u1397-8">&nbsp;</p><p id="u1397-10">5500р</p><p id="u1397-11">&nbsp;</p><p id="u1397-13">3500р</p><p id="u1397-14">&nbsp;</p><p id="u1397-16">3900р</p><p id="u1397-17">&nbsp;</p><p id="u1397-19">3000р</p></div><div class="clearfix grpelem shared_content" id="u1396-21" data-content-guid="u1396-21_content"><!-- content --><p id="u1396-2">Длинные</p><p id="u1396-3">&nbsp;</p><p id="u1396-4">&nbsp;</p><p id="u1396-6">4000р</p><p id="u1396-7">&nbsp;</p><p id="u1396-8">&nbsp;</p><p id="u1396-10">6800р</p><p id="u1396-11">&nbsp;</p><p id="u1396-13">3900р</p><p id="u1396-14">&nbsp;</p><p id="u1396-16">4200р</p><p id="u1396-17">&nbsp;</p><p id="u1396-19">3200р</p></div><div class="clearfix grpelem shared_content" id="pu1395-4" data-content-guid="pu1395-4_content"><!-- column --><div class="clearfix colelem" id="u1395-4"><!-- content --><p>Очень длинные</p></div><div class="clearfix colelem" id="u1394-18"><!-- content --><p>&nbsp;</p><p>4800р</p><p>&nbsp;</p><p>&nbsp;</p><p>8100р</p><p>&nbsp;</p><p>4300р</p><p>&nbsp;</p><p>4500р</p><p>&nbsp;</p><p>3400р</p></div></div></div><div class="clearfix colelem shared_content" id="u1777-4" data-content-guid="u1777-4_content"><!-- content --><p>500р</p></div></div></div></div></div></li>
-       </ul>
       </div>
       <div class="clearfix colelem shared_content" id="u765-4" data-content-guid="u765-4_content"><!-- content -->
        <p>УСЛУГИ ВИЗАЖИСТА</p>
@@ -322,11 +374,11 @@ document.body.style.overflow = 'visible';
           <form class="form-grp clearfix colelem" id="widgetu860" method="post" enctype="multipart/form-data" action="scripts/form-u860.php"><!-- none box -->
            <div class="fld-grp clearfix grpelem" id="widgetu866" data-required="true"><!-- none box -->
             <label class="fld-label actAsDiv clearfix grpelem" id="u868-3" for="widgetu866_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u868-3_0_content">&nbsp;</span></label>
-            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u869-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu866_input" name="custom_U866" tabindex="2" data-content-guid="widgetu866_input_content"/><label class="wrapped-input fld-prompt" id="widgetu866_prompt" for="widgetu866_input"><span class="actAsPara shared_content" data-content-guid="widgetu866_prompt_0_content">Ваше имя</span></label></span>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u869-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu866_input" name="custom_U866" tabindex="5" data-content-guid="widgetu866_input_content"/><label class="wrapped-input fld-prompt" id="widgetu866_prompt" for="widgetu866_input"><span class="actAsPara shared_content" data-content-guid="widgetu866_prompt_0_content">Ваше имя</span></label></span>
            </div>
            <div class="fld-grp clearfix grpelem" id="widgetu870" data-required="true" data-type="email"><!-- none box -->
             <label class="fld-label actAsDiv clearfix grpelem" id="u872-3" for="widgetu870_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u872-3_0_content">&nbsp;</span></label>
-            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u873-4"><!-- content --><input class="wrapped-input shared_content" type="email" spellcheck="false" id="widgetu870_input" name="Email" tabindex="1" data-content-guid="widgetu870_input_content"/><label class="wrapped-input fld-prompt" id="widgetu870_prompt" for="widgetu870_input"><span class="actAsPara shared_content" data-content-guid="widgetu870_prompt_0_content">Email</span></label></span>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u873-4"><!-- content --><input class="wrapped-input shared_content" type="email" spellcheck="false" id="widgetu870_input" name="Email" tabindex="4" data-content-guid="widgetu870_input_content"/><label class="wrapped-input fld-prompt" id="widgetu870_prompt" for="widgetu870_input"><span class="actAsPara shared_content" data-content-guid="widgetu870_prompt_0_content">Email</span></label></span>
            </div>
            <div class="clearfix grpelem" id="u875-4"><!-- content -->
             <p class="shared_content" data-content-guid="u875-4_0_content">…</p>
@@ -337,34 +389,34 @@ document.body.style.overflow = 'visible';
            <div class="clearfix grpelem" id="u876-4"><!-- content -->
             <p class="shared_content" data-content-guid="u876-4_0_content">Мы скоро с Вами свяжемся!</p>
            </div>
-           <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u874-4" type="submit" value="ЗАПИСАТЬСЯ" tabindex="7"><!-- content -->
+           <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u874-4" type="submit" value="ЗАПИСАТЬСЯ" tabindex="10"><!-- content -->
             <div style="margin-top:-19px;height:19px;" class="shared_content" data-content-guid="u874-4_0_content">
              <p>ЗАПИСАТЬСЯ</p>
             </div>
            </button>
            <div class="fld-grp clearfix grpelem" id="widgetu862" data-required="false"><!-- none box -->
             <label class="fld-label actAsDiv clearfix grpelem" id="u864-3" for="widgetu862_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u864-3_0_content">&nbsp;</span></label>
-            <span class="fld-textarea actAsDiv clearfix grpelem" id="u865-4"><!-- content --><textarea class="wrapped-input shared_content" id="widgetu862_input" name="custom_U862" tabindex="6" data-content-guid="widgetu862_input_content"></textarea><label class="wrapped-input fld-prompt" id="widgetu862_prompt" for="widgetu862_input"><span class="actAsPara shared_content" data-content-guid="widgetu862_prompt_0_content">На какие услуги хотите записаться?</span></label></span>
+            <span class="fld-textarea actAsDiv clearfix grpelem" id="u865-4"><!-- content --><textarea class="wrapped-input shared_content" id="widgetu862_input" name="custom_U862" tabindex="9" data-content-guid="widgetu862_input_content"></textarea><label class="wrapped-input fld-prompt" id="widgetu862_prompt" for="widgetu862_input"><span class="actAsPara shared_content" data-content-guid="widgetu862_prompt_0_content">На какие услуги хотите записаться?</span></label></span>
            </div>
            <div class="fld-grp clearfix grpelem" id="widgetu913" data-required="true"><!-- none box -->
             <label class="fld-label actAsDiv clearfix grpelem" id="u914-3" for="widgetu913_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u914-3_0_content">&nbsp;</span></label>
-            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u915-4"><!-- content --><input class="wrapped-input shared_content" type="tel" spellcheck="false" id="widgetu913_input" name="custom_U913" tabindex="4" data-content-guid="widgetu913_input_content"/><label class="wrapped-input fld-prompt" id="widgetu913_prompt" for="widgetu913_input"><span class="actAsPara shared_content" data-content-guid="widgetu913_prompt_0_content">Ваш телефон</span></label></span>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u915-4"><!-- content --><input class="wrapped-input shared_content" type="tel" spellcheck="false" id="widgetu913_input" name="custom_U913" tabindex="7" data-content-guid="widgetu913_input_content"/><label class="wrapped-input fld-prompt" id="widgetu913_prompt" for="widgetu913_input"><span class="actAsPara shared_content" data-content-guid="widgetu913_prompt_0_content">Ваш телефон</span></label></span>
            </div>
            <div class="fld-grp clearfix grpelem" id="widgetu930" data-required="true"><!-- none box -->
             <label class="fld-label actAsDiv clearfix grpelem" id="u931-3" for="widgetu930_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u931-3_0_content">&nbsp;</span></label>
-            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u932-4"><!-- content --><input class="wrapped-input shared_content" type="tel" spellcheck="false" id="widgetu930_input" name="custom_U930" tabindex="5" data-content-guid="widgetu930_input_content"/><label class="wrapped-input fld-prompt" id="widgetu930_prompt" for="widgetu930_input"><span class="actAsPara shared_content" data-content-guid="widgetu930_prompt_0_content">Дата</span></label></span>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u932-4"><!-- content --><input class="wrapped-input shared_content" type="tel" spellcheck="false" id="widgetu930_input" name="custom_U930" tabindex="8" data-content-guid="widgetu930_input_content"/><label class="wrapped-input fld-prompt" id="widgetu930_prompt" for="widgetu930_input"><span class="actAsPara shared_content" data-content-guid="widgetu930_prompt_0_content">Дата</span></label></span>
            </div>
            <div class="fld-grp clearfix grpelem" id="widgetu950" data-required="true"><!-- none box -->
             <label class="fld-label actAsDiv clearfix grpelem" id="u951-3" for="widgetu950_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u951-3_0_content">&nbsp;</span></label>
-            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u952-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu950_input" name="custom_U950" tabindex="3" data-content-guid="widgetu950_input_content"/><label class="wrapped-input fld-prompt" id="widgetu950_prompt" for="widgetu950_input"><span class="actAsPara shared_content" data-content-guid="widgetu950_prompt_0_content">Время</span></label></span>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u952-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu950_input" name="custom_U950" tabindex="6" data-content-guid="widgetu950_input_content"/><label class="wrapped-input fld-prompt" id="widgetu950_prompt" for="widgetu950_input"><span class="actAsPara shared_content" data-content-guid="widgetu950_prompt_0_content">Время</span></label></span>
            </div>
           </form>
          </div>
         </div>
        </div>
       </div>
-      <div class="clearfix colelem" id="pu1036"><!-- group -->
-       <div class="clearfix grpelem shared_content" id="u1036" data-content-guid="u1036_content"><!-- group -->
+      <div class="clearfix colelem shared_content" id="pu1036" data-content-guid="pu1036_content"><!-- group -->
+       <div class="clearfix grpelem" id="u1036"><!-- group -->
         <div class="clearfix grpelem" id="pu1102-4"><!-- column -->
          <div class="clearfix colelem" id="u1102-4"><!-- content -->
           <p>КОНТАКТЫ</p>
@@ -378,7 +430,7 @@ document.body.style.overflow = 'visible';
          </div>
         </div>
        </div>
-       <div class="grpelem shared_content" id="u1031" data-content-guid="u1031_content"><!-- custom html -->
+       <div class="grpelem" id="u1031"><!-- custom html -->
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4dc52a144ece5f95bf676d75e14cc4e56b90f858a114bc77c4123a5ec73ded48&amp;width=100%25&amp;height=350&amp;lang=ru_UA&amp;scroll=true"></script>
        </div>
       </div>
@@ -394,16 +446,57 @@ document.body.style.overflow = 'visible';
       <div class="browser_width colelem temp_no_id" data-orig-id="u164-bw">
        <div class="temp_no_id" data-orig-id="u164"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u164_align_to_page">
-         <div class="clearfix grpelem" id="ppbuttonu97"><!-- column -->
-          <div class="clearfix colelem temp_no_id" data-orig-id="pbuttonu97"><!-- group -->
-           <span class="Button rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu97_content"><!-- placeholder node --></span>
-           <span class="nonblock nontext Button anim_swing rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu116_content"><!-- placeholder node --></span>
-           <span class="nonblock nontext Button anim_swing rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu131_content"><!-- placeholder node --></span>
-           <span class="Button rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu143_content"><!-- placeholder node --></span>
-           <span class="nonblock nontext Button rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu155_content"><!-- placeholder node --></span>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pbuttonu116"><!-- group -->
+          <span class="nonblock nontext Button anim_swing rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu116_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext Button anim_swing rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu131_content"><!-- placeholder node --></span>
+          <span class="Button rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu143_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext Button rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu155_content"><!-- placeholder node --></span>
+          <span class="clip_frame grpelem placeholder" data-placeholder-for="u175_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u219-4_content"><!-- placeholder node --></span>
+          <span class="anchor_item grpelem placeholder" data-placeholder-for="h_content"><!-- placeholder node --></span>
+          <span class="size_fixed grpelem placeholder" data-placeholder-for="u1487_content"><!-- placeholder node --></span>
+          <div class="PamphletWidget clearfix widget_invisible grpelem temp_no_id" data-islightbox="true" data-orig-id="pamphletu1842"><!-- none box -->
+           <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u1850"><!-- none box -->
+            <div class="popup_anchor temp_no_id" data-orig-id="u1852popup">
+             <div class="Thumb popup_element clearfix temp_no_id" data-orig-id="u1852"><!-- group -->
+              <span class="Button rounded-corners clearfix grpelem placeholder" data-placeholder-for="buttonu97_content"><!-- placeholder node --></span>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor temp_no_id" data-lightbox="true" data-orig-id="u1843popup">
+            <div class="ContainerGroup rgba-background clearfix temp_no_id" data-orig-id="u1843"><!-- stack box -->
+             <div class="Container clearfix grpelem temp_no_id" data-orig-id="u1848"><!-- group -->
+              <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u1915.php" data-orig-id="widgetu1915"><!-- none box -->
+               <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu1921"><!-- none box -->
+                <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu1921_input" data-orig-id="u1922-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u1922-3_0_content"><!-- placeholder node --></span></label>
+                <span class="fld-input NoWrap actAsDiv rgba-background rounded-corners clearfix grpelem temp_no_id" data-orig-id="u1923-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu1921_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1921_input" data-orig-id="widgetu1921_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1921_prompt_0_content"><!-- placeholder node --></span></label></span>
+               </div>
+               <div class="clearfix grpelem temp_no_id" data-orig-id="u1931-4"><!-- content -->
+                <span class="placeholder" data-placeholder-for="u1931-4_0_content"><!-- placeholder node --></span>
+               </div>
+               <div class="clearfix grpelem temp_no_id" data-orig-id="u1916-4"><!-- content -->
+                <span class="placeholder" data-placeholder-for="u1916-4_0_content"><!-- placeholder node --></span>
+               </div>
+               <div class="clearfix grpelem temp_no_id" data-orig-id="u1925-4"><!-- content -->
+                <span class="placeholder" data-placeholder-for="u1925-4_0_content"><!-- placeholder node --></span>
+               </div>
+               <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Отправить" tabindex="13" data-orig-id="u1930-4"><!-- content -->
+                <span class="placeholder" data-placeholder-for="u1930-4_0_content"><!-- placeholder node --></span>
+               </button>
+               <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu1917"><!-- none box -->
+                <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu1917_input" data-orig-id="u1919-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u1919-3_0_content"><!-- placeholder node --></span></label>
+                <span class="fld-input NoWrap actAsDiv rgba-background rounded-corners clearfix grpelem temp_no_id" data-orig-id="u1920-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu1917_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1917_input" data-orig-id="widgetu1917_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1917_prompt_0_content"><!-- placeholder node --></span></label></span>
+               </div>
+              </form>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor temp_no_id" data-orig-id="u1854popup">
+            <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix temp_no_id" data-orig-id="u1854"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u2014-4_content"><!-- placeholder node --></span>
+            </div>
+           </div>
           </div>
-          <span class="anchor_item colelem placeholder" data-placeholder-for="h_content"><!-- placeholder node --></span>
-          <span class="clearfix colelem placeholder" data-placeholder-for="pu175_content"><!-- placeholder node --></span>
          </div>
          <span class="clip_frame grpelem placeholder" data-placeholder-for="u197_content"><!-- placeholder node --></span>
          <span class="clip_frame grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
@@ -434,63 +527,26 @@ document.body.style.overflow = 'visible';
         </div>
        </div>
       </div>
-      <div class="clearfix colelem temp_no_id" data-orig-id="pu1036"><!-- group -->
-       <span class="clearfix grpelem placeholder" data-placeholder-for="u1036_content"><!-- placeholder node --></span>
-       <span class="grpelem placeholder" data-placeholder-for="u1031_content"><!-- placeholder node --></span>
-       <div class="browser_width grpelem temp_no_id" data-orig-id="u837-bw">
-        <div class="temp_no_id" data-orig-id="u837"><!-- group -->
-         <div class="clearfix temp_no_id" data-orig-id="u837_align_to_page">
-          <div class="clearfix grpelem temp_no_id" data-orig-id="pu857-4"><!-- column -->
-           <span class="clearfix colelem placeholder" data-placeholder-for="u857-4_content"><!-- placeholder node --></span>
-           <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u860.php" data-orig-id="widgetu860"><!-- none box -->
-            <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu866"><!-- none box -->
-             <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu866_input" data-orig-id="u868-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u868-3_0_content"><!-- placeholder node --></span></label>
-             <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u869-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu866_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu866_input" data-orig-id="widgetu866_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu866_prompt_0_content"><!-- placeholder node --></span></label></span>
-            </div>
-            <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu870"><!-- none box -->
-             <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu870_input" data-orig-id="u872-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u872-3_0_content"><!-- placeholder node --></span></label>
-             <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u873-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu870_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu870_input" data-orig-id="widgetu870_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu870_prompt_0_content"><!-- placeholder node --></span></label></span>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="u875-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u875-4_0_content"><!-- placeholder node --></span>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="u861-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u861-4_0_content"><!-- placeholder node --></span>
-            </div>
-            <div class="clearfix grpelem temp_no_id" data-orig-id="u876-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u876-4_0_content"><!-- placeholder node --></span>
-            </div>
-            <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="ЗАПИСАТЬСЯ" tabindex="14" data-orig-id="u874-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u874-4_0_content"><!-- placeholder node --></span>
-            </button>
-            <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu862"><!-- none box -->
-             <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu862_input" data-orig-id="u864-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u864-3_0_content"><!-- placeholder node --></span></label>
-             <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u865-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu862_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu862_input" data-orig-id="widgetu862_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu862_prompt_0_content"><!-- placeholder node --></span></label></span>
-            </div>
-            <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu913"><!-- none box -->
-             <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu913_input" data-orig-id="u914-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u914-3_0_content"><!-- placeholder node --></span></label>
-             <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u915-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu913_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu913_input" data-orig-id="widgetu913_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu913_prompt_0_content"><!-- placeholder node --></span></label></span>
-            </div>
-            <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu930"><!-- none box -->
-             <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu930_input" data-orig-id="u931-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u931-3_0_content"><!-- placeholder node --></span></label>
-             <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u932-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu930_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu930_input" data-orig-id="widgetu930_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu930_prompt_0_content"><!-- placeholder node --></span></label></span>
-            </div>
-            <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu950"><!-- none box -->
-             <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu950_input" data-orig-id="u951-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u951-3_0_content"><!-- placeholder node --></span></label>
-             <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u952-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu950_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu950_input" data-orig-id="widgetu950_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu950_prompt_0_content"><!-- placeholder node --></span></label></span>
-            </div>
-           </form>
+      <div class="clearfix colelem temp_no_id" data-orig-id="pu583"><!-- group -->
+       <span class="browser_width grpelem placeholder" data-placeholder-for="u583-bw_content"><!-- placeholder node --></span>
+       <div class="browser_width grpelem temp_no_id" data-orig-id="u604-bw">
+        <div class="temp_no_id" data-orig-id="u604"><!-- group -->
+         <div class="clearfix temp_no_id" data-orig-id="u604_align_to_page">
+          <div class="clearfix grpelem temp_no_id" data-orig-id="pu511-4"><!-- column -->
+           <span class="clearfix colelem placeholder" data-placeholder-for="u511-4_content"><!-- placeholder node --></span>
+           <span class="clearfix colelem placeholder" data-placeholder-for="u514-4_content"><!-- placeholder node --></span>
+           <ul class="AccordionWidget clearfix colelem temp_no_id" data-orig-id="accordionu517"><!-- vertical box -->
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u533"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u534-4"><!-- content --><span class="placeholder" data-placeholder-for="u534-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u535"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="pu1183-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u528"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u529-4"><!-- content --><span class="placeholder" data-placeholder-for="u529-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u530"><!-- group --><div class="clearfix grpelem temp_no_id" data-orig-id="pu1277-4"><!-- column --><span class="clearfix colelem placeholder" data-placeholder-for="u1277-4_content"><!-- placeholder node --></span><div class="clearfix colelem temp_no_id" data-orig-id="pu1276-18"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1276-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1278-14_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1279-4_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1280-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1281-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1282-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1832-4_content"><!-- placeholder node --></span></div></div><div class="clearfix grpelem" id="pu1794-4"><!-- column --><span class="clearfix colelem placeholder" data-placeholder-for="u1794-4_content"><!-- placeholder node --></span><div class="clearfix colelem" id="pu1816-4"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1816-4_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1822-4_content"><!-- placeholder node --></span></div></div></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u1325"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u1334-4"><!-- content --><span class="placeholder" data-placeholder-for="u1334-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u1326"><!-- group --><div class="clearfix grpelem" id="ppu1349-4"><!-- column --><div class="clearfix colelem temp_no_id" data-orig-id="pu1349-4"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1349-4_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1771-4_content"><!-- placeholder node --></span></div><div class="clearfix colelem temp_no_id" data-orig-id="pu1348-19"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1348-19_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1354-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1353-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1352-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="pu1351-4_content"><!-- placeholder node --></span></div></div></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u1369"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u1370-4"><!-- content --><span class="placeholder" data-placeholder-for="u1370-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u1371"><!-- group --><div class="clearfix grpelem" id="pu1777-4"><!-- column --><span class="clearfix colelem placeholder" data-placeholder-for="u1777-4_content"><!-- placeholder node --></span><span class="clearfix colelem placeholder" data-placeholder-for="u1393-4_content"><!-- placeholder node --></span><div class="clearfix colelem temp_no_id" data-orig-id="pu1392-19"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1392-19_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1398-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1397-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1396-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="pu1395-4_content"><!-- placeholder node --></span></div></div></div></li>
+           </ul>
           </div>
          </div>
         </div>
        </div>
-       <span class="clearfix grpelem placeholder" data-placeholder-for="u765-4_content"><!-- placeholder node --></span>
-       <span class="clearfix grpelem placeholder" data-placeholder-for="u768-6_content"><!-- placeholder node --></span>
-       <ul class="AccordionWidget clearfix grpelem temp_no_id" data-orig-id="accordionu771"><!-- vertical box -->
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u772"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u776-4"><!-- content --><span class="placeholder" data-placeholder-for="u776-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u773"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u774-10_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u775-10_content"><!-- placeholder node --></span></div></li>
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u782"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u786-4"><!-- content --><span class="placeholder" data-placeholder-for="u786-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u783"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u785-13_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u784-13_content"><!-- placeholder node --></span></div></li>
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u1306"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u1307-4"><!-- content --><span class="placeholder" data-placeholder-for="u1307-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u1308"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1319-13_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1320-13_content"><!-- placeholder node --></span></div></li>
-       </ul>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="pu748"><!-- group -->
        <span class="browser_width grpelem placeholder" data-placeholder-for="u748-bw_content"><!-- placeholder node --></span>
        <div class="browser_width grpelem temp_no_id" data-orig-id="u762-bw">
         <div class="temp_no_id" data-orig-id="u762"><!-- group -->
@@ -506,17 +562,64 @@ document.body.style.overflow = 'visible';
          </div>
         </div>
        </div>
-       <span class="browser_width grpelem placeholder" data-placeholder-for="u583-bw_content"><!-- placeholder node --></span>
-       <span class="browser_width grpelem placeholder" data-placeholder-for="u604-bw_content"><!-- placeholder node --></span>
-       <ul class="AccordionWidget clearfix grpelem temp_no_id" data-orig-id="accordionu517"><!-- vertical box -->
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u533"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u534-4"><!-- content --><span class="placeholder" data-placeholder-for="u534-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u535"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="pu1183-4_content"><!-- placeholder node --></span></div></li>
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u528"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u529-4"><!-- content --><span class="placeholder" data-placeholder-for="u529-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem temp_no_id" data-orig-id="u530"><!-- group --><div class="clearfix grpelem temp_no_id" data-orig-id="pu1277-4"><!-- column --><span class="clearfix colelem placeholder" data-placeholder-for="u1277-4_content"><!-- placeholder node --></span><div class="clearfix colelem temp_no_id" data-orig-id="pu1276-18"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1276-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1278-14_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1279-4_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1280-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1281-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1282-18_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1832-4_content"><!-- placeholder node --></span></div><span class="clearfix colelem placeholder" data-placeholder-for="u1794-4_content"><!-- placeholder node --></span><div class="clearfix colelem" id="pu1816-4"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1816-4_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1822-4_content"><!-- placeholder node --></span></div></div></div></li>
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u1325"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u1334-4"><!-- content --><span class="placeholder" data-placeholder-for="u1334-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u1326"><!-- group --><div class="clearfix grpelem temp_no_id" data-orig-id="pu1349-4"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1349-4_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1771-4_content"><!-- placeholder node --></span></div><span class="clearfix grpelem placeholder" data-placeholder-for="u1348-19_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1354-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1353-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1352-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="pu1351-4_content"><!-- placeholder node --></span></div></li>
-        <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u1369"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u1370-4"><!-- content --><span class="placeholder" data-placeholder-for="u1370-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u1371"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1777-4_content"><!-- placeholder node --></span><div class="clearfix grpelem temp_no_id" data-orig-id="pu1393-4"><!-- column --><span class="clearfix colelem placeholder" data-placeholder-for="u1393-4_content"><!-- placeholder node --></span><div class="clearfix colelem temp_no_id" data-orig-id="pu1392-19"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1392-19_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1398-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1397-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1396-21_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="pu1395-4_content"><!-- placeholder node --></span></div></div></div></li>
-       </ul>
       </div>
+      <span class="clearfix colelem placeholder" data-placeholder-for="u765-4_content"><!-- placeholder node --></span>
+      <span class="clearfix colelem placeholder" data-placeholder-for="u768-6_content"><!-- placeholder node --></span>
+      <ul class="AccordionWidget clearfix colelem temp_no_id" data-orig-id="accordionu771"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u772"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u776-4"><!-- content --><span class="placeholder" data-placeholder-for="u776-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u773"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u774-10_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u775-10_content"><!-- placeholder node --></span></div></li>
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u782"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u786-4"><!-- content --><span class="placeholder" data-placeholder-for="u786-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u783"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u785-13_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u784-13_content"><!-- placeholder node --></span></div></li>
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u1306"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-orig-id="u1307-4"><!-- content --><span class="placeholder" data-placeholder-for="u1307-4_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u1308"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u1319-13_content"><!-- placeholder node --></span><span class="clearfix grpelem placeholder" data-placeholder-for="u1320-13_content"><!-- placeholder node --></span></div></li>
+      </ul>
+      <div class="browser_width colelem temp_no_id" data-orig-id="u837-bw">
+       <div class="temp_no_id" data-orig-id="u837"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u837_align_to_page">
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pu857-4"><!-- column -->
+          <span class="clearfix colelem placeholder" data-placeholder-for="u857-4_content"><!-- placeholder node --></span>
+          <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u860.php" data-orig-id="widgetu860"><!-- none box -->
+           <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu866"><!-- none box -->
+            <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu866_input" data-orig-id="u868-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u868-3_0_content"><!-- placeholder node --></span></label>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u869-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu866_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu866_input" data-orig-id="widgetu866_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu866_prompt_0_content"><!-- placeholder node --></span></label></span>
+           </div>
+           <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu870"><!-- none box -->
+            <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu870_input" data-orig-id="u872-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u872-3_0_content"><!-- placeholder node --></span></label>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u873-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu870_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu870_input" data-orig-id="widgetu870_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu870_prompt_0_content"><!-- placeholder node --></span></label></span>
+           </div>
+           <div class="clearfix grpelem temp_no_id" data-orig-id="u875-4"><!-- content -->
+            <span class="placeholder" data-placeholder-for="u875-4_0_content"><!-- placeholder node --></span>
+           </div>
+           <div class="clearfix grpelem temp_no_id" data-orig-id="u861-4"><!-- content -->
+            <span class="placeholder" data-placeholder-for="u861-4_0_content"><!-- placeholder node --></span>
+           </div>
+           <div class="clearfix grpelem temp_no_id" data-orig-id="u876-4"><!-- content -->
+            <span class="placeholder" data-placeholder-for="u876-4_0_content"><!-- placeholder node --></span>
+           </div>
+           <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="ЗАПИСАТЬСЯ" tabindex="20" data-orig-id="u874-4"><!-- content -->
+            <span class="placeholder" data-placeholder-for="u874-4_0_content"><!-- placeholder node --></span>
+           </button>
+           <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu862"><!-- none box -->
+            <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu862_input" data-orig-id="u864-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u864-3_0_content"><!-- placeholder node --></span></label>
+            <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u865-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu862_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu862_input" data-orig-id="widgetu862_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu862_prompt_0_content"><!-- placeholder node --></span></label></span>
+           </div>
+           <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu913"><!-- none box -->
+            <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu913_input" data-orig-id="u914-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u914-3_0_content"><!-- placeholder node --></span></label>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u915-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu913_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu913_input" data-orig-id="widgetu913_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu913_prompt_0_content"><!-- placeholder node --></span></label></span>
+           </div>
+           <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu930"><!-- none box -->
+            <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu930_input" data-orig-id="u931-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u931-3_0_content"><!-- placeholder node --></span></label>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u932-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu930_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu930_input" data-orig-id="widgetu930_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu930_prompt_0_content"><!-- placeholder node --></span></label></span>
+           </div>
+           <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu950"><!-- none box -->
+            <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu950_input" data-orig-id="u951-3"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u951-3_0_content"><!-- placeholder node --></span></label>
+            <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u952-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu950_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu950_input" data-orig-id="widgetu950_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu950_prompt_0_content"><!-- placeholder node --></span></label></span>
+           </div>
+          </form>
+         </div>
+        </div>
+       </div>
+      </div>
+      <span class="clearfix colelem placeholder" data-placeholder-for="pu1036_content"><!-- placeholder node --></span>
      </div>
-     <div class="verticalspacer" data-offset-top="9463" data-content-above-spacer="9462" data-content-below-spacer="0"></div>
+     <div class="verticalspacer" data-offset-top="5264" data-content-above-spacer="5264" data-content-below-spacer="0"></div>
     </div>
    </div>
   </div>
@@ -538,16 +641,18 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpdisclosure","jquery.musepolyfill.bgsize","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","musewpdisclosure","jquery.musepolyfill.bgsize","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#widgetu1915', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1915 */
+Muse.Utils.initWidget('#pamphletu1842', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1842 */
 Muse.Utils.initWidget('#accordionu302', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu302 */
+Muse.Utils.initWidget('#accordionu517', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu517 */
 Muse.Utils.initWidget('#accordionu682', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu682 */
-Muse.Utils.initWidget('#accordionu517', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:1}); });/* #accordionu517 */
 Muse.Utils.initWidget('#accordionu771', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu771 */
 Muse.Utils.initWidget('#widgetu860', ['#bp_infinity', '#bp_1200'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu860 */
 Muse.Utils.fullPage('#page');/* 100% height page */
