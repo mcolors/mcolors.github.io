@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506510375935">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506510684825">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4292438794" ref="index"/>
-    <file name="nomq_index.css" crc="4081245966" ref="index"/>
+    <file name="index.css" crc="81835303" ref="index"/>
+    <file name="nomq_index.css" crc="4092189994" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasanslight.woff" crc="4038868557"/>
@@ -81,23 +81,21 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="logo (1)sd.png" crc="4159646111" ref="index" seo="true">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="salon-1-1024x533.jpg" crc="366456671" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="foto3.jpg" crc="532430770" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="sdf.jpg" crc="3775394009" ref="index">
+    <file name="sdf.jpg" crc="3775394009" ref="index" seo="true">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kosmetologiya-263-.jpg" crc="4294486375" ref="index">
+    <file name="kosmetologiya-263-.jpg" crc="403111683" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="salon-1-1024x533-u428-fr.jpg" crc="257811266" ref="index"/>
   </folder>
-  <file name="index.html" crc="3787772458" seo="true" mt="1506510353170" redirect="true"/>
+  <file name="index.html" crc="380818559" seo="true" mt="1506510658329" redirect="true"/>
 </manifest>
