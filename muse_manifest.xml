@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506511292002">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506511464654">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="129232582" ref="index"/>
-    <file name="nomq_index.css" crc="151683904" ref="index"/>
+    <file name="index.css" crc="372590866" ref="index"/>
+    <file name="nomq_index.css" crc="358111077" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasanslight.woff" crc="4038868557"/>
@@ -99,5 +99,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="199811072" seo="true" mt="1506511263195" redirect="true"/>
+  <file name="index.html" crc="4233752193" seo="true" mt="1506511440513" redirect="true"/>
 </manifest>
