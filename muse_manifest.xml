@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506509897136">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506510022198">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="474587292" ref="index"/>
-    <file name="nomq_index.css" crc="258425696" ref="index"/>
+    <file name="index.css" crc="3800843886" ref="index"/>
+    <file name="nomq_index.css" crc="4081245966" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasanslight.woff" crc="4038868557"/>
@@ -81,7 +81,8 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="logo (1)sd.png" crc="4159646111" ref="index">
+    <file name="logo (1)sd.png" crc="4159646111" ref="index" seo="true">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="salon-1-1024x533.jpg" crc="366456671" ref="index">
@@ -93,11 +94,10 @@
     <file name="sdf.jpg" crc="3775394009" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logo (1)sd-u2087-fr.png" crc="514295009" ref="index"/>
     <file name="kosmetologiya-263-.jpg" crc="3794103673" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="salon-1-1024x533-u428-fr.jpg" crc="257811266" ref="index"/>
   </folder>
-  <file name="index.html" crc="471311921" seo="true" mt="1506509871739" redirect="true"/>
+  <file name="index.html" crc="176682089" seo="true" mt="1506509999856" redirect="true"/>
 </manifest>
