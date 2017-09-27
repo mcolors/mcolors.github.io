@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506445548508">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506508151732">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="476295230" ref="index"/>
-    <file name="nomq_index.css" crc="4188742411" ref="index"/>
+    <file name="index.css" crc="3971420284" ref="index"/>
+    <file name="nomq_index.css" crc="5565758" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasanslight.woff" crc="4038868557"/>
@@ -37,7 +37,6 @@
   </folder>
   <folder name="images">
     <file name="загруженное.png" crc="4189344029" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="vk-social-network-logo.png" crc="355834023" seo="true" ref="index">
@@ -74,10 +73,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="condiition4.jpg" crc="59096458" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="transformlogo.jpg" crc="332699059" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -86,6 +81,25 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="logo (1)sd.png" crc="501905851" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="salon-1-1024x533.jpg" crc="92445961" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="in-ektsii-krasotyi01-768x768.jpg" crc="409236846" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="foto3.jpg" crc="50162086" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sdf.jpg" crc="3775394009" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="41875799" seo="true" mt="1506445475743" redirect="true"/>
+  <file name="index.html" crc="289253740" seo="true" mt="1506508120765" redirect="true"/>
 </manifest>
