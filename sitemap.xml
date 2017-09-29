@@ -29,5 +29,8 @@
     <image:image>
       <image:loc>http://123.ru/images/mann-filter-logo.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://123.ru/images/gfdk.png</image:loc>
+    </image:image>
   </url>
 </urlset>

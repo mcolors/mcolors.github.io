@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506684353359">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506684576327">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4207538566" ref="index"/>
+    <file name="index.css" crc="3915077339" ref="index"/>
     <file name="iefonts_index.css" crc="75812443" ref="index"/>
   </folder>
   <folder name="fonts">
@@ -34,9 +34,6 @@
   </folder>
   <folder name="images">
     <file name="загруженное (2).png" crc="349613930" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="_________.png" crc="4096215198" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="logo.png" crc="756202" ref="index">
@@ -131,6 +128,9 @@
     <file name="trssigj6sts.jpg" crc="275280243" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="gfdk.png" crc="274463943" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4189588041" seo="true" mt="1506684334216" redirect="true"/>
+  <file name="index.html" crc="36456998" seo="true" mt="1506684566338" redirect="true"/>
 </manifest>
