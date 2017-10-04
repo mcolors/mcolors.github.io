@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1506850374021">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1507117698083">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4212108209" ref="index"/>
-    <file name="iefonts_index.css" crc="412046264" ref="index"/>
+    <file name="index.css" crc="383212307" ref="index"/>
+    <file name="iefonts_index.css" crc="4149097589" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="firasanslight.woff" crc="4038868557"/>
@@ -93,12 +93,6 @@
     <file name="pgts0zninuo.jpg" crc="335804784" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="gv3vngtruca.jpg" crc="408614814" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="8s_wcyhrm0k.jpg" crc="529608490" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="b3ys61ahkqk.jpg" crc="4108084629" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -132,6 +126,12 @@
     <file name="gfdk.png" crc="223283088" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="e1wnrxbbads.jpg" crc="3978300641" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="avb96q_qln8.jpg" crc="203128101" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4289714950" seo="true" mt="1506850349132" redirect="true"/>
+  <file name="index.html" crc="3871541528" seo="true" mt="1507117620545" redirect="true"/>
 </manifest>
