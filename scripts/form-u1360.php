@@ -27,26 +27,26 @@ $form = array(
 		'unknown_method' => 'Неизвестный метод запроса сервера'
 	),
 	'email' => array(
-		'from' => 'airminorcorp@gmail.com',
-		'to' => 'airminorcorp@gmail.com'
+		'from' => '366133@mail.ru',
+		'to' => '366133@mail.ru'
 	),
 	'fields' => array(
 		'custom_U1361' => array(
 			'order' => 1,
 			'type' => 'string',
-			'label' => 'Пользовательский текст:',
+			'label' => 'Имя:',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
+				'required' => 'Поле \'Имя:\' не может быть пустым.'
 			)
 		),
 		'custom_U1412' => array(
 			'order' => 2,
 			'type' => 'string',
-			'label' => 'Пользовательский текст:',
+			'label' => 'Телефон:',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Пользовательский текст:\' не может быть пустым.'
+				'required' => 'Поле \'Телефон:\' не может быть пустым.'
 			)
 		)
 	)
