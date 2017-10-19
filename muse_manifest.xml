@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1508334391624">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="123.ru" resolutions="1x" timestamp="1508402666498">
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
     <file name="fontawesome-webfont.eot" crc="415170694"/>
@@ -21,11 +21,11 @@
     <file name="form_check.php" crc="4110044762" ref="index"/>
     <file name="form_throttle.php" crc="22190333" ref="index"/>
     <file name="form_process.php" crc="257545537" ref="index"/>
-    <file name="form-u1719.php" crc="379559670" ref="index"/>
+    <file name="form-u1719.php" crc="4031061818" ref="index"/>
     <file name="musewpslideshow.js" crc="4034900702" ref="index"/>
     <file name="jquery.museoverlay.js" crc="528673841" ref="index"/>
     <file name="touchswipe.js" crc="432264157" ref="index"/>
-    <file name="form-u1360.php" crc="4252839671" ref="index"/>
+    <file name="form-u1360.php" crc="4120723570" ref="index"/>
   </folder>
   <folder name="images">
     <file name="gfdk.png" crc="223283088" seo="true" ref="index">
@@ -126,6 +126,7 @@
     <file name="trssigj6sts.jpg" crc="275280243" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="обслуживание-и-ремонт-автомобилей-в-сургуте-favicon.ico" crc="4018852172" ref="index"/>
   </folder>
-  <file name="index.html" crc="3973672780" seo="true" mt="1508330720952" redirect="true"/>
+  <file name="index.html" crc="270818436" seo="true" mt="1508402655199" redirect="true"/>
 </manifest>
