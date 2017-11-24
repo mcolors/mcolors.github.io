@@ -1,524 +1,396 @@
 <!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="ru-RU">
- <head>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+    <title>Проектирование и монтаж ВОЛС</title>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2017.1.0.379"/>
-  
-  <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
-document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+    <link href="/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-// Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "require.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <link rel="shortcut icon" href="images/%d0%be%d0%b1%d1%81%d0%bb%d1%83%d0%b6%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8-%d1%80%d0%b5%d0%bc%d0%be%d0%bd%d1%82-%d0%b0%d0%b2%d1%82%d0%be%d0%bc%d0%be%d0%b1%d0%b8%d0%bb%d0%b5%d0%b9-%d0%b2-%d1%81%d1%83%d1%80%d0%b3%d1%83%d1%82%d0%b5-favicon.ico?crc=4018852172"/>
-  <title>Обслуживание и ремонт автомобилей в Сургуте</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4014654533" id="pagesheet"/>
-  <!-- IE-only CSS -->
-  <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3883848215"/>
-  <![endif]-->
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   var __adobewebfontsappname__ = "muse";
-</script>
-  <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/roboto:n4,n3,n7:all.js" type="text/javascript"></script>
-    <!--custom head HTML-->
-  <style type="text/css">
-html { overflow-x: hidden; }
-body { overflow-x: hidden; }
-</style>
-  <!--/*
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed-top">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <a href="/"><img src="images/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="phone text-center">
+                            <a href="tel:88008008080">8 (800) 800-80-80</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <button class="call_back">Заказать звонок</button>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="top-menu">
+                        <ul>
+                            <li><a href="#vols" class="item">ВОЛС</a></li>
+                            <li><a href="#sks" class="item">СКС</a></li>
+                            <li><a href="#shbd" class="item">ШБД</a></li>
+                            <li><a href="#rrl" class="item">РРЛ</a></li>
+                            <li><a href="#video" class="item">Видеонаблюдение</a></li>
+                            <li><a href="#otzivi" class="item">Отзывы</a></li>
+                            <li><a href="#contacts" class="item">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-*/
--->
- </head>
- <body>
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-md-6">
+                    <h1>Проектирование и монтаж оптоволоконных линий связи</h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="form text-center">
+                        <div class="title">
+                            Оставьте заявку сейчас и получите проект бесплатно
+                        </div>
+                        <form action="send.php" method="post" id="call_back_form">
+                            <input type="text" name="name" placeholder="Ваше имя" required="required" />
+                            <input type="text" name="phone" placeholder="+7 (999) 999-99-99" required="required" />
+                            <button type="submit">Оставить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="position_content" id="page_position_content">
-    <div class="clearfix colelem" id="ppu1607"><!-- column -->
-     <div class="clearfix colelem" id="pu1607"><!-- group -->
-      <div class="clip_frame grpelem" id="u1607"><!-- image -->
-       <img class="block" id="u1607_img" src="images/gfdk.png?crc=223283088" alt="" width="1400" height="660"/>
-      </div>
-      <div class="browser_width grpelem" id="u94-bw">
-       <div class="gradient" id="u94"><!-- group -->
-        <div class="clearfix" id="u94_align_to_page">
-         <div class="museBGSize grpelem" id="u111"><!-- simple frame --></div>
-         <div class="clearfix grpelem" id="u130-4"><!-- content -->
-          <p>Обслуживание и ремонт автомобилей в Сургуте</p>
-         </div>
-         <a class="nonblock nontext clearfix grpelem" id="u1848-4" href="https://vk.com/dacars_86"><!-- content --><p></p></a>
-         <a class="nonblock nontext clearfix grpelem" id="u1845-4" href="http://instagram.com/dacars086"><!-- content --><p></p></a>
-         <div class="grpelem" id="u147"><!-- simple frame --></div>
-         <div class="clearfix grpelem" id="u280-4"><!-- content -->
-          <p></p>
-         </div>
-         <div class="clearfix grpelem" id="pu194-4"><!-- column -->
-          <a class="nonblock nontext clearfix colelem" id="u194-4" href="tel:+7%20346%20272%2000%2086"><!-- content --><p>+7 346 272 00 86</p></a>
-          <a class="nonblock nontext clearfix colelem" id="u168-4" href="tel:+7%20904%20472%2010%2086"><!-- content --><p>+7 904 472 10 86</p></a>
-         </div>
-         <div class="grpelem" id="u241"><!-- simple frame --></div>
-         <div class="clearfix grpelem" id="u293-4"><!-- content -->
-          <p></p>
-         </div>
-         <div class="clearfix grpelem" id="pu213-4"><!-- column -->
-          <div class="clearfix colelem" id="u213-4"><!-- content -->
-           <p>Время работы:</p>
-          </div>
-          <div class="clearfix colelem" id="u219-4"><!-- content -->
-           <p>с 9:00 до 19:00</p>
-          </div>
-         </div>
-         <div class="grpelem" id="u247"><!-- simple frame --></div>
-         <div class="clearfix grpelem" id="u296-4"><!-- content -->
-          <p></p>
-         </div>
-         <div class="clearfix grpelem" id="pu232-4"><!-- column -->
-          <div class="clearfix colelem" id="u232-4"><!-- content -->
-           <p>Адрес:</p>
-          </div>
-          <div class="clearfix colelem" id="u235-4"><!-- content -->
-           <p>Нефтеюганское шоссе, 22 ст.1</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="clearfix grpelem" id="u407-4"><!-- content -->
-       <p>Наши услуги</p>
-      </div>
-      <form class="form-grp clearfix grpelem" id="widgetu1719" method="post" enctype="multipart/form-data" action="scripts/form-u1719.php"><!-- none box -->
-       <div class="fld-grp clearfix grpelem" id="widgetu1732" data-required="true"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem" id="u1734-3" for="widgetu1732_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
-        <span class="fld-input NoWrap actAsDiv rgba-background rounded-corners clearfix grpelem" id="u1735-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1732_input" name="custom_U1732" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu1732_prompt" for="widgetu1732_input"><span class="actAsPara">Введите имя</span></label></span>
-       </div>
-       <div class="clearfix grpelem" id="u1720-4"><!-- content -->
-        <p>Отправка формы…</p>
-       </div>
-       <div class="clearfix grpelem" id="u1721-4"><!-- content -->
-        <p>На сервере произошла ошибка.</p>
-       </div>
-       <div class="clearfix grpelem" id="u1726-4"><!-- content -->
-        <p>Форма получена.</p>
-       </div>
-       <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u1731-4" type="submit" value="Оставить заявку" tabindex="3"><!-- content -->
-        <div style="margin-top:-15px;height:15px;">
-         <p>Оставить заявку</p>
-        </div>
-       </button>
-       <div class="fld-grp clearfix grpelem" id="widgetu1722" data-required="true"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem" id="u1723-3" for="widgetu1722_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
-        <span class="fld-input NoWrap actAsDiv rgba-background rounded-corners clearfix grpelem" id="u1724-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu1722_input" name="custom_U1722" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu1722_prompt" for="widgetu1722_input"><span class="actAsPara">Введите номер телефона</span></label></span>
-       </div>
-      </form>
-      <div class="clearfix grpelem" id="u1603-6"><!-- content -->
-       <p>Думайте о главном,</p>
-       <p>&nbsp;&nbsp;&nbsp; а мы позаботимся о деталях.</p>
-      </div>
-      <div class="clearfix grpelem" id="u1770-4"><!-- content -->
-       <p>Запишитесь на бесплатную диагностику</p>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="pu326"><!-- group -->
-      <div class="museBGSize grpelem" id="u326"><!-- simple frame --></div>
-      <div class="museBGSize grpelem" id="u306"><!-- simple frame --></div>
-      <div class="museBGSize grpelem" id="u320"><!-- simple frame --></div>
-     </div>
-     <div class="clearfix colelem" id="pu377-4"><!-- group -->
-      <div class="clearfix grpelem" id="u377-4"><!-- content -->
-       <p>Кузовной ремонт</p>
-      </div>
-      <div class="clearfix grpelem" id="u380-4"><!-- content -->
-       <p>Автозапчасти</p>
-      </div>
-      <div class="clearfix grpelem" id="u383-4"><!-- content -->
-       <p>Восстановление систем безопасности</p>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="pu351"><!-- group -->
-      <div class="museBGSize grpelem" id="u351"><!-- simple frame --></div>
-      <div class="museBGSize grpelem" id="u348"><!-- simple frame --></div>
-      <div class="museBGSize grpelem" id="u345"><!-- simple frame --></div>
-     </div>
-     <div class="clearfix colelem" id="pu392-4"><!-- group -->
-      <div class="clearfix grpelem" id="u392-4"><!-- content -->
-       <p>Слесарный ремонт</p>
-      </div>
-      <div class="clearfix grpelem" id="u389-4"><!-- content -->
-       <p>Установка дополнительного оборудования</p>
-      </div>
-      <div class="clearfix grpelem" id="u386-4"><!-- content -->
-       <p>Диагностика автомобиля</p>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="pu412"><!-- group -->
-      <div class="browser_width grpelem" id="u412-bw">
-       <div class="museBGSize" id="u412"><!-- simple frame --></div>
-      </div>
-      <div class="browser_width grpelem" id="u423-bw">
-       <div class="rgba-background" id="u423"><!-- group -->
-        <div class="clearfix" id="u423_align_to_page">
-         <div class="clearfix grpelem" id="pu426"><!-- column -->
-          <div class="clip_frame colelem" id="u426"><!-- image -->
-           <img class="block" id="u426_img" src="images/car-with-wrench.png?crc=118492087" alt="" width="50" height="50"/>
-          </div>
-          <div class="colelem" id="u458"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="u482-4"><!-- content -->
-           <p>3672</p>
-          </div>
-          <div class="clearfix colelem" id="u513-4"><!-- content -->
-           <p>Отремонтировано автомобилей</p>
-          </div>
-         </div>
-         <div class="clearfix grpelem" id="pu1582"><!-- column -->
-          <div class="museBGSize colelem" id="u1582"><!-- simple frame --></div>
-          <div class="colelem" id="u476"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="u489-4"><!-- content -->
-           <p>1187</p>
-          </div>
-          <div class="clearfix colelem" id="u510-4"><!-- content -->
-           <p>Довольных клиентов</p>
-          </div>
-         </div>
-         <div class="clearfix grpelem" id="pu448"><!-- column -->
-          <div class="clip_frame colelem" id="u448"><!-- image -->
-           <img class="block" id="u448_img" src="images/oil-drum.png?crc=4082576074" alt="" width="50" height="50"/>
-          </div>
-          <div class="colelem" id="u479"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="u495-4"><!-- content -->
-           <p>325</p>
-          </div>
-          <div class="clearfix colelem" id="u507-4"><!-- content -->
-           <p>Литров масла использовано</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="u532-4"><!-- content -->
-      <p>Наши партнеры</p>
-     </div>
-     <div class="clearfix colelem" id="pu590"><!-- group -->
-      <div class="clip_frame grpelem" id="u590"><!-- image -->
-       <img class="block" id="u590_img" src="images/008247827.jpg?crc=465271769" alt="" width="135" height="50"/>
-      </div>
-      <div class="clip_frame grpelem" id="u600"><!-- image -->
-       <img class="block" id="u600_img" src="images/asdfasdfasasdfasdfasdfasdf.gif?crc=481848002" alt="" width="148" height="35"/>
-      </div>
-      <div class="clip_frame grpelem" id="u619"><!-- image -->
-       <img class="block" id="u619_img" src="images/free-vector-monroe-logo_090694_monroe_logo.png?crc=3836208577" alt="" width="168" height="27"/>
-      </div>
-      <div class="clip_frame grpelem" id="u609"><!-- image -->
-       <img class="block" id="u609_img" src="images/fag-logo.jpg?crc=529215742" alt="" width="116" height="53"/>
-      </div>
-      <div class="clip_frame grpelem" id="u629"><!-- image -->
-       <img class="block" id="u629_img" src="images/luk-logo-1024x773.jpg?crc=4124324551" alt="" width="62" height="47"/>
-      </div>
-      <div class="clip_frame grpelem" id="u639"><!-- image -->
-       <img class="block" id="u639_img" src="images/mann-filter-logo.jpg?crc=457845833" alt="" width="96" height="46"/>
-      </div>
-     </div>
-     <div class="browser_width colelem" id="u752-bw">
-      <div id="u752"><!-- group -->
-       <div class="clearfix" id="u752_align_to_page">
-        <div class="clearfix grpelem" id="pu654-4"><!-- column -->
-         <div class="clearfix colelem" id="u654-4"><!-- content -->
-          <p>Последние отзывы наших клиентов</p>
-         </div>
-         <div class="clearfix colelem" id="pu674"><!-- group -->
-          <div class="clearfix grpelem" id="u674"><!-- group -->
-           <div class="clearfix grpelem" id="pu677"><!-- column -->
-            <div class="museBGSize rounded-corners colelem" id="u677"><!-- simple frame --></div>
-            <div class="clearfix colelem" id="u728-4"><!-- content -->
-             <p>Volkswagen Passat</p>
+    <section class="section clearfix">
+        <div class="row-fluid">
+            <h3 class="text-center">Услуги</h3>
+            <div class="col-md-6">
+                <div class="row">
+                    <div id="vols" class="price">
+                        <div class="bg">
+                            <img src="images/vols_bg.jpg" alt="">
+                            <div class="block-price">
+                                <a href="#collapseOne" class="open-price" data-toggle="collapse" data-parent="#accordion">Смотреть прайс</a>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <table class="table">
+                                        <th colspan="2" class="text-center">Прокладка оптоволоконного кабеля</th>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля внутри здания</td>
+                                            <td>100 руб./метр</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля воздушным способом</td>
+                                            <td>120 руб./метр</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="clearfix colelem" id="u749-4"><!-- content -->
-             <p>Поменял недавно масло с фильтром на Пассате. Думал сначала ехать к официалам, но там было гораздо дороже. Решил здесь. Ребята из сервиса сделали все хорошо, сам видел как проводились работы. Вообщем доволен, спасибо!</p>
+            <div class="col-md-6">
+                <div class="row-fluid">
+                    <div class="info">
+                        <div class="title">Строительство ВОЛС</div>
+                        <p>Мы осуществляем работы от небольших объёмов работ по прокладки кабеля, до крупных строительных объектов связанных с ВОЛС.</p>
+                        <p class="list">Строительство оптоволоконных линий связи объединяет в себе следующий перечень действий:<br>
+                            <span>-</span> Выполнение монтажных работ;<br>
+                            <span>-</span> Тестирование и настройка волоконно-оптических линий связи;<br>
+                            <span>-</span> Пуско-наладочные работы;<br>
+                            <span>-</span> Составление исполнительной документации;<br>
+                            <span>-</span> Техническое обслуживание волоконно-оптических линий связи.<br>
+                        </p>
+                        <button class="open-form zakaz-vols">Оставить заявку</button>
+                    </div>
+                </div>
             </div>
-            <div class="clearfix colelem" id="u770-4"><!-- content -->
-             <p>Руслан Крош</p>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u662"><!-- group -->
-           <div class="clearfix grpelem" id="pu683"><!-- column -->
-            <div class="museBGSize rounded-corners colelem" id="u683"><!-- simple frame --></div>
-            <div class="clearfix colelem" id="u734-4"><!-- content -->
-             <p>Skoda Fabia</p>
-            </div>
-            <div class="clearfix colelem" id="u743-4"><!-- content -->
-             <p>Ребята молодцы знают свою работу проблема с электрикой была на Фабии гонял из сервиса в сервис офицалы не могли определить причину в 5 сервисах был а тут за 2 дня завели машину.</p>
-            </div>
-            <div class="clearfix colelem" id="u764-4"><!-- content -->
-             <p>Олег Верзилов</p>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u668"><!-- group -->
-           <div class="clearfix grpelem" id="pu701"><!-- column -->
-            <div class="museBGSize rounded-corners colelem" id="u701"><!-- simple frame --></div>
-            <div class="clearfix colelem" id="u740-4"><!-- content -->
-             <p>Ssangyong Rexton</p>
-            </div>
-            <div class="clearfix colelem" id="u746-4"><!-- content -->
-             <p>Большое спасибо хочу сказать персоналу данного сервиса, ребята специалисты своего дела. Грамотно оценили неполадки моего автомобили и предложили запчасти по адекватной цене. В дальнейшем буду обслуживаться только здесь и Всем советую.</p>
-            </div>
-            <div class="clearfix colelem" id="u758-4"><!-- content -->
-             <p>Фәнис Солтангәрәев</p>
-            </div>
-           </div>
-          </div>
-         </div>
-         <a class="nonblock nontext Button anim_swing rounded-corners clearfix colelem" id="buttonu1773" href="index.html#c"><!-- container box --><div class="clearfix grpelem" id="u1774-4"><!-- content --><p>Оставить заявку</p></div></a>
         </div>
-       </div>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="u773-4"><!-- content -->
-      <p>Наши работы</p>
-     </div>
-     <div class="PamphletWidget clearfix colelem" id="pamphletu1029"><!-- none box -->
-      <div class="popup_anchor" id="u1039popup">
-       <div class="ContainerGroup clearfix" id="u1039"><!-- stack box -->
-        <div class="Container clearfix grpelem" id="u1055"><!-- group -->
-         <div class="museBGSize grpelem" id="u1056"><!-- simple frame --></div>
-         <div class="museBGSize grpelem" id="u1057"><!-- simple frame --></div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u1043"><!-- group -->
-         <div class="museBGSize grpelem" id="u1044"><!-- simple frame --></div>
-         <div class="museBGSize grpelem" id="u1045"><!-- simple frame --></div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u1052"><!-- group -->
-         <div class="museBGSize grpelem" id="u1054"><!-- simple frame --></div>
-         <div class="museBGSize grpelem" id="u1053"><!-- simple frame --></div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u1049"><!-- group -->
-         <div class="museBGSize grpelem" id="u1051"><!-- simple frame --></div>
-         <div class="museBGSize grpelem" id="u1050"><!-- simple frame --></div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u1046"><!-- group -->
-         <div class="museBGSize grpelem" id="u1047"><!-- simple frame --></div>
-         <div class="museBGSize grpelem" id="u1048"><!-- simple frame --></div>
-        </div>
-        <div class="Container invi clearfix grpelem" id="u1040"><!-- group -->
-         <div class="museBGSize grpelem" id="u1042"><!-- simple frame --></div>
-         <div class="museBGSize grpelem" id="u1041"><!-- simple frame --></div>
-        </div>
-       </div>
-      </div>
-      <div class="ThumbGroup clearfix grpelem" id="u1032"><!-- none box -->
-       <div class="popup_anchor" id="u1034popup">
-        <div class="Thumb popup_element clearfix" id="u1034"><!-- group -->
-         <div class="clearfix grpelem" id="pu1243-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1243-4"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u1285-4"><!-- content -->
-           <p></p>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor" id="u1036popup">
-        <div class="Thumb popup_element clearfix" id="u1036"><!-- group -->
-         <div class="clearfix grpelem" id="pu1246-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1246-4"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u1273-4"><!-- content -->
-           <p></p>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor" id="u1035popup">
-        <div class="Thumb popup_element clearfix" id="u1035"><!-- group -->
-         <div class="clearfix grpelem" id="pu1249-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1249-4"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u1291-4"><!-- content -->
-           <p></p>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor" id="u1038popup">
-        <div class="Thumb popup_element clearfix" id="u1038"><!-- group -->
-         <div class="clearfix grpelem" id="pu1252-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1252-4"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u1294-4"><!-- content -->
-           <p></p>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor" id="u1033popup">
-        <div class="Thumb popup_element clearfix" id="u1033"><!-- group -->
-         <div class="clearfix grpelem" id="pu1261-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1261-4"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u1300-4"><!-- content -->
-           <p></p>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor" id="u1037popup">
-        <div class="Thumb popup_element clearfix" id="u1037"><!-- group -->
-         <div class="clearfix grpelem" id="pu1267-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1267-4"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u1306-4"><!-- content -->
-           <p></p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u1030popup">
-       <div class="PamphletPrevButton PamphletLightboxPart popup_element clearfix" id="u1030"><!-- group -->
-        <div class="clearfix grpelem" id="u1031-4"><!-- content -->
-         <p></p>
-        </div>
-       </div>
-      </div>
-      <div class="popup_anchor" id="u1059popup">
-       <div class="PamphletNextButton PamphletLightboxPart popup_element clearfix" id="u1059"><!-- group -->
-        <div class="clearfix grpelem" id="u1060-4"><!-- content -->
-         <p></p>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="pu1965"><!-- group -->
-      <div class="browser_width grpelem" id="u1965-bw">
-       <div id="u1965"><!-- custom html -->
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A08362084b6f5cddbccc9158afb3afb81b61a9f53f72190b23a6b4ad308e82099&amp;width=100%25&amp;height=331&amp;lang=ru_UA&amp;scroll=true"></script>
-       </div>
-      </div>
-      <div class="grpelem" id="u1972"><!-- simple frame --></div>
-      <div class="clearfix grpelem" id="u1969"><!-- group -->
-       <div class="clearfix grpelem" id="pu1357-4"><!-- column -->
-        <div class="clearfix colelem" id="u1357-4"><!-- content -->
-         <p>Оставьте Ваши контакты и мы свяжемся с Вами!</p>
-        </div>
-        <form class="form-grp clearfix colelem" id="widgetu1360" method="post" enctype="multipart/form-data" action="scripts/form-u1360.php"><!-- none box -->
-         <div class="fld-grp clearfix grpelem" id="widgetu1361" data-required="true"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u1362-3" for="widgetu1361_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1363-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1361_input" name="custom_U1361" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu1361_prompt" for="widgetu1361_input"><span class="actAsPara">Введите имя</span></label></span>
-         </div>
-         <div class="clearfix grpelem" id="u1365-4"><!-- content -->
-          <p>…</p>
-         </div>
-         <div class="clearfix grpelem" id="u1371-4"><!-- content -->
-          <p>На сервере произошла ошибка.</p>
-         </div>
-         <div class="clearfix grpelem" id="u1366-4"><!-- content -->
-          <p>Спасибо, мы скоро с Вами свяжемся.</p>
-         </div>
-         <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u1372-4" type="submit" value="Отправить" tabindex="6"><!-- content -->
-          <div style="margin-top:-15px;height:15px;">
-           <p>Отправить</p>
-          </div>
-         </button>
-         <div class="fld-grp clearfix grpelem" id="widgetu1412" data-required="true"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u1415-3" for="widgetu1412_input"><!-- content --><span class="actAsPara">&nbsp;</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1414-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu1412_input" name="custom_U1412" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu1412_prompt" for="widgetu1412_input"><span class="actAsPara">Ваш телефон</span></label></span>
-         </div>
-        </form>
-       </div>
-      </div>
-      <a class="anchor_item grpelem" id="c"></a>
-     </div>
-     <div class="browser_width colelem" id="u1324-bw">
-      <div class="gradient" id="u1324"><!-- group -->
-       <div class="clearfix" id="u1324_align_to_page">
-        <div class="museBGSize grpelem" id="u1333"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1334-4"><!-- content -->
-         <p>Обслуживание и ремонт автомобилей в Сургуте</p>
-        </div>
-        <a class="nonblock nontext clearfix grpelem" id="u1920-4" href="https://vk.com/dacars_86"><!-- content --><p></p></a>
-        <a class="nonblock nontext clearfix grpelem" id="u1923-4" href="http://instagram.com/dacars086"><!-- content --><p></p></a>
-        <div class="grpelem" id="u1926"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1929-4"><!-- content -->
-         <p></p>
-        </div>
-        <div class="clearfix grpelem" id="pu1932-4"><!-- column -->
-         <a class="nonblock nontext clearfix colelem" id="u1932-4" href="tel:+7%20346%20272%2000%2086"><!-- content --><p>+7 346 272 00 86</p></a>
-         <a class="nonblock nontext clearfix colelem" id="u1935-4" href="tel:+7%20904%20472%2010%2086"><!-- content --><p>+7 904 472 10 86</p></a>
-        </div>
-        <div class="grpelem" id="u1956"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1938-4"><!-- content -->
-         <p></p>
-        </div>
-        <div class="clearfix grpelem" id="pu1941-4"><!-- column -->
-         <div class="clearfix colelem" id="u1941-4"><!-- content -->
-          <p>Время работы:</p>
-         </div>
-         <div class="clearfix colelem" id="u1944-4"><!-- content -->
-          <p>с 9:00 до 19:00</p>
-         </div>
-        </div>
-        <div class="grpelem" id="u1959"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="u1953-4"><!-- content -->
-         <p></p>
-        </div>
-        <div class="clearfix grpelem" id="pu1947-4"><!-- column -->
-         <div class="clearfix colelem" id="u1947-4"><!-- content -->
-          <p>Адрес:</p>
-         </div>
-         <div class="clearfix colelem" id="u1950-4"><!-- content -->
-          <p>Нефтеюганское шоссе, 22 ст.1</p>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="verticalspacer" data-offset-top="3297" data-content-above-spacer="3296" data-content-below-spacer="0"></div>
-   </div>
-  </div>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   // Decide weather to suppress missing file error or not based on preference setting
-var suppressMissingFileError = false
-</script>
-  <script type="text/javascript">
-   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
-16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
-l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
-f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
-setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe"],function(d){var $ = d;$(document).ready(function(){try{
-window.Muse.assets.check($);/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
-Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('#widgetu1719', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1719 */
-Muse.Utils.initWidget('#pamphletu1029', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu1029 */
-Muse.Utils.initWidget('#widgetu1360', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1360 */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+    </section>
 
-</script>
-  <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=3861931657" type="text/javascript" async data-main="scripts/museconfig.js?crc=278381782" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-   </body>
+    <section class="section clearfix">
+        <div class="row-fluid">
+            <div class="col-md-6 col-md-push-6">
+                <div class="row">
+                    <div id="sks" class="price">
+                        <div class="bg text-right">
+                            <img src="images/sks.jpg" alt="">
+                            <div class="block-price img-right">
+                                <a href="#collapseSKS" class="open-price" data-toggle="collapse" data-parent="#accordion">Смотреть прайс</a>
+                                <div id="collapseSKS" class="panel-collapse collapse">
+                                    <table class="table">
+                                        <th colspan="2" class="text-center">Монтаж СКС</th>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля внутри здания</td>
+                                            <td>100 руб./метр</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля воздушным способом</td>
+                                            <td>120 руб./метр</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div class="row-fluid text-right">
+                    <div class="info">
+                        <div class="title">Монтаж СКС</div>
+                        <p>Структурированная Кабельная Система (далее СКС)</p>
+                        <p class="list">СКС предназначена для:
+                            <span>-</span> обмена информационными, видео и речевыми сигналами между рабочими местами, объединенными в общую сеть;
+                            <span>-</span> регулировки нагрузки слаботочных линий;
+                            <span>-</span> передачи или приема данных от датчиков систем пожарной и охранной сигнализации;
+                            <span>-</span> видеонаблюдения.
+                        </p>
+                        <button class="open-form zakaz-vols">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section clearfix">
+        <div class="row-fluid">
+            <div class="col-md-6">
+                <div class="row">
+                    <div id="shbd" class="price">
+                        <div class="bg">
+                            <img src="images/shbd.jpg" alt="">
+                            <div class="block-price">
+                                <a href="#collapseTwo" class="open-price" data-toggle="collapse" data-parent="#accordion">Смотреть прайс</a>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <table class="table">
+                                        <th colspan="2" class="text-center">Монтаж ШБД</th>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля внутри здания</td>
+                                            <td>100 руб./метр</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля воздушным способом</td>
+                                            <td>120 руб./метр</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row-fluid">
+                    <div class="info">
+                        <div class="title">Монтаж ШБД</div>
+                        <p>Широкополосный беспроводной доступ.</p>
+                        <p>Из современных технологий беспроводной передачи информации наибольшее распространение получили Wi-Fi и WiMAX.</p>
+                        <p>WiMAX это система дальнего действия, покрывающая километры пространства.</p>
+                        <p>Wi-Fi это система более короткого действия, обычно покрывающая десятки метров.</p>
+                        <button class="open-form zakaz-vols">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section clearfix">
+        <div class="row-fluid">
+            <div class="col-md-6 col-md-push-6">
+                <div class="row">
+                    <div id="rrl" class="price">
+                        <div class="bg text-right">
+                            <img src="images/sks.jpg" alt="">
+                            <div class="block-price img-right">
+                                <a href="#collapseRRL" class="open-price" data-toggle="collapse" data-parent="#accordion">Смотреть прайс</a>
+                                <div id="collapseRRL" class="panel-collapse collapse">
+                                    <table class="table">
+                                        <th colspan="2" class="text-center">РРЛ</th>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля внутри здания</td>
+                                            <td>100 руб./метр</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля воздушным способом</td>
+                                            <td>120 руб./метр</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div class="row-fluid text-right">
+                    <div class="info">
+                        <div class="title">РРЛ</div>
+                        <p>Радиорелейные линии</p>
+                        <p>Применяются для создания каналов передачи информации. Достаточно упомянуть, что большая часть транспортной сети любого сотового оператора строится при помощи РРЛ.</p>
+                        <button class="open-form zakaz-vols">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section clearfix">
+        <div class="row-fluid">
+            <div class="col-md-6">
+                <div class="row">
+                    <div id="video" class="price">
+                        <div class="bg">
+                            <img src="images/video.jpg" alt="">
+                            <div class="block-price">
+                                <a href="#collapseVideoPrice" class="open-price" data-toggle="collapse" data-parent="#accordion">Смотреть прайс</a>
+                                <div id="collapseVideoPrice" class="panel-collapse collapse">
+                                    <table class="table">
+                                        <th colspan="2" class="text-center">Монтаж Видеонаблюдения</th>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля внутри здания</td>
+                                            <td>100 руб./метр</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Прокладка оптоволоконного кабеля воздушным способом</td>
+                                            <td>120 руб./метр</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row-fluid">
+                    <div class="info">
+                        <div class="title">Монтаж видеонаблюдения</div>
+                        <p>Монтаж систем безопасности производят специалисты, имеющие опыт и владеющие современными технологиями и приемами работы. При монтаже оборудования наши сотрудники неукоснительно соблюдают рекомендации и требования, которые дает предприятие-изготовитель. А также стараются так подобрать оборудование, чтобы оно гармонично и ненавязчиво вписывалось в интерьер объекта.</p>
+                        <p>Квалификация специалистов и возможности позволяют реализовать комплексные решения любой конфигурации в сфере комплексных систем безопасности с учетом самых специфических требований и пожеланий заказчика.</p>
+                        <button class="open-form zakaz-vols">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section clearfix">
+        <div class="container">
+            <h3 id="otzivi" class="text-center">Наши клиенты</h3>
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row-fluid">
+                            <div class="col-sm-3">
+                                <img src="images/user-photo.png" alt="" class="photo">
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="slide-content-head">
+                                    <span>Светлана Иванова</span><br>
+                                    главный инженер "Beeline"
+                                    <img src="images/user-logo.png" alt="" class="user-logo">
+                                </div>
+                                <div class="slide-content-head-body">
+                                    Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row-fluid">
+                            <div class="col-sm-3">
+                                <img src="images/user-photo.png" alt="" class="photo">
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="slide-content-head">
+                                    <span>Светлана Иванова</span><br>
+                                    главный инженер "Beeline"
+                                    <img src="images/user-logo.png" alt="" class="user-logo">
+                                </div>
+                                <div class="slide-content-head-body">
+                                    Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row-fluid">
+                            <div class="col-sm-3">
+                                <img src="images/user-photo.png" alt="" class="photo">
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="slide-content-head">
+                                    <span>Светлана Иванова</span><br>
+                                    главный инженер "Beeline"
+                                    <img src="images/user-logo.png" alt="" class="user-logo">
+                                </div>
+                                <div class="slide-content-head-body">
+                                    Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="fa fa-angle-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="fa fa-angle-right"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts" class="map">
+        <img src="images/map.jpg" alt="">
+        <div class="contacts">
+            <div class="container">
+                <div class="block-contacts">
+                    <div class="row-fluid">
+                        <div class="col-sm-4">
+                            <div class="logo">
+                                <img src="images/footer_logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="social text-center">
+                                <a href="" class="fa fa-facebook"></a>
+                                <a href="" class="fa fa-vk"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="adress">
+                                <div><i class="fa fa-phone" aria-hidden="true"></i>  8 (800) 800-80-80</div>
+                                <div><i class="fa fa-map-marker" aria-hidden="true"></i> Сургут, ул.Уличная 1А</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/phone-mask.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
 </html>
